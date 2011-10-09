@@ -46,3 +46,5 @@ gem 'haml'
 group :production do
   gem "pg"
 end
+
+gem "sass-rails", "~> 3.1.0"
