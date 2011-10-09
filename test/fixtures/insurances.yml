@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  client_id: 1
+  type: 
+  company_id: 1
+  value: 9.99
+  commission: 1.5
+  renovation: false
+  endorsement: false
+  income: 9.99
+  start_at: 2011-10-08
+  end_at: 2011-10-08
+
+two:
+  client_id: 1
+  type: 
+  company_id: 1
+  value: 9.99
+  commission: 1.5
+  renovation: false
+  endorsement: false
+  income: 9.99
+  start_at: 2011-10-08
+  end_at: 2011-10-08

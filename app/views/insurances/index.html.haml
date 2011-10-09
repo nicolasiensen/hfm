@@ -1,0 +1,60 @@
+.grid_8
+  %h2 Novo seguro
+  = form_for @insurance do |form|
+    %table
+      %tr
+        %td= form.label :start_at
+        %td= form.date_select :start_at
+      %tr
+        %td= form.label :client_id
+        %td= form.select :client_id, Client.order(:name).map{|client| [client.name, client.id]}
+      %tr
+        %td= form.label :type
+        %td= form.select :type, Insurance::TYPES.values.sort
+      %tr
+        %td= form.label :company_id
+        %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
+      %tr
+        %td= form.label :value
+        %td= form.text_field :value
+      %tr
+        %td= form.label :commission
+        %td
+          = form.number_field :commission, :size => 3
+          = "%"
+      %tr
+        %td= form.label :renovation
+        %td= form.check_box :renovation
+      %tr
+        %td= form.label :endorsement
+        %td= form.check_box :endorsement
+      %tr
+        %td
+        %td= form.submit "Inserir novo seguro"
+
+.grid_16
+  %h2 Seguros
+  %table.data
+    %tr
+      %th= Insurance.human_attribute_name :start_at
+      %th= Insurance.human_attribute_name :end_at
+      %th= Insurance.human_attribute_name :client_id
+      %th= Insurance.human_attribute_name :type
+      %th= Insurance.human_attribute_name :company_id
+      %th= Insurance.human_attribute_name :value
+      %th= Insurance.human_attribute_name :commission
+      %th= Insurance.human_attribute_name :income
+      %th= Insurance.human_attribute_name :renovation
+      %th= Insurance.human_attribute_name :endorsement
+    - Insurance.order("start_at DESC").each do |insurance|
+      %tr
+        %td= l insurance.start_at
+        %td= l insurance.end_at
+        %td= insurance.client.try(:name)
+        %td= insurance.type
+        %td= insurance.company.try(:name)
+        %td= number_to_currency insurance.value
+        %td= number_to_percentage insurance.commission, :precision => 2
+        %td= number_to_currency insurance.income
+        %td= insurance.renovation ? "Sim" : "Não"
+        %td= insurance.endorsement ? "Sim" : "Não"

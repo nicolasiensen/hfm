@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Hfm
+    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+    = stylesheet_link_tag '960.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'print.css', :media => 'print'
+    /[if IE]
+      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    .container_16
+      = yield

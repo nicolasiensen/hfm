@@ -1,0 +1,923 @@
+data,vencimento,marcia souza dos santos,ramo,porto,valor,comissão %,comissão $,tipo,endoso
+01/01/2010,01/01/2011,antonio carlos c pires,auto,mapfre,"R$ 1.129,22","17,00%","R$ 191,97",renovacao
+05/01/2010,05/01/2011,alfredo wesp,auto,itau,"R$ 1.171,32","15,00%","R$ 175,70",renovacao
+07/01/2010,07/01/2011,carlos roberto reiman,auto,mapfre,"R$ 1.095,99","22,00%","R$ 241,12",renovacao
+07/01/2010,07/01/2011,marcos antonio vietro,auto,azul,"R$ 1.150,93","20,00%","R$ 230,19",renovacao
+08/01/2010,08/01/2011,adriane russi,auto,mapfre,"R$ 1.150,99","20,00%","R$ 230,20",renovacao
+08/01/2010,08/01/2011,denise da cista lara,auto,mapfre,"R$ 99,41","20,00%","R$ 19,88",,sim
+08/01/2010,08/01/2011,giancarlo da silva notari,auto,azul,"R$ 1.281,58","20,00%","R$ 256,32",renovacao
+08/01/2010,08/01/2011,mario cesar d onofrio,auto,itau,"R$ 2.493,22","15,00%","R$ 373,98",renovacao
+10/01/2010,10/01/2011,paulo silv gadret,resid,porto,"R$ 475,36","25,00%","R$ 118,84",renovacao
+11/01/2010,11/01/2011,joao batista m alves,auto,mapfre,"R$ 904,09","10,00%","R$ 90,41",renovacao
+12/01/2010,12/01/2011,alexandre c da silva,auto,mapfre,"R$ 913,04","25,00%","R$ 228,26",renovacao
+12/01/2010,12/01/2011,edson batista  de oliveira,auto,tokio,"R$ 1.880,00","10,00%","R$ 188,00",renovacao
+12/01/2010,12/01/2011,jose alexandre b junqueira,auto,chubb,"R$ 2.941,46","10,00%","R$ 294,15",renovacao
+13/01/2010,13/01/2011,helena sanson de bor,auto,mapfre,"R$ 832,45","20,00%","R$ 166,49",renovacao
+13/01/2010,13/01/2011,juliana c de avilla,auto,mapfre,"R$ 1.339,08","20,00%","R$ 267,82",renovacao
+13/01/2010,13/01/2011,suzi da rocha monteiro,auto,hdi,"R$ 1.132,82","15,00%","R$ 169,92",novo
+14/01/2010,14/01/2011,sanilo caludio marchior,auto,porto,"R$ 3.554,65","20,50%","R$ 728,70",renovacao
+16/01/2010,16/01/2011,amaro bizarro porto,resid,porto,"R$ 750,95","25,00%","R$ 187,74",renovacao
+16/01/2010,16/01/2011,berenice andreia schie,auto,mapfre,"R$ 179,68","15,00%","R$ 26,95",,sim
+16/01/2010,16/01/2011,luiza tania elesbao,auto,itau,"R$ 894,44","20,00%","R$ 178,89",novo
+18/01/2010,18/01/2011,valdir amadeu silva,auto,porto,"R$ 1.657,34","15,00%","R$ 248,60",renovacao
+19/01/2010,19/01/2011,antonio carlos c pires,auto,mapfre,"R$ 1.313,13","25,00%","R$ 328,28",renovacao
+19/01/2010,19/01/2011,luis fernando peres,auto,mapfre,"R$ 856,59","23,00%","R$ 197,02",renovacao
+20/01/2010,20/01/2011,juarez dantos da silva,auto,hdi,"R$ 1.203,91","10,00%","R$ 120,39",novo
+20/01/2010,20/01/2011,lisandra faccin,auto,azul,"R$ 674,13","20,00%","R$ 134,83",renovacao
+21/01/2010,21/01/2011,alexsandro da s viana,auto,hdi,"R$ 1.007,97","18,00%","R$ 181,43",novo
+21/01/2010,21/01/2011,marco antonio troleiz,auto,mapfre,"R$ 1.472,24","12,00%","R$ 176,67",novo
+21/01/2010,21/01/2011,marilucia leites ronconi,auto,mapfre,"R$ 694,86","20,00%","R$ 138,97",renovacao
+22/01/2010,22/01/2011,carlos augusto vieira,auto,hdi,"R$ 1.124,72","15,00%","R$ 168,71",novo
+22/01/2010,22/01/2011,joao pedro salies lima,auto,porto,"R$ 2.357,00","15,00%","R$ 353,55",renovacao
+22/01/2010,22/01/2011,orlando guterres gonç,auto,mapfre,"R$ 1.597,31","20,00%","R$ 319,46",renovacao
+22/01/2010,22/01/2011,ujs refrigeração ltda,empresarial,mapfre,"R$ 990,80","30,00%","R$ 297,24",renovacao
+23/01/2010,23/01/2011,maria clara v palermo,resid,porto,"R$ 630,02","35,00%","R$ 220,51",renovacao
+23/01/2010,23/01/2011,maria frança ribeiro,auto,mapfre,"R$ 1.398,36","13,00%","R$ 181,79",renovacao
+24/01/2010,24/01/2011,arnaldo dorneles amar,auto,hdi,"R$ 817,38","15,00%","R$ 122,61",renovacao
+24/01/2010,24/01/2011,claudiomiro dos santos,auto,mapfre,"R$ 936,47","25,00%","R$ 234,12",renovacao
+24/01/2010,24/01/2011,demetrio xavier lopes neto,auto,brad,"R$ 2.083,61","20,00%","R$ 416,72",renovacao
+24/01/2010,24/01/2011,joel diniz martins,resid,porto,"R$ 433,04","27,00%","R$ 116,92",renovacao
+25/01/2010,25/01/2011,joao pedro salies lima,empresarial,porto,"R$ 103,88","50,00%","R$ 51,94",renovacao
+25/01/2010,25/01/2011,joao pedro salies lima,empresarial,porto,"R$ 103,88","50,00%","R$ 51,94",renovacao
+25/01/2010,25/01/2011,joao pedro salies lima,empresarial,porto,"R$ 165,30","40,00%","R$ 66,12",renovacao
+25/01/2010,25/01/2011,joao pedro salies lima,empresarial,porto,"R$ 176,57","40,00%","R$ 70,63",renovacao
+26/01/2010,26/01/2011,airton vanderlei silvei,auto,hdi,"R$ 1.144,65","20,00%","R$ 228,93",renovacao
+26/01/2010,26/01/2011,maria clara v palermo,vida,porto,"R$ 1.686,60","20,00%","R$ 337,32",renovacao
+26/01/2010,26/01/2011,mario elbio g nunes,vida,porto,"R$ 1.038,96","20,00%","R$ 207,79",renovacao
+27/01/2010,27/01/2011,hamilton luiz levi,auto,brad,"R$ 1.452,27","15,00%","R$ 217,84",renovacao
+29/01/2010,29/01/2011,aguiar eng ltda,auto,gen,"R$ 1.529,94","15,00%","R$ 229,49",renovacao
+29/01/2010,29/01/2011,claudia braga albuq,auto,gen,"R$ 1.593,08","15,00%","R$ 238,96",novo
+01/02/2010,01/02/2011,patricia p s lima,vida,itau,"R$ 423,06","20,00%","R$ 84,61",renovacao
+03/02/2010,03/02/2011,ana lucia rangel ,auto,azul,"R$ 1.212,20","25,00%","R$ 303,05",renovacao
+03/02/2010,03/02/2011,roger j richinitti,auto,mapfre,"R$ 1.981,96","12,00%","R$ 237,84",novo
+03/02/2010,03/02/2011,uilson de souza,auto,mapfre,"R$ 1.201,70","15,00%","R$ 180,26",renovacao
+04/02/2010,04/02/2011,divino soares de aguiar,auto,itau,"R$ 1.707,19","20,00%","R$ 341,44",renovacao
+04/02/2010,04/02/2011,hamilton luiz levi,auto,brad,"R$ 1.418,43","20,00%","R$ 283,69",renovacao
+04/02/2010,04/02/2011,italo w e castro,auto,mapfre,"R$ 1.491,57","13,00%","R$ 193,90",renovacao
+04/02/2010,04/02/2011,ujs refrigeração ltda,auto,gen,"R$ 1.325,54","20,00%","R$ 265,11",novo
+07/02/2010,07/02/2011,ary desconzi,vida,porto,"R$ 1.870,00","20,00%","R$ 374,00",renovacao
+07/02/2010,07/02/2011,rina rosa soto mertins,auto,itau,"R$ 788,87","20,00%","R$ 157,77",renovacao
+08/02/2010,08/02/2011,antonio c b farias,auto,mapfre,"R$ 721,21","25,00%","R$ 180,30",renovacao
+08/02/2010,08/02/2011,clovis da silva amaral,auto,azul,"R$ 1.346,55","10,00%","R$ 134,66",renovacao
+08/02/2010,08/02/2011,nevio jose faccin,auto,mapfre,"R$ 731,99","25,00%","R$ 183,00",renovacao
+08/02/2010,08/02/2011,paulo amorim,auto,azul,"R$ 1.080,48","18,00%","R$ 194,49",renovacao
+08/02/2010,08/02/2011,ujs refrigeração ltda,empresarial,mapfre,"R$ 990,82","30,00%","R$ 297,25",renovacao
+09/02/2010,09/02/2011,nevio jose faccin,vida,porto,"R$ 551,00","20,00%","R$ 110,20",renovacao
+10/02/2010,10/02/2011,cond edif timbauva,cond,porto,"R$ 445,30","28,00%","R$ 124,68",renovacao
+13/02/2010,13/02/2011,gilmar pedroso,auto,gen,"R$ 1.051,82","15,00%","R$ 157,77",renovacao
+13/02/2010,13/02/2011,valmor porto,auto,mapfre,"R$ 1.051,22","22,00%","R$ 231,27",novo
+14/02/2010,14/02/2011,fernando c manozzo,auto,porto,"R$ 1.632,04","20,00%","R$ 326,41",renovacao
+17/02/2010,17/02/2011,amaro bizarro porto,auto,porto,"R$ 2.389,07","15,00%","R$ 358,36",renovacao
+19/02/2010,19/02/2011,andrea freitas carneiro,auto,hdi,"R$ 1.045,75","15,00%","R$ 156,86",renovacao
+20/02/2010,20/02/2011,juliano a kroth,vida,mapfre,"R$ 899,62","20,00%","R$ 179,92",renovacao
+20/02/2010,20/02/2011,myrna cathariana,auto,itau,"R$ 1.820,16","10,00%","R$ 182,02",renovacao
+21/02/2010,21/02/2011,luiz mauro lindenmeyer,resid,mapfre,"R$ 125,10","30,00%","R$ 37,53",novo
+22/02/2010,22/02/2011,laurecy santos jacobi,auto,gen,"R$ 1.072,85","20,00%","R$ 214,57",renovacao
+23/02/2010,23/02/2011,diogo poncio,auto,azul,"R$ 1.298,00","25,00%","R$ 324,50",novo
+25/02/2010,25/02/2011,osvaldo l de oliveira,auto,porto,"R$ 1.754,40","15,00%","R$ 263,16",renovacao
+26/02/2010,26/02/2011,carlinhos joao mottes,auto,tokio,"R$ 1.461,33","25,00%","R$ 365,33",renovacao
+27/02/2010,27/02/2011,ellen cristina bastos,auto,gen,"R$ 1.254,28","20,00%","R$ 250,86",renovacao
+27/02/2010,27/02/2011,gislaine lindemeyer eche,resid,tokio,"R$ 284,83","50,00%","R$ 142,42",novo
+28/02/2010,28/02/2011,assessoria de cobr ama,auto,gen,"R$ 1.327,59","15,00%","R$ 199,14",renovacao
+02/03/2010,02/03/2011,roseli de moraes danh,auto,gen,"R$ 1.060,50","25,00%","R$ 265,13",renovacao
+03/03/2010,03/03/2011,cond edif barao do itaqui,cond,porto,"R$ 429,43","30,00%","R$ 128,83",renovacao
+05/03/2010,05/03/2011,dilceu b colombo,auto,azul,"R$ 1.135,49","22,00%","R$ 249,81",novo
+05/03/2010,05/03/2011,joao b b neto,auto,gen,"R$ 1.241,26","15,00%","R$ 186,19",renovacao
+05/03/2010,05/03/2011,maria luiz fernandez,auto,mapfre,"R$ 1.212,34","15,00%","R$ 181,85",renovacao
+06/03/2010,06/03/2011,marcia souza dos santos,auto,gen,"R$ 945,31","20,00%","R$ 189,06",novo
+07/03/2010,07/03/2011,fatima isabel longhi,auto,gen,"R$ 1.232,75","25,00%","R$ 308,19",renovacao
+08/03/2010,08/03/2011,altair alves ribeiro,auto,mapfre,"R$ 1.003,44","20,00%","R$ 200,69",renovacao
+08/03/2010,08/03/2011,rodrigo pacheco p ,auto,tokio,"R$ 1.066,60","20,00%","R$ 213,32",renovacao
+10/03/2010,10/03/2011,salies lima sa,empresarial,porto,"R$ 827,33","38,00%","R$ 314,39",renovacao
+11/03/2010,11/03/2011,cristina gracia barreto,auto,conf,"R$ 1.778,39","16,00%","R$ 284,54",renovacao
+12/03/2010,12/03/2011,anderson kawabata,auto,porto,"R$ 1.133,69","15,00%","R$ 170,05",renovacao
+13/03/2010,13/03/2011,alfredo wesp,auto,gen,"R$ 1.265,47","15,00%","R$ 189,82",renovacao
+14/03/2010,14/03/2011,ary desconzi,vida,itau,"R$ 395,54","25,00%","R$ 98,89",renovacao
+14/03/2010,14/03/2011,cleber darlei moraes,auto,mapfre,"R$ 1.129,93","15,00%","R$ 169,49",renovacao
+17/03/2010,17/03/2011,cleide dos santos costa,auto,gen,"R$ 1.155,96","20,00%","R$ 231,19",renovacao
+17/03/2010,17/03/2011,jeferson luiz de souza,auto,hdi,"R$ 1.159,53","10,00%","R$ 115,95",renovacao
+19/03/2010,19/03/2011,carlos alberto c silva,auto,gen,"R$ 1.256,52","15,00%","R$ 188,48",novo
+19/03/2010,19/03/2011,clori padilha de avilla,auto,mapfre,"R$ 3.527,22","17,00%","R$ 599,63",novo
+19/03/2010,19/03/2011,juliana cervo,auto,tokio,"R$ 2.198,47","15,00%","R$ 329,77",renovacao
+20/03/2010,20/03/2011,maria ines j cervo,auto,itau,"R$ 1.004,84","20,00%","R$ 200,97",renovacao
+23/03/2010,23/03/2011,claudemir jose coelho,auto,mapfre,"R$ 2.589,37","15,00%","R$ 388,41",novo
+23/03/2010,23/03/2011,edegar teix machado,auto,azul,"R$ 971,00","20,00%","R$ 194,20",renovacao
+23/03/2010,23/03/2011,flavio moreira lopes,resid,mapfre,"R$ 266,42","30,00%","R$ 79,93",renovacao
+23/03/2010,23/03/2011,levi santos inhaia,auto,porto,"R$ 1.968,02","15,00%","R$ 295,20",renovacao
+25/03/2010,25/03/2011,gislaine maria r frota,auto,mapfre,"R$ 1.122,62","15,00%","R$ 168,39",renovacao
+25/03/2010,25/03/2011,renato oliveira gonçal,auto,gen,"R$ 1.221,63","15,00%","R$ 183,24",renovacao
+26/03/2010,26/03/2011,isaac silveira gonçalves,auto,conf,"R$ 1.611,21","12,00%","R$ 193,35",novo
+27/03/2010,27/03/2011,juliano torres,auto,itau,"R$ 2.112,44","10,00%","R$ 211,24",renovacao
+27/03/2010,27/03/2011,marco antonio troleiz,auto,azul,"R$ 805,02","25,00%","R$ 201,26",renovacao
+29/03/2010,29/03/2011,almir abruzzi colombo,auto,hdi,"R$ 1.304,39","15,00%","R$ 195,66",novo
+29/03/2010,29/03/2011,jose martins de s neto,auto,itau,"R$ 1.963,00","20,00%","R$ 392,60",renovacao
+30/03/2010,30/03/2011,joel diniz martins,auto,azul,"R$ 1.113,00","18,00%","R$ 200,34",renovacao
+30/03/2010,30/03/2011,marta dias pankowski,auto,gen,"R$ 1.216,02","15,00%","R$ 182,40",novo
+01/04/2010,01/04/2011,daniela tocchetto,auto,gen,"R$ 996,66","20,00%","R$ 199,33",renovacao
+02/04/2010,02/04/2011,monica artnak,auto,gen,"R$ 1.088,94","20,00%","R$ 217,79",renovacao
+03/04/2010,03/04/2011,gilberto erom,auto,itau,"R$ 803,96","20,00%","R$ 160,79",renovacao
+05/04/2010,05/04/2011,elito jose b marquiori,auto,porto,"R$ 2.082,75","15,00%","R$ 312,41",renovacao
+06/04/2010,06/04/2011,humberto gonçalv teix,auto,mapfre,"R$ 937,96","15,00%","R$ 140,69",renovacao
+06/04/2010,06/04/2011,luis tomas l ronconi,auto,itau,"R$ 985,97","15,00%","R$ 147,90",renovacao
+06/04/2010,06/04/2011,proença carv serv aut,empresarial,gen,"R$ 1.188,02","20,00%","R$ 237,60",novo
+08/04/2010,08/04/2011,claudio vitali,auto,gen,"R$ 1.100,00","20,00%","R$ 220,00",renovacao
+08/04/2010,08/04/2011,fernando r otten,auto,itau,"R$ 1.101,00","20,00%","R$ 220,20",renovacao
+08/04/2010,08/04/2011,max pierre wesp,vida,porto,"R$ 4.902,93","20,00%","R$ 980,59",renovacao
+08/04/2010,08/04/2011,naor valmarath aires,auto,mapfre,"R$ 1.196,06","20,00%","R$ 239,21",renovacao
+08/04/2010,08/04/2011,rosane da silva,auto,hdi,"R$ 972,87","20,00%","R$ 194,57",novo
+10/04/2010,10/04/2011,david solon ainhoren,auto,hdi,"R$ 801,50","10,00%","R$ 80,15",novo
+11/04/2010,11/04/2011,mario cesar d onofrio,auto,itau,"R$ 1.727,26","20,00%","R$ 345,45",renovacao
+11/04/2010,11/04/2011,sandro haup,auto,azul,"R$ 827,79","15,00%","R$ 124,17",renovacao
+12/04/2010,12/04/2011,felipe peres wartchow,auto,mapfre,"R$ 1.389,64","19,00%","R$ 264,03",renovacao
+13/04/2010,13/04/2011,hfm corret de seg  ltda,r.civil,tokio,"R$ 504,51","10,00%","R$ 50,45",renovacao
+13/04/2010,13/04/2011,joao rosling neto,auto,gen,"R$ 927,35","20,00%","R$ 185,47",renovacao
+14/04/2010,14/04/2011,carolina elesbao,auto,itau,"R$ 1.329,97","15,00%","R$ 199,50",renovacao
+14/04/2010,14/04/2011,rubens p da silva,resid,mapfre,"R$ 385,30","30,00%","R$ 115,59",renovacao
+14/04/2010,14/04/2011,willy artnak,auto,brad,"R$ 1.559,54","15,00%","R$ 233,93",renovacao
+15/04/2010,15/04/2011,paulo luis chiameneti,auto,porto,"R$ 1.799,60","20,00%","R$ 359,92",renovacao
+16/04/2010,16/04/2011,michele sabrina fidelis,auto,gen,"R$ 2.334,18","10,00%","R$ 233,42",novo
+17/04/2010,17/04/2011,graziela bueno matias,auto,mapfre,"R$ 1.427,64","15,00%","R$ 214,15",renovacao
+19/04/2010,19/04/2011,marcos ivair de menez,auto,mapfre,"R$ 1.791,01","12,00%","R$ 214,92",novo
+19/04/2010,19/04/2011,roger joel richinitti,resid,mapfre,"R$ 1.042,09","20,00%","R$ 208,42",novo
+20/04/2010,20/04/2011,elito jose b marquiori,auto,itau,"R$ 682,09","15,00%","R$ 102,31",renovacao
+23/04/2010,23/04/2011,bruna iensen,auto,hdi,"R$ 1.660,38","15,00%","R$ 249,06",renovacao
+23/04/2010,23/04/2011,claudio eduardo de oliveira,auto,hdi,"R$ 1.395,09","15,00%","R$ 209,26",renovacao
+23/04/2010,23/04/2011,tadeu liberali,auto,mapfre,"R$ 1.161,84","15,00%","R$ 174,28",renovacao
+24/04/2010,24/04/2011,luiz antonio fidelis,auto,hdi,"R$ 1.550,00","15,00%","R$ 232,50",renovacao
+24/04/2010,24/04/2011,mini mercado canesso e cia ltda,empresarial,tokio,"R$ 1.402,71","30,00%","R$ 420,81",renovacao
+24/04/2010,24/04/2011,natahasha simões pires,auto,porto,"R$ 1.446,22","20,00%","R$ 289,24",novo
+25/04/2010,25/04/2011,eloi afonso kronbauer,auto,itau,"R$ 1.454,47","15,00%","R$ 218,17",novo
+25/04/2010,25/04/2011,mari corsetti manozzo,vida,porto,"R$ 498,96","25,00%","R$ 124,74",renovacao
+25/04/2010,25/04/2011,orlei l manozzo,vida,porto,"R$ 498,96","25,00%","R$ 124,74",renovacao
+26/04/2010,26/04/2011,irapuam couto torres,auto,hdi,"R$ 2.203,64","10,00%","R$ 220,36",renovacao
+28/04/2010,28/04/2011,carlos vicente savi,auto,itau,"R$ 912,20","20,00%","R$ 182,44",renovacao
+28/04/2010,28/04/2011,confiança equip escritório ltda,empresarial,porto,"R$ 1.196,77","33,00%","R$ 394,93",renovacao
+28/04/2010,28/04/2011,vali ines morch,auto,mapfre,"R$ 970,32","12,00%","R$ 116,44",renovacao
+29/04/2010,29/04/2011,honig transp e serv ,auto,porto,"R$ 1.935,74","15,00%","R$ 290,36",novo
+30/04/2010,30/04/2011,sergio da silva ferreira,auto,hdi,"R$ 983,14","17,00%","R$ 167,13",novo
+03/05/2010,03/05/2011,nilza correa,auto,mapfre,"R$ 1.008,64","20,00%","R$ 201,73",renovacao
+03/05/2010,03/05/2011,nilza correa,auto,mapfre,"R$ 1.358,29","10,00%","R$ 135,83",novo
+03/05/2010,03/05/2011,sabrina maria soares,auto,itau,"R$ 1.012,81","15,00%","R$ 151,92",renovacao
+04/05/2010,04/05/2011,vanessa s souza de li,auto,azul,"R$ 1.323,18","15,00%","R$ 198,48",novo
+05/05/2010,05/05/2011,adilson s de oliv,auto,itau,"R$ 1.590,99","25,00%","R$ 397,75",renovacao
+05/05/2010,05/05/2011,emir diego silva souza,auto,hdi,"R$ 1.355,69","15,00%","R$ 203,35",novo
+05/05/2010,05/05/2011,roberto paim reis,auto,gen,"R$ 1.320,40","15,00%","R$ 198,06",renovacao
+06/05/2010,06/05/2011,lori t luft veit,auto,azul,"R$ 707,27","15,00%","R$ 106,09",novo
+06/05/2010,06/05/2011,michele soares biten,auto,mapfre,"R$ 1.225,62","18,00%","R$ 220,61",renovacao
+07/05/2010,07/05/2011,denise da costa lara,auto,mapfre,"R$ 1.041,21","20,00%","R$ 208,24",renovacao
+07/05/2010,07/05/2011,elisabeth queirolo susin,vida,met life,"R$ 1.732,38","20,00%","R$ 346,48",renovacao
+10/05/2010,10/05/2011,doraci castro de freitas,auto,gen,"R$ 1.043,35","15,00%","R$ 156,50",novo
+11/05/2010,11/05/2011,bruna iensen,auto,itau,"R$ 4.213,66","15,00%","R$ 632,05",novo
+11/05/2010,11/05/2011,fortpel com de desc lt,empresarial,porto,"R$ 2.564,79","35,00%","R$ 897,68",renovacao
+11/05/2010,11/05/2011,silvio augusto l iensen,auto,hdi,"R$ 1.134,62","20,00%","R$ 226,92",renovacao
+11/05/2010,11/05/2011,simone pereira cristal,fianca,porto,"R$ 1.527,07","20,00%","R$ 305,41",novo
+11/05/2010,11/05/2011,vanessa dos s amorim,auto,mapfre,"R$ 986,93","15,00%","R$ 148,04",renovacao
+12/05/2010,12/05/2011,claudemir jose coelho,auto,mapfre,"R$ 1.277,77","15,00%","R$ 191,67",renovacao
+13/05/2010,13/05/2011,lisiane bitarello,auto,itau,"R$ 1.107,00","20,00%","R$ 221,40",renovacao
+14/05/2010,14/05/2011,rozalina levi,auto ,mapfre,"R$ 863,59","10,00%","R$ 86,36",renovacao
+15/05/2010,15/05/2011,virginia ronconi,auto ,itau,"R$ 1.058,23","20,00%","R$ 211,65",renovacao
+17/05/2010,17/05/2011,felipe arioli valduga,auto ,hdi,"R$ 1.175,07","20,00%","R$ 235,01",renovacao
+18/05/2010,18/05/2011,dilson isidoro susin,vida,porto,"R$ 7.349,12","15,00%","R$ 1.102,37",renovacao
+18/05/2010,18/05/2011,elisabeth queirolo susin,vida,porto,"R$ 3.700,80","20,00%","R$ 740,16",renovacao
+18/05/2010,18/05/2011,fabio batista branco,auto ,conf,"R$ 1.657,91","12,00%","R$ 198,95",renovacao
+18/05/2010,18/05/2011,rogerio m k porto,auto ,mapfre,"R$ 560,97","20,00%","R$ 112,19",renovacao
+20/05/2010,20/05/2011,antonio c de aguiar di,auto ,azul,"R$ 1.604,79","10,00%","R$ 160,48",renovacao
+20/05/2010,20/05/2011,hugo correa pereira,auto,hdi,"R$ 965,95","15,00%","R$ 144,89",novo
+20/05/2010,20/05/2011,thiego augusto colla,auto,conf,"R$ 1.748,71","12,00%","R$ 209,85",renovacao
+21/05/2010,21/05/2011,wall system sist mod ltd,auto,mapfre,"R$ 1.667,84","13,00%","R$ 216,82",renovacao
+22/05/2010,22/05/2011,rmds e silva vestuario,auto,itau,"R$ 2.269,57","15,00%","R$ 340,44",renovacao
+23/05/2010,23/05/2011,ana maria souza pires,auto,tokio,"R$ 1.003,96","35,00%","R$ 351,39",renovacao
+25/05/2010,25/05/2011,marcelo pinto vianna,auto,azul,"R$ 1.272,46","15,00%","R$ 190,87",renovacao
+26/05/2010,26/05/2011,estela meyer rico,auto,mapfre,"R$ 1.185,76","15,00%","R$ 177,86",renovacao
+26/05/2010,26/05/2011,osvaldo l de oliveira,auto,azul,"R$ 1.421,97","15,00%","R$ 213,30",renovacao
+26/05/2010,26/05/2011,rosa marli cooper da s,auto,mapfre,"R$ 1.404,91","10,00%","R$ 140,49",novo
+26/05/2010,26/05/2011,rubens mario m rodrig,auto,itau,"R$ 1.282,83","25,00%","R$ 320,71",renovacao
+28/05/2010,28/05/2011,diego boelter didone,auto,mapfre,"R$ 3.507,48","11,00%","R$ 385,82",renovacao
+29/05/2010,29/05/2011,claudio borges da silv,auto,hdi,"R$ 979,67","15,00%","R$ 146,95",renovacao
+29/05/2010,29/05/2011,mario abilio jaeger filho,auto,azul,"R$ 1.100,44","20,00%","R$ 220,09",renovacao
+01/06/2010,01/06/2011,Mul tape fitas e abrasivos ltda,auto,hdi,"R$ 1.877,57","15,00%","R$ 281,64",renovacao
+02/06/2010,02/06/2011,daniele paynes da silva,auto,porto,"R$ 460,20","10,00%","R$ 46,02",renovacao
+04/06/2010,04/06/2011,patricia manozzo,auto,mapfre,"R$ 844,33","15,00%","R$ 126,65",renovacao
+05/06/2010,05/06/2011,Elio S salles,auto,azul,"R$ 1.010,76","25,00%","R$ 252,69",renovacao
+05/06/2010,05/06/2011,heloisa helena aguiar di primio,auto,tokio,"R$ 1.024,85","20,00%","R$ 204,97",renovacao
+06/06/2010,06/06/2011,hamilton luiz levi,auto,mapfre,"R$ 2.181,53","15,00%","R$ 327,23",renovacao
+08/06/2010,08/06/2011,amaro bizarro porto,auto,porto,"R$ 1.079,66","25,00%","R$ 269,92",renovacao
+08/06/2010,08/06/2011,severina marcon,vida,porto,"R$ 390,00","20,00%","R$ 78,00",renovacao
+10/06/2010,10/06/2011,humberto schmidt  vieira,resid,porto,"R$ 247,04","35,00%","R$ 86,46",renovacao
+11/06/2010,11/06/2011,eloi afonso kronbauer,auto,brad,"R$ 1.457,75","10,00%","R$ 145,78",novo
+11/06/2010,11/06/2011,geralda a correia de queiroz,auto,itau,"R$ 1.491,66","20,00%","R$ 298,33",renovacao
+13/06/2010,13/06/2011,fabiane raimundo,auto,itau,"R$ 741,65","15,00%","R$ 111,25",renovacao
+14/06/2010,14/06/2011,eduardo ramires barr,auto,mapfre,"R$ 969,14","25,00%","R$ 242,29",renovacao
+15/06/2010,15/06/2011,cabanha invernia agr,auto,itau,"R$ 4.500,24","10,00%","R$ 450,02",renovacao
+15/06/2010,15/06/2011,lara hausen mizoguch,auto,gen,"R$ 1.301,17","20,00%","R$ 260,23",renovacao
+16/06/2010,16/06/2011,salies lima sa,fianca,porto,"R$ 700,78","25,00%","R$ 175,20",novo
+16/06/2010,16/06/2011,thompson peter lied,auto,azul,"R$ 2.397,42","13,00%","R$ 311,66",novo
+18/06/2010,18/06/2011,anajara s s fischer,auto,mapfre,"R$ 1.266,11","10,00%","R$ 126,61",renovacao
+18/06/2010,18/06/2011,darci rossoni,auto,azul,"R$ 1.321,91","15,00%","R$ 198,29",renovacao
+18/06/2010,18/06/2011,fernando c l iensen,vida,porto,"R$ 390,00","10,00%","R$ 39,00",renovacao
+18/06/2010,18/06/2011,jorge aguirre z manzi,auto,mapfre,"R$ 1.502,04","20,00%","R$ 300,41",renovacao
+19/06/2010,19/06/2011,marli bitencourt,auto,mapfre,"R$ 807,60","20,00%","R$ 161,52",renovacao
+21/06/2010,21/06/2011,cleonice verdi,previdencia,porto,"R$ 610,00","100,00%","R$ 610,00",novo
+21/06/2010,21/06/2011,fernando pires teixei,resid,tokio,"R$ 285,30","35,00%","R$ 99,86",renovacao
+22/06/2010,22/06/2011,cabanha invernia agr,auto,gen,"R$ 974,16","20,00%","R$ 194,83",renovacao
+22/06/2010,22/06/2011,sonia maria ramos mai,auto,itau,"R$ 1.309,69","20,00%","R$ 261,94",novo
+23/06/2010,23/06/2011,ivan carlos gnoato,auto,porto,"R$ 1.053,83","15,00%","R$ 158,07",renovacao
+23/06/2010,23/06/2011,maria regina m becker,auto,tokio,"R$ 1.038,50","34,00%","R$ 353,09",renovacao
+24/06/2010,24/06/2011,jaques garcia matos,auto,itau,"R$ 1.753,40","20,00%","R$ 350,68",renovacao
+24/06/2010,24/06/2011,marelaine tarnowski,auto,mapfre,"R$ 1.666,79","10,00%","R$ 166,68",novo
+24/06/2010,24/06/2011,zelia frantz,auto,itau,"R$ 2.726,48","20,00%","R$ 545,30",renovacao
+25/06/2010,25/06/2011,jair de oliveira ferreira,auto,azul,"R$ 895,69","25,00%","R$ 223,92",renovacao
+26/06/2010,26/06/2011,joao pedro salies lima,resid,porto,"R$ 150,92","50,00%","R$ 75,46",renovacao
+29/06/2010,29/06/2011,fortpel com de desc lt,auto,brad,"R$ 3.058,02","10,00%","R$ 305,80",renovacao
+29/06/2010,29/06/2011,guadalajara r madruga,auto,mapfre,"R$ 974,36","18,00%","R$ 175,38",novo
+30/06/2010,30/06/2011,mauricio v alguquerqu,auto,brad,"R$ 2.048,38","13,00%","R$ 266,29",renovacao
+01/07/2010,01/07/2011,ana leticia donner,auto ,conf,"R$ 1.072,79","15,00%","R$ 160,92",renovacao
+01/07/2010,01/07/2011,antonio carlos d couto,resid,porto,"R$ 389,54","40,00%","R$ 155,82",novo
+01/07/2010,01/07/2011,janaina dos santos fernandez,auto,porto,"R$ 1.030,14","10,00%","R$ 103,01",renovacao
+02/07/2010,02/07/2011,carolina elesbao,auto,itau,"R$ 1.213,57","25,00%","R$ 303,39",renovacao
+02/07/2010,02/07/2011,cesar empreend imob,auto,tokio,"R$ 1.323,97","25,00%","R$ 330,99",renovacao
+02/07/2010,02/07/2011,cleonice verdi,auto,mapfre,"R$ 2.978,49","20,00%","R$ 595,70",renovacao
+02/07/2010,02/07/2011,galeteria m e n ltda,empresarial,porto,"R$ 1.561,23","39,00%","R$ 608,88",renovacao
+02/07/2010,02/07/2011,lizete m gadret,auto,itau,"R$ 1.120,01","15,00%","R$ 168,00",renovacao
+04/07/2010,04/07/2011,lavanderia bk ltda,auto ,mapfre,"R$ 1.975,15","10,00%","R$ 197,52",novo
+04/07/2010,04/07/2011,sumitig ind com soldas,auto ,mapfre,"R$ 951,97","25,00%","R$ 237,99",renovacao
+05/07/2010,05/07/2011,lucas mastroberty vedoy,empresarial,gen,"R$ 571,19","40,00%","R$ 228,48",novo
+05/07/2010,05/07/2011,rubia scotton,auto,mapfre,"R$ 4.182,60","12,00%","R$ 501,91",novo
+06/07/2010,06/07/2011,fernando c l iensen,vida,mapfre,"R$ 1.716,00","5,00%","R$ 85,80",novo
+07/07/2010,07/07/2011,plastilume repres. Ltda,auto,hdi,"R$ 1.650,71","20,00%","R$ 330,14",renovacao
+08/07/2010,08/07/2011,antonio carlos d couto,auto ,itau,"R$ 1.351,82","21,00%","R$ 283,88",renovacao
+08/07/2010,08/07/2011,assessoria de cobr ama,auto,gen,"R$ 305,74","20,00%","R$ 61,15",,sim
+09/07/2010,09/07/2011,jair de oliveira ferreira,auto,conf,"R$ 100,84","20,00%","R$ 20,17",,sim
+10/07/2010,10/07/2011,maria regina s thonsem,auto ,hdi,"R$ 437,43","22,00%","R$ 96,23",novo
+11/07/2010,11/07/2011,celi regina c cavion,auto ,conf,"R$ 1.158,62","23,00%","R$ 266,48",renovacao
+11/07/2010,11/07/2011,elisabeth queirolo susin,auto,conf,"R$ 1.556,41","18,00%","R$ 280,15",renovacao
+12/07/2010,12/07/2011,carlos alberto magalhae,auto,mapfre,"R$ 851,80","25,00%","R$ 212,95",renovacao
+12/07/2010,12/07/2011,mauro tomas c da silva,auto,azul,"R$ 1.078,31","20,00%","R$ 215,66",renovacao
+12/07/2010,12/07/2011,wall system sist mod ltd,auto,hdi,"R$ 1.842,38","15,00%","R$ 276,36",renovacao
+15/07/2010,15/07/2011,demetrio xavier lopes neto,auto ,itau,"R$ 2.597,32","20,00%","R$ 519,46",renovacao
+18/07/2010,18/07/2011,antonio carlos c pires,auto,hdi,"R$ 1.584,30","18,00%","R$ 285,17",novo
+18/07/2010,18/07/2011,jaderson f de mello,auto,hdi,"R$ 852,30","20,00%","R$ 170,46",renovacao
+18/07/2010,18/07/2011,Jorge luis pinheiro dias ,auto,itau,"R$ 2.397,94","18,00%","R$ 431,63",renovacao
+19/07/2010,19/07/2011,diogo de vargas corre,auto,gen,"R$ 1.195,99","15,00%","R$ 179,40",renovacao
+20/07/2010,20/07/2011,viviane dalcin,auto ,mapfre,"R$ 1.631,10","22,00%","R$ 358,84",renovacao
+21/07/2010,21/07/2011,juliano luiz rocha,auto,azul,"R$ 986,01","15,00%","R$ 147,90",novo
+22/07/2010,22/07/2011,ivan paulo praje,auto,mapfre,"R$ 1.894,03","15,00%","R$ 284,10",renovacao
+23/07/2010,23/07/2011,cleonice verdi,previdencia,porto,"R$ 610,00","100,00%","R$ 610,00",novo
+23/07/2010,23/07/2011,divino soares de aguiar,auto,conf,"R$ 2.036,00","18,00%","R$ 366,48",novo
+27/07/2010,27/07/2011,giancarlo guidi colossi,auto,azul,"R$ 1.498,21","25,00%","R$ 374,55",renovacao
+28/07/2010,28/07/2011,ivan eidt,auto,azul,"R$ 1.281,18","20,00%","R$ 256,24",renovacao
+01/08/2010,01/08/2011,joao amorim,auto ,itau,"R$ 1.109,37","20,00%","R$ 221,87",renovacao
+02/08/2010,02/08/2011,joao pedro salies lima,vida,porto,"R$ 131,01","100,00%","R$ 131,01",renovacao
+02/08/2010,02/08/2011,joao pedro salies lima,vida,porto,"R$ 1.572,12","30,00%","R$ 471,64",renovacao
+03/08/2010,03/08/2011,marcelino f filho,auto ,itau,"R$ 845,06","15,00%","R$ 126,76",renovacao
+04/08/2010,04/08/2011,andre ricardo holand,auto ,mapfre,"R$ 941,62","17,00%","R$ 160,08",renovacao
+04/08/2010,04/08/2011,maria alice deimiquei,auto ,itau,"R$ 1.360,07","18,00%","R$ 244,81",renovacao
+05/08/2010,05/08/2011,ary desconzi,auto ,itau,"R$ 831,47","20,00%","R$ 166,29",renovacao
+05/08/2010,05/08/2011,assessoria de cobr ama,auto ,gen,"R$ 392,09","20,00%","R$ 78,42",,sim
+07/08/2010,07/08/2011,elson luiz da silva,viagem,itau,"R$ 284,49","30,00%","R$ 85,35",renovacao
+07/08/2010,07/08/2011,joao pedro salies lima,empresarial,porto,"R$ 87,94","40,00%","R$ 35,18",renovacao
+07/08/2010,07/08/2011,rgs com de prod dec,auto ,brad,"R$ 1.479,84","12,00%","R$ 177,58",renovacao
+07/08/2010,07/08/2011,ricardo a de vasconc,auto ,brad,"R$ 1.172,43","10,00%","R$ 117,24",renovacao
+10/08/2010,10/08/2011,paulo luis chiamenti,auto ,porto,"R$ 2.002,62","15,00%","R$ 300,39",novo
+12/08/2010,12/08/2011,angela c manozzo,auto ,azul,"R$ 1.085,14","15,00%","R$ 162,77",novo
+13/08/2010,13/08/2011,wegacom,empresarial,porto,"R$ 866,96","25,00%","R$ 216,74",renovacao
+15/08/2010,15/08/2011,cristiano osorio brau,vida,porto,"R$ 1.429,70","20,00%","R$ 285,94",renovacao
+16/08/2010,16/08/2011,wagner lopes vascon,cartao,porto,"R$ 100,00","100,00%","R$ 100,00",novo
+16/08/2010,16/08/2011,wagner lopes vascon,auto ,porto,"R$ 1.617,44","10,00%","R$ 161,74",renovacao
+17/08/2010,17/08/2011,milton jose correa,auto ,hdi,"R$ 986,38","16,00%","R$ 157,82",novo
+18/08/2010,18/08/2011,fernando costa marques,auto ,itau,"R$ 904,72","20,00%","R$ 180,94",renovacao
+18/08/2010,18/08/2011,max pierre wesp,vida,porto,"R$ 1.203,41","20,00%","R$ 240,68",novo
+19/08/2010,19/08/2011,adriano oliveira p bran,auto ,brad,"R$ 1.977,32","10,00%","R$ 197,73",renovacao
+19/08/2010,19/08/2011,carlos silva vargas,auto ,itau,"R$ 1.928,00","10,00%","R$ 192,80",novo
+19/08/2010,19/08/2011,marco antonio troleiz,auto ,azul,"R$ 1.551,80","25,00%","R$ 387,95",novo
+20/08/2010,20/08/2011,alessandra gessinger,auto ,brad,"R$ 1.162,85","20,00%","R$ 232,57",renovacao
+20/08/2010,20/08/2011,irapuam couto torres,auto ,porto,"R$ 568,95","15,00%","R$ 85,34",renovacao
+21/08/2010,21/08/2011,maurilio leite pinto,auto ,mapfre,"R$ 1.112,78","15,00%","R$ 166,92",novo
+21/08/2010,21/08/2011,max pierre wesp,auto ,brad,"R$ 1.239,22","20,00%","R$ 247,84",renovacao
+21/08/2010,21/08/2011,waldir m segundo,auto ,mapfre,"R$ 811,13","16,00%","R$ 129,78",renovacao
+22/08/2010,22/08/2011,felipe maurilio aires,auto ,brad,"R$ 1.054,75","10,00%","R$ 105,48",renovacao
+23/08/2010,23/08/2011,uilson de souza,auto ,mapfre,"R$ 1.413,81","10,00%","R$ 141,38",novo
+24/08/2010,24/08/2011,filipe machado ferraz,auto ,chubb,"R$ 3.346,59","10,00%","R$ 334,66",novo
+25/08/2010,25/08/2011,carlos a s branco,auto ,azul,"R$ 1.225,01","25,00%","R$ 306,25",renovacao
+26/08/2010,26/08/2011,andre rocha dos san,auto ,hdi,"R$ 1.294,47","10,00%","R$ 129,45",novo
+26/08/2010,26/08/2011,antonio cristiano brizolla,auto ,hdi,"R$ 941,48","20,00%","R$ 188,30",renovacao
+26/08/2010,26/08/2011,gilberto schneider,auto ,brad,"R$ 1.403,43","20,00%","R$ 280,69",renovacao
+26/08/2010,26/08/2011,lavanderia bk ltda,auto ,mapfre,"R$ 2.004,50","10,00%","R$ 200,45",novo
+27/08/2010,27/08/2011,c e j com veic ltda,auto ,porto,"R$ 1.451,46","20,00%","R$ 290,29",renovacao
+27/08/2010,27/08/2011,mario elbio g nunes,auto ,hdi,"R$ 1.645,33","15,00%","R$ 246,80",renovacao
+27/08/2010,27/08/2011,moema karla oliveira santana,auto ,hdi,"R$ 989,40","10,00%","R$ 98,94",renovacao
+27/08/2010,27/08/2011,rosangela s da silva,auto ,itau,"R$ 1.595,60","15,00%","R$ 239,34",renovacao
+28/08/2010,28/08/2011,gislaine lindemeyer eche,auto ,azul,"R$ 787,38","25,00%","R$ 196,85",renovacao
+28/08/2010,28/08/2011,marilene nardin,auto ,hdi,"R$ 897,65","15,00%","R$ 134,65",renovacao
+28/08/2010,28/08/2011,ricardocarreno fernand,auto ,hdi,"R$ 756,34","15,00%","R$ 113,45",renovacao
+28/08/2010,28/08/2011,valdinei de souza,auto ,gen,"R$ 1.245,90","15,00%","R$ 186,89",novo
+28/08/2010,28/08/2011,valdir amadeu silva,resid,porto,"R$ 643,52","25,00%","R$ 160,88",renovacao
+29/08/2010,29/08/2011,juliano a kroth,auto ,itau,"R$ 1.588,56","10,00%","R$ 158,86",renovacao
+29/08/2010,29/08/2011,maria elenita wesp,auto ,itau,"R$ 865,03","25,00%","R$ 216,26",renovacao
+30/08/2010,30/08/2011,silvio rob dos santos,auto ,hdi,"R$ 1.070,65","13,00%","R$ 139,18",renovacao
+30/08/2010,30/08/2011,wall system sist mod ltd,auto ,mapfre,"R$ 416,70","20,00%","R$ 83,34",renovacao
+31/08/2010,31/08/2011,marcelo antonio silva  rosa,auto ,itau,"R$ 1.475,34","15,00%","R$ 221,30",renovacao
+31/08/2010,31/08/2011,renato cabral,auto ,tokio,"R$ 2.427,24","17,00%","R$ 412,63",renovacao
+02/09/2010,02/09/2011,elson luiz da silva,viagem,itau,"R$ 302,00","30,00%","R$ 90,60",novo
+02/09/2010,02/09/2011,jorge augusto a fischer,auto ,hdi,"R$ 1.268,77","10,00%","R$ 126,88",novo
+05/09/2010,05/09/2011,celi regina c cavion,auto ,conf,"R$ 1.069,49","15,00%","R$ 160,42",renovacao
+07/09/2010,07/09/2011,andre ricardo holand,auto,mapfre,"R$ 83,71","20,00%","R$ 16,74",,sim
+08/09/2010,08/09/2011,luis haroldo iepsen,auto,chubb,"R$ 100,00","20,00%","R$ 20,00",,sim
+08/09/2010,08/09/2011,manoel zilmer da silva,auto ,itau,"R$ 2.122,76","10,00%","R$ 212,28",renovacao
+09/09/2010,09/09/2011,octavio s ferreira,resid,porto,"R$ 655,79","25,00%","R$ 163,95",renovacao
+09/09/2010,09/09/2011,salies lima sa,empresarial,porto,"R$ 1.874,70","46,00%","R$ 862,36",renovacao
+10/09/2010,10/09/2011,carlos eduardo santos silva,auto ,itau,"R$ 697,16","15,00%","R$ 104,57",renovacao
+10/09/2010,10/09/2011,marcelino f filho,resid,hdi,"R$ 491,30","25,00%","R$ 122,83",renovacao
+10/09/2010,10/09/2011,patricia luft veit,auto ,hdi,"R$ 734,10","15,00%","R$ 110,12",novo
+11/09/2010,11/09/2011,cleonice maria albani,auto ,azul,"R$ 1.239,72","10,00%","R$ 123,97",novo
+11/09/2010,11/09/2011,delci pereira salies lima,auto ,itau,"R$ 1.795,46","15,00%","R$ 269,32",renovacao
+11/09/2010,11/09/2011,marco antonio troleiz,resid,mapfre,"R$ 160,98","30,00%","R$ 48,29",renovacao
+12/09/2010,12/09/2011,anaida b branco,auto ,azul,"R$ 844,45","21,00%","R$ 177,33",renovacao
+13/09/2010,13/09/2011,nilton teixeira viana,auto ,mapfre,"R$ 958,86","20,00%","R$ 191,77",renovacao
+14/09/2010,14/09/2011,cond edif ahlert,cond,porto,"R$ 347,96","20,00%","R$ 69,59",renovacao
+15/09/2010,15/09/2011,gilvan gleiner da silva,resid,mapfre,"R$ 181,87","25,00%","R$ 45,47",novo
+15/09/2010,15/09/2011,Maria ruty S Salles,resid,porto,"R$ 123,52","35,00%","R$ 43,23",renovacao
+16/09/2010,16/09/2011,lavanderia bk ltda,auto ,mapfre,"R$ 2.004,50","10,00%","R$ 200,45",novo
+16/09/2010,16/09/2011,manoel zilmer da silva,auto ,itau,"R$ 2.114,74","10,00%","R$ 211,47",renovacao
+17/09/2010,17/09/2011,gislaine lindemeyer eche,vida,porto,"R$ 1.445,76","20,00%","R$ 289,15",renovacao
+17/09/2010,17/09/2011,lisandra faccin,auto ,azul,"R$ 64,00","25,00%","R$ 16,00",,sim
+18/09/2010,18/09/2011,jose martins de s neto,auto ,brad,"R$ 1.721,49","20,00%","R$ 344,30",renovacao
+19/09/2010,19/09/2011,ivori luiz gonzatti,auto ,mapfre,"R$ 2.329,91","20,00%","R$ 465,98",renovacao
+19/09/2010,19/09/2011,wall system sist mod ltd,auto ,hdi,"R$ 1.508,86","15,00%","R$ 226,33",renovacao
+21/09/2010,21/09/2011,maria de lurdes f kroth,resid,mapfre,"R$ 106,33","30,00%","R$ 31,90",novo
+24/09/2010,24/09/2011,adriano dutra wichmann,auto ,azul,"R$ 1.509,47","15,00%","R$ 226,42",novo
+24/09/2010,24/09/2011,alessandra gessinger,auto ,brad,"R$ 1.144,42","19,00%","R$ 217,44",renovacao
+24/09/2010,24/09/2011,ana paula b porto,auto ,mapfre,"R$ 1.517,11","13,00%","R$ 197,22",novo
+24/09/2010,24/09/2011,berenice andreia schie,auto ,hdi,"R$ 1.002,60","20,00%","R$ 200,52",renovacao
+24/09/2010,24/09/2011,maurilio leite pinto,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+24/09/2010,24/09/2011,maurilio leite pinto,auto ,porto,"R$ 558,03","15,00%","R$ 83,70",renovacao
+24/09/2010,24/09/2011,rosane ramos de oliv mi,auto ,porto,"R$ 1.547,21","15,00%","R$ 232,08",renovacao
+24/09/2010,24/09/2011,zag com de art de dec,empresarial,porto,"R$ 762,37","25,00%","R$ 190,59",renovacao
+28/09/2010,28/09/2011,agostinho serafim,auto ,azul,"R$ 658,55","15,00%","R$ 98,78",renovacao
+30/09/2010,30/09/2011,hugo pedroso pereira,auto ,azul,"R$ 1.259,49","15,00%","R$ 188,92",novo
+30/09/2010,30/09/2011,joao pedro salies lima,empresarial,porto,"R$ 354,08","45,00%","R$ 159,34",renovacao
+01/10/2010,01/10/2011,rina rosa sotto mertins,auto ,itau,"R$ 157,61","25,00%","R$ 39,40",,sim
+03/10/2010,03/10/2011,evaldir bueno de oliveira,auto ,mapfre,"R$ 863,53","10,00%","R$ 86,35",renovacao
+04/10/2010,04/10/2011,almir abruzzi colombo,auto ,hdi,"R$ 76,90","15,00%","R$ 11,54",,sim
+04/10/2010,04/10/2011,francisco luiz de melo,resid,tokio,"R$ 502,05","30,00%","R$ 150,62",renovacao
+04/10/2010,04/10/2011,marcelo f vitoriano,auto ,mapfre,"R$ 303,86","15,00%","R$ 45,58",,sim
+04/10/2010,04/10/2011,osvaldo l de oliveira,auto ,gen,"R$ 1.276,34","20,00%","R$ 255,27",renovacao
+05/10/2010,05/10/2011,renato kaspary,auto ,mapfre,"R$ 1.142,18","18,00%","R$ 205,59",renovacao
+06/10/2010,06/10/2011,claudio vitali,auto ,gen,"R$ 405,04","20,00%","R$ 81,01",,sim
+06/10/2010,06/10/2011,rafael zambarda flores,auto ,gen,"R$ 1.263,82","15,00%","R$ 189,57",novo
+07/10/2010,07/10/2011,maria elenita wesp,auto ,mapfre,"R$ 201,36","22,00%","R$ 44,30",,sim
+08/10/2010,08/10/2011,max pierre wesp,auto ,brad,"R$ 514,25","20,00%","R$ 102,85",,sim
+08/10/2010,08/10/2011,mayume hausen mizog,auto ,mapfre,"R$ 1.275,69","15,00%","R$ 191,35",renovacao
+09/10/2010,09/10/2011,carlos a s branco,carta verde,porto,"R$ 70,45","20,00%","R$ 14,09",novo
+10/10/2010,10/10/2011,jacir danhaia,auto ,azul,"R$ 1.002,01","20,00%","R$ 200,40",renovacao
+10/10/2010,10/10/2011,nidia rita t faccin,resid,mapfre,"R$ 259,56","10,00%","R$ 25,96",renovacao
+12/10/2010,12/10/2011,adriana dos santos lim,auto ,itau,"R$ 1.079,18","10,00%","R$ 107,92",renovacao
+13/10/2010,13/10/2011,clori padilha de avilla,auto ,chubb,"R$ 4.540,90","10,00%","R$ 454,09",novo
+13/10/2010,13/10/2011,cristiano lesnik haef,auto ,brad,"R$ 1.643,95","15,00%","R$ 246,59",renovacao
+13/10/2010,13/10/2011,michele p de carvalho,auto ,mapfre,"R$ 807,50","15,00%","R$ 121,13",renovacao
+13/10/2010,13/10/2011,valentin deimiquei,resid,mapfre,"R$ 203,03","30,00%","R$ 60,91",renovacao
+15/10/2010,15/10/2011,claudia pereira artnak,auto ,azul,"R$ 1.279,85","20,00%","R$ 255,97",renovacao
+15/10/2010,15/10/2011,rodrigo trisch,auto ,mapfre,"R$ 1.123,59","15,00%","R$ 168,54",renovacao
+16/10/2010,16/10/2011,osvaldo nascimento só,auto ,mapfre,"R$ 1.166,12","16,00%","R$ 186,58",renovacao
+17/10/2010,17/10/2011,jacir danhaia,auto ,azul,"R$ 1.002,01","20,00%","R$ 200,40",renovacao
+17/10/2010,17/10/2011,sumitig ind com soldas,auto ,brad,"R$ 1.625,57","15,00%","R$ 243,84",renovacao
+18/10/2010,18/10/2011,marco a nizzola,auto ,brad,"R$ 1.315,63","10,00%","R$ 131,56",novo
+19/10/2010,19/10/2011,Elio S salles,auto ,brad,"R$ 1.310,84","20,00%","R$ 262,17",renovacao
+20/10/2010,20/10/2011,elson luiz da silva,viagem,itau,"R$ 238,61","30,00%","R$ 71,58",novo
+20/10/2010,20/10/2011,fabio batista branco,auto ,porto,"R$ 2.443,40","20,00%","R$ 488,68",renovacao
+21/10/2010,21/10/2011,joão batista de souza,auto ,brad,"R$ 1.184,55","20,00%","R$ 236,91",renovacao
+21/10/2010,21/10/2011,osvaldo l de oliveira,auto ,porto,"R$ 206,07","20,00%","R$ 41,21",,sim
+22/10/2010,22/10/2011,caroline p salies lima,vida,itau,"R$ 338,04","25,00%","R$ 84,51",renovacao
+22/10/2010,22/10/2011,ragas com de gas ltda,auto ,brad,"R$ 10.476,00","25,00%","R$ 2.619,00",renovacao
+23/10/2010,23/10/2011,antonio carlos c pires,auto ,mapfre,"R$ 343,66","17,00%","R$ 58,42",,sim
+25/10/2010,25/10/2011,elson luiz da silva,auto ,gen,"R$ 1.240,20","15,00%","R$ 186,03",renovacao
+25/10/2010,25/10/2011,pereira neg alim ltda,auto ,mapfre,"R$ 533,96","20,00%","R$ 106,79",novo
+25/10/2010,25/10/2011,schreiner e salles ,empresarial,gen,"R$ 382,59","25,00%","R$ 95,65",renovacao
+25/10/2010,25/10/2011,vitor hugo d keis,vida,porto,"R$ 1.050,00","20,00%","R$ 210,00",renovacao
+26/10/2010,26/10/2011,luis tomas l ronconi,auto ,itau,"R$ 55,38","20,00%","R$ 11,08",,sim
+26/10/2010,26/10/2011,suzete mottes gonzatti,resid,porto,"R$ 483,22","20,00%","R$ 96,64",renovacao
+26/10/2010,26/10/2011,suzete v lopes,resid,mapfre,"R$ 210,66","25,00%","R$ 52,67",renovacao
+26/10/2010,26/10/2011,virginia ronconi,auto ,itau,"R$ 75,85","20,00%","R$ 15,17",,sim
+27/10/2010,27/10/2011,carlos a s branco,empresarial,mapfre,"R$ 1.339,85","20,00%","R$ 267,97",renovacao
+27/10/2010,27/10/2011,gilberto crivela,empresarial,porto,"R$ 680,22","21,00%","R$ 142,85",novo
+28/10/2010,28/10/2011,christian limbacher,auto ,azul,"R$ 1.250,33","15,00%","R$ 187,55",renovacao
+28/10/2010,28/10/2011,jose deni f coutinho,auto ,tokio,"R$ 1.375,06","20,00%","R$ 275,01",renovacao
+28/10/2010,28/10/2011,sonia stefani sarmento,auto ,porto,"R$ 907,88","20,00%","R$ 181,58",renovacao
+30/10/2010,30/10/2011,cilon xavier da silva,auto ,hdi,"R$ 716,42","20,00%","R$ 143,28",renovacao
+30/10/2010,30/10/2011,marco antonio troleiz,resid,mapfre,"R$ 118,00","30,00%","R$ 35,40",renovacao
+30/10/2010,30/10/2011,marcos aurelio f rodrig,auto ,porto,"R$ 821,70","25,00%","R$ 205,43",novo
+30/10/2010,30/10/2011,marcos aurelio f rodrig,auto ,porto,"R$ 877,27","25,00%","R$ 219,32",novo
+30/10/2010,30/10/2011,nevio jose faccin,auto ,mapfre,"R$ 1.098,33","20,00%","R$ 219,67",renovacao
+31/10/2010,31/10/2011,alessandra gessinger,auto ,mapfre,"R$ 1.387,83","15,00%","R$ 208,17",renovacao
+31/10/2010,31/10/2011,cristian zarichta,auto ,mapfre,"R$ 1.018,48","15,00%","R$ 152,77",renovacao
+31/10/2010,31/10/2011,jorge miguel  da s nunes,auto ,mapfre,"R$ 930,43","15,00%","R$ 139,56",renovacao
+31/10/2010,31/10/2011,sonia bastiani,auto ,hdi,"R$ 781,73","20,00%","R$ 156,35",renovacao
+03/11/2010,03/11/2011,demetrio xavier lopes neto,auto ,brad,"R$ 361,00","25,00%","R$ 90,25",,sim
+03/11/2010,03/11/2011,michele wesp,auto ,azul,"R$ 1.306,09","15,00%","R$ 195,91",renovacao
+03/11/2010,03/11/2011,wall system sist mod ltd,auto ,itau,"R$ 3.894,54","10,00%","R$ 389,45",renovacao
+04/11/2010,04/11/2011,carlos eduardo santos silva,auto ,hdi,"R$ 953,61","20,00%","R$ 190,72",renovacao
+04/11/2010,04/11/2011,marianna bonotto,auto ,itau,"R$ 2.296,97","16,00%","R$ 367,52",novo
+05/11/2010,05/11/2011,carlos eduardo s moreir,auto ,porto,"R$ 1.108,38","25,00%","R$ 277,10",novo
+05/11/2010,05/11/2011,carmen scherer,resid,mapfre,"R$ 207,98","30,00%","R$ 62,39",renovacao
+05/11/2010,05/11/2011,karin limbacher,auto ,hdi,"R$ 1.180,45","17,00%","R$ 200,68",novo
+05/11/2010,05/11/2011,luiz odair moreira f junior,auto ,mapfre,"R$ 1.461,94","15,00%","R$ 219,29",novo
+07/11/2010,07/11/2011,diagsaude centro integ,empresarial,mapfre,"R$ 1.904,29","20,00%","R$ 380,86",novo
+07/11/2010,07/11/2011,wall system sist mod ltd,empresarial,mapfre,"R$ 4.850,68","37,00%","R$ 1.794,75",renovacao
+09/11/2010,09/11/2011,marcelo ferrari ruiz,auto ,porto,"R$ 3.246,68","15,00%","R$ 487,00",novo
+09/11/2010,09/11/2011,maria de lurdes f kroth,auto ,itau,"R$ 1.109,75","20,00%","R$ 221,95",renovacao
+09/11/2010,09/11/2011,ramao n da silva,auto ,hdi,"R$ 917,25","11,00%","R$ 100,90",renovacao
+10/11/2010,10/11/2011,alberto caldarte,auto ,hdi,"R$ 739,31","10,00%","R$ 73,93",renovacao
+12/11/2010,12/11/2011,carlos a s branco,auto ,chubb,"R$ 3.282,05","20,00%","R$ 656,41",renovacao
+12/11/2010,12/11/2011,elisabete ana deimiquei,auto ,mapfre,"R$ 1.010,41","10,00%","R$ 101,04",renovacao
+12/11/2010,12/11/2011,jose alves dos santos,auto ,porto,"R$ 1.268,88","25,00%","R$ 317,22",renovacao
+12/11/2010,12/11/2011,luis haroldo iepsen,auto ,chubb,"R$ 2.436,62","20,00%","R$ 487,32",renovacao
+12/11/2010,12/11/2011,moema karla oliveira santana,auto ,hdi,"R$ 506,70","15,00%","R$ 76,01",renovacao
+12/11/2010,12/11/2011,osvaldo l de oliveira,auto ,mapfre,"R$ 1.045,88","10,00%","R$ 104,59",renovacao
+12/11/2010,12/11/2011,sirlei scherer,auto ,mapfre,"R$ 898,28","20,00%","R$ 179,66",renovacao
+12/11/2010,12/11/2011,tomas ko freitag,carta verde,porto,"R$ 70,45","20,00%","R$ 14,09",renovacao
+13/11/2010,13/11/2011,neura maria bascarin,auto ,itau,"R$ 630,08","20,00%","R$ 126,02",renovacao
+13/11/2010,13/11/2011,zelia frantz,vida,itau,"R$ 3.111,90","20,00%","R$ 622,38",renovacao
+14/11/2010,14/11/2011,gilberto schneider,auto ,brad,"R$ 1.037,55","18,00%","R$ 186,76",renovacao
+16/11/2010,16/11/2011,michel zavagna gralha,auto ,chubb,"R$ 2.382,24","20,00%","R$ 476,45",renovacao
+16/11/2010,16/11/2011,rgs com prod de dec,empresarial,porto,"R$ 613,88","25,00%","R$ 153,47",renovacao
+17/11/2010,17/11/2011,elson luiz da silva,viagem,unib,"R$ 295,81","30,00%","R$ 88,74",novo
+17/11/2010,17/11/2011,uilson de souza,resid,porto,"R$ 732,42","10,00%","R$ 73,24",novo
+18/11/2010,18/11/2011,marcelo paulo altmann,auto ,hdi,"R$ 1.059,57","20,00%","R$ 211,91",renovacao
+19/11/2010,19/11/2011,denise da costa hausen,auto ,hdi,"R$ 1.389,92","25,00%","R$ 347,48",renovacao
+19/11/2010,19/11/2011,gislaine lindemeyer eche,auto ,brad,"R$ 1.879,62","15,00%","R$ 281,94",renovacao
+19/11/2010,19/11/2011,mario abilio jaeger filho,auto ,conf,"R$ 1.324,49","10,00%","R$ 132,45",renovacao
+20/11/2010,20/11/2011,marlon melo leote,auto ,hdi,"R$ 1.111,43","20,00%","R$ 222,29",renovacao
+24/11/2010,24/11/2011,gilvan gleiner da silva,auto ,mapfre,"R$ 1.065,91","12,00%","R$ 127,91",renovacao
+25/11/2010,25/11/2011,jair de oliveira ferreira,auto ,hdi,"R$ 1.285,33","15,00%","R$ 192,80",renovacao
+26/11/2010,26/11/2011,dilson isidoro susin,vida,porto,"R$ 4.405,62","20,00%","R$ 881,12",renovacao
+26/11/2010,26/11/2011,galeteria m e n ltda,auto ,brad,"R$ 1.441,51","15,00%","R$ 216,23",renovacao
+26/11/2010,26/11/2011,maria de lurdes f kroth,vida,porto,"R$ 1.349,28","10,00%","R$ 134,93",renovacao
+26/11/2010,26/11/2011,romulo de oliveira rigao,auto ,azul,"R$ 1.268,05","15,00%","R$ 190,21",renovacao
+27/11/2010,27/11/2011,c e j com veic ltda,auto ,itau,"R$ 948,08","25,00%","R$ 237,02",renovacao
+27/11/2010,27/11/2011,clarisse bock,auto ,mapfre,"R$ 1.157,33","15,00%","R$ 173,60",renovacao
+27/11/2010,27/11/2011,fatima isabel longhi,auto,gen,"R$ 210,88","20,00%","R$ 42,18",,sim
+27/11/2010,27/11/2011,joao batista g calovi,auto ,hdi,"R$ 1.106,36","20,00%","R$ 221,27",renovacao
+27/11/2010,27/11/2011,paulo de tarso,vida,porto,"R$ 1.307,40","20,00%","R$ 261,48",renovacao
+28/11/2010,28/11/2011,carlos eduardo p da silv,auto ,mapfre,"R$ 1.116,93","10,00%","R$ 111,69",renovacao
+29/11/2010,29/11/2011,jonny fonseca de souza,auto ,azul,"R$ 3.234,84","17,00%","R$ 549,92",novo
+29/11/2010,29/11/2011,wall system sist mod ltd,empresarial,mapfre,"R$ 6.461,37","20,00%","R$ 1.292,27",renovacao
+02/12/2010,02/12/2011,carlinhos joao mottes,auto,itau,"R$ 623,96","20,00%","R$ 124,79",renovacao
+02/12/2010,02/12/2011,celi regina c cavion,auto,conf,"R$ 963,79","20,00%","R$ 192,76",renovacao
+02/12/2010,02/12/2011,claumir marçal sarmento,auto,hdi,"R$ 1.474,48","15,00%","R$ 221,17",novo
+02/12/2010,02/12/2011,clori padilha de avilla,resid,porto,"R$ 682,15","30,00%","R$ 204,65",renovacao
+02/12/2010,02/12/2011,odi nicolau de b seve,auto,mapfre,"R$ 1.078,18","15,00%","R$ 161,73",renovacao
+03/12/2010,03/12/2011,cristiano osorio brau,auto,mapfre,"R$ 1.339,58","25,00%","R$ 334,90",renovacao
+03/12/2010,03/12/2011,maria regina s thonsem,auto,hdi,"R$ 111,98","20,00%","R$ 22,40",,sim
+04/12/2010,04/12/2011,diogenes r da silva,auto,azul,"R$ 1.490,06","20,00%","R$ 298,01",renovacao
+04/12/2010,04/12/2011,tomas ko freitag,auto,azul,"R$ 1.930,86","15,00%","R$ 289,63",renovacao
+06/12/2010,06/12/2011,jaques garcia matos,auto,chubb,"R$ 3.745,00","16,00%","R$ 599,20",renovacao
+06/12/2010,06/12/2011,jose eloir,auto,tokio,"R$ 638,03","20,00%","R$ 127,61",renovacao
+07/12/2010,07/12/2011,ivori luiz gonzatti,resid,mapfre,"R$ 526,05","30,00%","R$ 157,82",renovacao
+07/12/2010,07/12/2011,renato cabral,auto,mapfre,"R$ 1.620,70","19,00%","R$ 307,93",renovacao
+08/12/2010,08/12/2011,ujs refrigeração ltda,auto,mapfre,"R$ 2.082,71","10,00%","R$ 208,27",novo
+09/12/2010,09/12/2011,adriano proença de carvalho,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+09/12/2010,09/12/2011,adriano proença de carvalho,auto,porto,"R$ 1.027,47","20,00%","R$ 205,49",renovacao
+09/12/2010,09/12/2011,neida zenaide c leite,auto,brad,"R$ 1.414,49","15,00%","R$ 212,17",novo
+09/12/2010,09/12/2011,paulo de tarso,auto,mapfre,"R$ 943,05","25,00%","R$ 235,76",renovacao
+12/12/2010,12/12/2011,c e j com veic ltda,auto,porto,"R$ 1.234,81","20,00%","R$ 246,96",renovacao
+12/12/2010,12/12/2011,lucia maria zani richinitti,auto,porto,"R$ 1.197,79","19,00%","R$ 227,58",renovacao
+13/12/2010,13/12/2011,manoel zilmer da silva,auto,mapfre,"R$ 1.108,30","20,00%","R$ 221,66",renovacao
+13/12/2010,13/12/2011,paulo vanderlei g fre,auto,porto,"R$ 1.091,94","15,00%","R$ 163,79",novo
+14/12/2010,14/12/2011,ramao n da silva,resid,porto,"R$ 158,17","30,00%","R$ 47,45",renovacao
+16/12/2010,16/12/2011,adriano rigo,auto,mapfre,"R$ 4.391,56","15,00%","R$ 658,73",novo
+16/12/2010,16/12/2011,cristiano osorio brau,r.civil,mapfre,"R$ 471,55","25,00%","R$ 117,89",novo
+16/12/2010,16/12/2011,romulo ponticelli g junio,auto,hdi,"R$ 1.794,66","15,00%","R$ 269,20",renovacao
+16/12/2010,16/12/2011,thiago quadro cardoso,auto,hdi,"R$ 1.757,14","10,00%","R$ 175,71",renovacao
+17/12/2010,17/12/2011,andre machado,auto,azul,"R$ 1.773,03","20,00%","R$ 354,61",novo
+17/12/2010,17/12/2011,maria elenita wesp,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+17/12/2010,17/12/2011,maria elenita wesp,auto,porto,"R$ 2.535,52","20,00%","R$ 507,10",renovacao
+18/12/2010,18/12/2011,janise b pereira porto,auto,hdi,"R$ 1.182,40","20,00%","R$ 236,48",renovacao
+18/12/2010,18/12/2011,manolo fernandez Trindade,auto,hdi,"R$ 775,73","17,00%","R$ 131,87",renovacao
+19/12/2010,19/12/2011,denise da costa hausen,auto,azul,"R$ 1.765,68","20,00%","R$ 353,14",renovacao
+19/12/2010,19/12/2011,frank artnak,auto,azul,"R$ 1.274,61","25,00%","R$ 318,65",renovacao
+19/12/2010,19/12/2011,marcelo f vitoriano,auto,mapfre,"R$ 1.376,02","15,00%","R$ 206,40",renovacao
+21/12/2010,21/12/2011,diego boelter didone,auto,mapfre,"R$ 3.927,92","10,00%","R$ 392,79",renovacao
+22/12/2010,22/12/2011,aguiar eng ltda,auto,gen,"R$ 1.367,17","20,00%","R$ 273,43",renovacao
+22/12/2010,22/12/2011,renato  o. Gonçalves,auto,gen,"R$ 154,00","10,00%","R$ 15,40",,sim
+23/12/2010,23/12/2011,ary desconzi,auto,mapfre,"R$ 809,50","20,00%","R$ 161,90",renovacao
+23/12/2010,23/12/2011,carlos augusto g carv,auto,mapfre,"R$ 939,18","20,00%","R$ 187,84",renovacao
+23/12/2010,23/12/2011,cristiano pinto viana,auto,hdi,"R$ 860,01","20,00%","R$ 172,00",renovacao
+23/12/2010,23/12/2011,estelir da s trisch,auto,azul,"R$ 785,09","25,00%","R$ 196,27",renovacao
+23/12/2010,23/12/2011,helena c f iensen,auto,hdi,"R$ 1.015,81","10,00%","R$ 101,58",renovacao
+23/12/2010,23/12/2011,manoel zilmer da silva,resid,tokio,"R$ 280,57","20,00%","R$ 56,11",renovacao
+23/12/2010,23/12/2011,willy artnak,auto,brad,"R$ 154,07","20,00%","R$ 30,81",,sim
+24/12/2010,24/12/2011,arlete maria k lopes,auto,mapfre,"R$ 515,97","20,00%","R$ 103,19",novo
+24/12/2010,24/12/2011,julio cesar koppe,auto,itau,"R$ 2.872,60","15,00%","R$ 430,89",renovacao
+26/12/2010,26/12/2011,diogenes r da silva,resid,porto,"R$ 305,49","20,00%","R$ 61,10",renovacao
+27/12/2010,27/12/2011,ana paula b kaspary,auto,porto,"R$ 1.140,23","15,00%","R$ 171,03",novo
+27/12/2010,27/12/2011,joão batista de souza,resid,mapfre,"R$ 484,89","30,00%","R$ 145,47",renovacao
+27/12/2010,27/12/2011,maria regina s couto,auto,mapfre,"R$ 977,91","22,00%","R$ 215,14",renovacao
+27/12/2010,27/12/2011,uilson de souza,resid,mapfre,"R$ 318,61","30,00%","R$ 95,58",renovacao
+28/12/2010,28/12/2011,alexandre gucciardo fg,auto,itau,"R$ 1.230,55","10,00%","R$ 123,06",novo
+28/12/2010,28/12/2011,camila dereny,auto,hdi,"R$ 1.024,44","20,00%","R$ 204,89",renovacao
+28/12/2010,28/12/2011,cond edif solar baviera,cond,mapfre,"R$ 430,86","15,00%","R$ 64,63",novo
+28/12/2010,28/12/2011,lucia regina d trindade,auto,hdi,"R$ 865,65","15,00%","R$ 129,85",novo
+28/12/2010,28/12/2011,marlene elizabeth silva,vida,itau,"R$ 5.258,86","20,00%","R$ 1.051,77",renovacao
+28/12/2010,28/12/2011,proença serv autom ,auto,azul,"R$ 1.510,06","15,00%","R$ 226,51",renovacao
+28/12/2010,28/12/2011,suzete rosa mottes,resid,mapfre,"R$ 467,22","37,00%","R$ 172,87",renovacao
+29/12/2010,29/12/2011,vitor hugo d keis,auto,mapfre,"R$ 1.741,69","20,00%","R$ 348,34",renovacao
+30/12/2010,30/12/2011,almir abruzzi colombo,auto,hdi,"R$ 1.214,75","12,00%","R$ 145,77",novo
+31/12/2010,31/12/2011,edson batista  de oliveira,resid,hdi,"R$ 290,47","20,00%","R$ 58,09",novo
+31/12/2010,31/12/2011,jonny fonseca de souza,auto ,itau,"R$ 3.380,25","23,00%","R$ 777,46",novo
+31/12/2010,31/12/2011,manolo fernandez Trindade,r.civil,gen,"R$ 395,01","23,00%","R$ 90,85",novo
+31/12/2010,31/12/2011,maria alice deimiquei,auto,porto,"R$ 1.183,98","20,00%","R$ 236,80",renovacao
+31/12/2010,31/12/2011,patricia luft veit,auto,porto,"R$ 881,88","20,00%","R$ 176,38",novo
+31/12/2010,31/12/2011,zelia frantz,auto,itau,"R$ 1.785,35","15,00%","R$ 267,80",renovacao
+01/01/2011,01/01/2012,antonio carlos c pires,auto,mapfre,"R$ 1.472,89","17,00%","R$ 250,39",renovacao
+03/01/2011,03/01/2012,joão batista de souza,auto,porto,"R$ 851,30","20,00%","R$ 170,26",renovacao
+05/01/2011,05/01/2012,alfredo wesp,auto,itau,"R$ 983,08","20,00%","R$ 196,62",renovacao
+05/01/2011,05/01/2012,romulo de oliveira rigao,auto,azul,"R$ 400,33","15,00%","R$ 60,05",,sim
+06/01/2011,06/01/2012,b13 publicidade e ass mark ltda,empresarial,mapfre,"R$ 644,42","15,00%","R$ 96,66",novo
+06/01/2011,06/01/2012,b13 publicidade e ass mark ltda,empresarial,mapfre,"R$ 1.069,19","30,00%","R$ 320,76",novo
+06/01/2011,06/01/2012,Carlos Alberto Souza Santos,auto,hdi,"R$ 954,56","20,00%","R$ 190,91",novo
+06/01/2011,06/01/2012,Maria Cristina Pozzi Guerra,resid,hdi,"R$ 172,92","40,00%","R$ 69,17",novo
+07/01/2011,07/01/2012,carlos roberto reiman,auto,mapfre,"R$ 921,35","28,00%","R$ 257,98",renovacao
+07/01/2011,07/01/2012,marcos antonio vietro,auto,azul,"R$ 670,06","20,00%","R$ 134,01",renovacao
+08/01/2011,08/01/2012,adriane russi,auto,mapfre,"R$ 986,02","25,00%","R$ 246,51",renovacao
+08/01/2011,08/01/2012,giancarlo da silva notari,auto,azul,"R$ 803,72","20,00%","R$ 160,74",renovacao
+08/01/2011,08/01/2012,mario cesar d onofrio,auto,itau,"R$ 2.566,21","15,00%","R$ 384,93",renovacao
+10/01/2011,10/01/2012,maria clara v palermo,auto,mapfre,"R$ 457,46","20,00%","R$ 91,49",,sim
+10/01/2011,10/01/2012,paulo silv gadret,resid,porto,"R$ 369,37","20,00%","R$ 73,87",renovacao
+11/01/2011,11/01/2012,Carmen Vera Cardoso scherer,auto,mapfre,"R$ 398,43","20,00%","R$ 79,69",renovacao
+11/01/2011,11/01/2012,diogenes r da silva,resid,porto,"R$ 306,33","38,00%","R$ 116,41",renovacao
+11/01/2011,03/01/2012,joão batista de souza,auto,porto,"R$ 196,35","15,00%","R$ 29,45",,sim
+11/01/2011,11/01/2012,joao batista m alves,auto,mapfre,"R$ 904,08","10,00%","R$ 90,41",renovacao
+11/01/2011,11/01/2012,mario cesar d onofrio,auto,mapfre,"R$ 3.592,83","10,00%","R$ 359,28",renovacao
+12/01/2011,12/01/2012,alexandre c da silva,auto,mapfre,"R$ 1.034,50","25,00%","R$ 258,63",renovacao
+12/01/2011,12/01/2012,edson batista  de oliveira,auto,tokio,"R$ 1.787,69","10,00%","R$ 178,77",renovacao
+12/01/2011,12/01/2012,jose alexandre b junqueira,auto,chubb,"R$ 4.374,63","14,00%","R$ 612,45",renovacao
+13/01/2011,13/01/2012,raul fern mertins,auto,tokio,"R$ 989,03","24,00%","R$ 237,37",renovacao
+13/01/2011,13/01/2012,suzi da rocha monteiro,auto,hdi,"R$ 940,26","17,00%","R$ 159,84",renovacao
+14/01/2011,23/01/2011,lavanderia bk ltda,carta verde,porto,"R$ 70,45","30,00%","R$ 21,14",novo
+14/01/2011,17/12/2011,maria elenita wesp,auto,porto,"R$ 432,86","15,00%","R$ 64,93",,sim
+15/01/2011,23/01/2011,mario cesar d onofrio,carta verde,porto,"R$ 116,24","30,00%","R$ 34,87",novo
+15/01/2011,15/01/2012,paulo silv gadret,resid,porto,"R$ 396,90","20,00%","R$ 79,38",renovacao
+17/01/2011,17/01/2012,Elio S salles,auto,mapfre,"R$ 1.093,43","22,00%","R$ 240,55",novo
+18/01/2011,18/01/2012,valdir amadeu silva,auto,porto,"R$ 1.749,47","20,00%","R$ 349,89",renovacao
+19/01/2011,19/01/2012,luis fernando peres,auto,mapfre,"R$ 915,01","23,00%","R$ 210,45",renovacao
+20/01/2011,20/01/2012,antonio carlos c pires,auto,mapfre,"R$ 1.022,24","15,00%","R$ 153,34",renovacao
+20/01/2011,20/01/2012,juarez dantos da silva,auto,azul,"R$ 1.189,28","15,00%","R$ 178,39",renovacao
+20/01/2011,20/01/2012,Lisandra Faccin,auto,azul,"R$ 663,41","25,00%","R$ 165,85",renovacao
+21/01/2011,21/01/2012,alexsandro da s viana,auto,hdi,"R$ 866,39","15,00%","R$ 129,96",renovacao
+21/01/2011,21/01/2012,marilucia leites ronconi,auto,mapfre,"R$ 694,85","20,00%","R$ 138,97",renovacao
+22/01/2011,22/01/2012,joao pedro salies lima,auto,itau,"R$ 1.810,54","20,00%","R$ 362,11",renovacao
+22/01/2011,22/01/2012,orlando guterres gonç,auto,mapfre,"R$ 1.398,80","15,00%","R$ 209,82",renovacao
+23/01/2011,23/01/2012,bruno junqueira cervo,auto,porto,"R$ 1.547,03","15,00%","R$ 232,05",novo
+24/01/2011,24/01/2012,claudiomiro dos santos,auto,mapfre,"R$ 850,60","25,00%","R$ 212,65",renovacao
+24/01/2011,24/01/2012,demetrio xavier lopes neto,auto,brad,"R$ 3.092,47","15,00%","R$ 463,87",renovacao
+24/01/2011,24/01/2012,joel diniz martins,resid,porto,"R$ 499,21","20,00%","R$ 99,84",renovacao
+25/01/2011,25/01/2012,joao pedro salies lima,empresarial,porto,"R$ 103,88","50,00%","R$ 51,94",renovacao
+25/01/2011,25/01/2012,joao pedro salies lima,empresarial,porto,"R$ 103,88","50,00%","R$ 51,94",renovacao
+25/01/2011,25/01/2012,joao pedro salies lima,empresarial,porto,"R$ 174,22","50,00%","R$ 87,11",renovacao
+25/01/2011,25/01/2012,joao pedro salies lima,empresarial,porto,"R$ 157,97","45,00%","R$ 71,09",renovacao
+26/01/2011,26/01/2012,airton vanderlei silvei,auto,hdi,"R$ 1.375,22","20,00%","R$ 275,04",renovacao
+26/01/2011,26/01/2012,maria clara v palermo,vida,porto,"R$ 1.774,22","20,00%","R$ 354,84",renovacao
+26/01/2011,26/01/2012,mario elbio g nunes,vida,porto,"R$ 1.092,50","20,00%","R$ 218,50",renovacao
+27/01/2011,27/01/2012,dagoberto rafael silva,auto,mapfre,"R$ 2.456,73","10,00%","R$ 245,67",renovacao
+27/01/2011,27/01/2012,luiza tania elesbao,auto,itau,"R$ 896,45","20,00%","R$ 179,29",renovacao
+27/01/2011,27/01/2012,soldaço com e imp de solda ltda,auto,hdi,"R$ 1.648,04","15,00%","R$ 247,21",renovacao
+29/01/2011,29/01/2012,aguiar eng ltda,auto,gen,"R$ 1.457,30","15,00%","R$ 218,60",renovacao
+01/02/2011,01/02/2012,patricia p s lima,vida,itau,"R$ 469,52","20,00%","R$ 93,90",renovacao
+03/02/2011,03/02/2012,ana lucia rangel ,auto,azul,"R$ 831,72","20,00%","R$ 166,34",renovacao
+03/02/2011,03/02/2012,uilson de souza,auto,mapfre,"R$ 955,53","20,00%","R$ 191,11",renovacao
+04/02/2011,04/02/2012,divino soares de aguiar,auto,itau,"R$ 1.451,40","15,00%","R$ 217,71",renovacao
+06/02/2011,06/02/2012,ujs refrigeração ltda,auto,gen,"R$ 1.211,38","20,00%","R$ 242,28",renovacao
+07/02/2011,07/02/2012,adriane bamberg,auto,hdi,"R$ 1.210,16","15,00%","R$ 181,52",renovacao
+07/02/2011,07/02/2012,rina rosa sotto mertins,auto,itau,"R$ 961,95","20,00%","R$ 192,39",renovacao
+08/02/2011,08/02/2012,clovis da silva amaral,auto,azul,"R$ 758,16","25,00%","R$ 189,54",renovacao
+08/02/2011,08/02/2012,helena sanson de bor,auto,mapfre,"R$ 796,94","18,00%","R$ 143,45",renovacao
+08/02/2011,08/02/2012,nevio jose faccin,auto,mapfre,"R$ 723,75","25,00%","R$ 180,94",renovacao
+08/02/2011,08/02/2012,paulo amorim,auto,azul,"R$ 811,55","22,00%","R$ 178,54",renovacao
+08/02/2011,08/02/2012,ujs refrigeração ltda,empresarial,mapfre,"R$ 845,49","30,00%","R$ 253,65",renovacao
+09/02/2011,09/02/2012,antonio c b farias,auto,mapfre,"R$ 721,22","25,00%","R$ 180,31",renovacao
+10/02/2011,10/02/2012,Doroteia de Souza,auto,mapfre,"R$ 1.300,52","25,00%","R$ 325,13",novo
+10/02/2011,10/02/2012,soldaço com e imp de solda ltda,auto,hdi,"R$ 1.635,41","15,00%","R$ 245,31",renovacao
+11/02/2011,11/02/2012,ary desconzi,vida,mapfre,"R$ 385,08","30,00%","R$ 115,52",renovacao
+11/02/2011,11/02/2012,dilson isidoro susin,auto,mapfre,"R$ 802,73","30,00%","R$ 240,82",renovacao
+11/02/2011,11/02/2012,Jeferson andre sbalchiero,auto,itau,"R$ 1.747,82","15,00%","R$ 262,17",novo
+13/02/2011,13/02/2012,gilmar pedroso,auto,hdi,"R$ 845,78","25,00%","R$ 211,45",renovacao
+14/02/2011,14/02/2012,fernando c manozzo,auto,porto,"R$ 2.610,55","15,00%","R$ 391,58",renovacao
+14/02/2011,14/02/2012,hamilton luiz levi,auto,brad,"R$ 1.614,09","15,00%","R$ 242,11",renovacao
+14/02/2011,14/02/2012,italo w e castro,auto,mapfre,"R$ 1.299,33","15,00%","R$ 194,90",renovacao
+15/02/2011,15/02/2012,vanessa machado amaral,auto,mapfre,"R$ 1.062,53","20,00%","R$ 212,51",renovacao
+18/02/2011,18/02/2012,amaro bizarro porto,auto,porto,"R$ 3.556,55","20,00%","R$ 711,31",renovacao
+18/02/2011,18/02/2012,paula dutra pereira,auto,gen,"R$ 1.436,88","20,00%","R$ 287,38",renovacao
+18/02/2011,18/02/2012,rosane ramos de oliv mi,auto,conf,"R$ 1.455,56","25,00%","R$ 363,89",novo
+19/02/2011,19/02/2012,andrea freitas carneiro,auto,hdi,"R$ 1.002,79","10,00%","R$ 100,28",renovacao
+19/02/2011,19/02/2012,Vicente de Paula Santos da Silva,auto,gen,"R$ 1.591,34","15,00%","R$ 238,70",novo
+20/02/2011,20/02/2012,ary desconzi,vida,porto,"R$ 1.950,96","20,00%","R$ 390,19",renovacao
+20/02/2011,20/02/2012,juliano a kroth,vida,mapfre,"R$ 903,00","20,00%","R$ 180,60",renovacao
+20/02/2011,20/02/2012,nevio jose faccin,vida,porto,"R$ 548,76","20,00%","R$ 109,75",renovacao
+22/02/2011,22/02/2012,diogo poncio,auto,azul,"R$ 960,92","20,00%","R$ 192,18",renovacao
+22/02/2011,22/02/2012,laurecy santos jacobi,auto,gen,"R$ 936,04","20,00%","R$ 187,21",renovacao
+25/02/2011,25/02/2012,osvaldo l de oliveira,auto,porto,"R$ 2.360,43","15,00%","R$ 354,06",renovacao
+26/02/2011,26/02/2012,carlinhos joao mottes,auto,tokio,"R$ 1.338,56","20,00%","R$ 267,71",renovacao
+28/02/2011,28/02/2012,antonio luiz marques alves,auto,azul,"R$ 1.108,64","20,00%","R$ 221,73",renovacao
+02/03/2011,02/03/2012,carlos magno moraes tavares,auto,azul,"R$ 1.719,23","10,00%","R$ 171,92",novo
+02/03/2011,02/03/2012,vanessa dos s amorim,auto,azul,"R$ 1.288,77","20,00%","R$ 257,75",renovacao
+04/03/2011,19/02/2012,andrea freitas carneiro,auto,hdi,"R$ 30,66","15,00%","R$ 4,60",renovacao,sim
+04/03/2011,04/03/2012,maria valeria g dutra,auto,porto,"R$ 1.453,85","15,00%","R$ 218,08",novo
+04/03/2011,04/03/2012,viviane almeida damasceno,auto,azul,"R$ 1.483,48","13,00%","R$ 192,85",novo
+05/03/2011,05/03/2012,dilceu b colombo,auto,azul,"R$ 1.014,82","20,00%","R$ 202,96",renovacao
+05/03/2011,05/03/2012,maria luiz fernandez,auto,mapfre,"R$ 1.028,50","11,00%","R$ 113,14",renovacao
+06/03/2011,06/03/2012,marcia souza dos santos,auto,gen,"R$ 969,41","10,00%","R$ 96,94",renovacao
+07/03/2011,07/03/2012,fatima isabel longhi,auto,gen,"R$ 1.586,89","15,00%","R$ 238,03",renovacao
+08/03/2011,08/03/2012,rodrigo pacheco p ,auto,tokio,"R$ 1.021,32","25,00%","R$ 255,33",renovacao
+10/03/2011,10/03/2012,a russi me,auto,mapfre,"R$ 840,60","25,00%","R$ 210,15",novo
+10/03/2011,10/03/2012,altair alves ribeiro,auto,mapfre,"R$ 1.003,44","20,00%","R$ 200,69",renovacao
+11/03/2011,11/03/2012,cristina gracia barreto,auto,porto,"R$ 1.338,38","17,00%","R$ 227,52",renovacao
+11/03/2011,11/03/2011,cristina gracia barreto,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",renovacao
+11/03/2011,11/03/2012,salies lima sa,empresarial,porto,"R$ 838,85","38,00%","R$ 318,76",renovacao
+12/03/2011,12/03/2012,anderson kawabata,auto,porto,"R$ 1.073,00","20,00%","R$ 214,60",renovacao
+13/03/2011,13/03/2012,alfredo wesp,auto,brad,"R$ 1.120,60","15,00%","R$ 168,09",renovacao
+14/03/2011,14/03/2012,cleber darlei moraes,auto,mapfre,"R$ 940,65","22,00%","R$ 206,94",renovacao
+17/03/2011,17/03/2012,airton vanderlei silvei,previdencia,mapfre,"R$ 200,00","60,00%","R$ 120,00",novo
+19/03/2011,19/03/2012,clori padilha de avilla,auto,mapfre,"R$ 3.042,87","25,00%","R$ 760,72",renovacao
+19/03/2011,19/03/2012,elisabeth queirolo susin,vida,mapfre,"R$ 2.063,89","25,00%","R$ 515,97",renovacao
+19/03/2011,19/03/2012,juliana cervo,auto,tokio,"R$ 2.044,49","20,00%","R$ 408,90",renovacao
+23/03/2011,23/03/2012,didones representações ltda,auto,gen,"R$ 1.101,18","25,00%","R$ 275,30",renovacao
+23/03/2011,23/03/2012,levi santos inhaia,auto,porto,"R$ 1.730,42","15,00%","R$ 259,56",renovacao
+25/03/2011,25/03/2012,christian limbacher,auto,porto,"R$ 3.053,82","7,50%","R$ 229,04",renovacao
+26/03/2011,25/03/2012,claudemir jose coelho,auto,mapfre,"R$ 2.244,18","15,00%","R$ 336,63",renovacao
+27/03/2011,27/11/2012,juliano torres,auto,brad,"R$ 1.612,72","20,00%","R$ 322,54",renovacao
+27/03/2011,25/03/2012,maria frança ribeiro,auto,mapfre,"R$ 183,38","13,00%","R$ 23,84",,sim
+29/03/2011,29/03/2012,almir abruzzi colombo,auto,hdi,"R$ 1.081,10","20,00%","R$ 216,22",renovacao
+29/03/2011,29/03/2012,jose martins de s neto,auto,itau,"R$ 1.529,63","20,00%","R$ 305,93",renovacao
+30/03/2011,30/03/2012,jeferson luiz de souza,auto,brad,"R$ 940,37","20,00%","R$ 188,07",renovacao
+30/03/2011,30/03/2012,joel diniz martins,auto,azul,"R$ 1.046,74","17,00%","R$ 177,95",renovacao
+30/03/2011,30/03/2012,marta dias pankowski,auto,azul,"R$ 1.188,55","19,00%","R$ 225,82",renovacao
+31/03/2011,31/03/2012,daniela tocchetto,auto,porto,"R$ 1.264,84","15,00%","R$ 189,73",renovacao
+31/03/2011,31/03/2012,monica artnak,auto,azul,"R$ 1.277,59","15,00%","R$ 191,64",renovacao
+01/04/2011,01/04/2012,maria regina s couto,auto,mapfre,"R$ 263,39","22,00%","R$ 57,95",,sim
+03/04/2011,03/04/2012,gilberto erom,auto,itau,"R$ 802,66","20,00%","R$ 160,53",renovacao
+04/04/2011,04/04/2012,cleide dos santos costa,resid,porto,"R$ 194,86","10,00%","R$ 19,49",novo
+04/04/2011,04/04/2012,rejane maria moraes simoes pires,auto,brad,"R$ 1.324,60","15,00%","R$ 198,69",novo
+05/04/2011,05/04/2012,elito jose b marquiori,auto,porto,"R$ 1.822,07","20,00%","R$ 364,41",renovacao
+06/04/2011,06/04/2012,humberto gonçalv teix,auto,mapfre,"R$ 1.200,69","15,00%","R$ 180,10",renovacao
+06/04/2011,06/04/2012,luis tomas l ronconi,auto,itau,"R$ 1.365,16","15,00%","R$ 204,77",renovacao
+07/04/2011,07/04/2012,proença carv serv aut,empresarial,porto,"R$ 924,86","25,00%","R$ 231,22",renovacao
+08/04/2011,08/04/2012,fernando r otten,auto,itau,"R$ 968,20","20,00%","R$ 193,64",renovacao
+08/04/2011,08/04/2012,rosane da silva,auto,hdi,"R$ 852,39","15,00%","R$ 127,86",renovacao
+11/04/2011,11/04/2012,claudio vitali,auto,porto,"R$ 1.293,00","20,00%","R$ 258,60",renovacao
+11/04/2011,11/04/2012,naor valmarath aires,auto,porto,"R$ 1.110,24","20,00%","R$ 222,05",renovacao
+11/04/2011,11/04/2012,sandro haup,auto,azul,"R$ 1.113,85","20,00%","R$ 222,77",renovacao
+12/04/2011,12/04/2012,felipe peres wartchow,auto,hdi,"R$ 1.240,24","15,00%","R$ 186,04",renovacao
+12/04/2011,26/08/2011,gilberto schneider,auto,brad,"R$ 240,46","15,00%","R$ 36,07",renovacao
+12/04/2011,12/04/2012,hfm corret de seg  ltda,r.civil,tokio,"R$ 577,74","15,00%","R$ 86,66",renovacao
+12/04/2011,12/04/2012,manuel henrique lopes,empresarial,mapfre,"R$ 856,90","20,00%","R$ 171,38",novo
+13/04/2011,13/04/2012,fernanda simoes pires costa,auto,azul,"R$ 2.533,18","10,00%","R$ 253,32",novo
+13/04/2011,26/08/2011,gilberto schneider,auto,brad,"R$ 240,46","20,00%","R$ 48,09",,sim
+13/04/2011,13/04/2012,hfm corret de seg  ltda,r.civil,tokio,"R$ 577,74","10,00%","R$ 57,77",renovacao
+13/04/2011,13/04/2012,joao rosling neto,auto,porto,"R$ 889,24","20,00%","R$ 177,85",renovacao
+13/04/2011,13/04/2012,willy artnak,auto,hdi,"R$ 1.345,57","20,00%","R$ 269,11",renovacao
+14/04/2011,27/07/2011,giancarlo guidi colossi,auto,azul,"R$ 889,80","15,00%","R$ 133,47",,sim
+17/04/2011,17/04/2012,graziela bueno matias,auto,mapfre,"R$ 1.105,73","15,00%","R$ 165,86",renovacao
+18/04/2011,18/04/2012,aguiar eng ltda,auto,porto,"R$ 1.502,96","15,00%","R$ 225,44",novo
+19/04/2011,19/04/2012,marcos ivair de menez,auto,azul,"R$ 1.364,76","15,00%","R$ 204,71",renovacao
+20/04/2011,20/04/2012,carlos alberto c silva,auto,gen,"R$ 1.055,33","20,00%","R$ 211,07",renovacao
+20/04/2011,20/04/2012,difere ltda,auto,brad,"R$ 1.708,71","10,00%","R$ 170,87",novo
+20/04/2011,20/04/2012,joao b b neto,auto,azul,"R$ 1.456,02","10,00%","R$ 145,60",renovacao
+20/04/2011,23/04/2011,karin limbacher,carta verde,porto,"R$ 38,75","20,00%","R$ 7,75",novo
+21/04/2011,21/04/2012,carlos alberto padilha de avilla,auto,mapfre,"R$ 4.117,67","20,00%","R$ 823,53",renovacao
+21/04/2011,21/04/2012,carlos alberto padilha de avilla,auto,mapfre,"R$ 4.117,67","20,00%","R$ 823,53",renovacao
+22/04/2011,22/04/2012,natahasha simões pires,auto,porto,"R$ 1.372,34","20,00%","R$ 274,47",renovacao
+23/04/2011,23/04/2012,claudio eduardo de oliveira,auto,porto,"R$ 1.050,38","20,00%","R$ 210,08",renovacao
+23/04/2011,23/04/2012,tadeu liberali,auto,porto,"R$ 1.090,14","20,00%","R$ 218,03",renovacao
+23/04/2011,23/04/2012,tamara taxman p da silva,auto,mapfre,"R$ 908,36","25,00%","R$ 227,09",renovacao
+24/04/2011,24/04/2012,bruna iensen,auto,hdi,"R$ 1.165,38","20,00%","R$ 233,08",renovacao
+24/04/2011,24/04/2012,luiz antonio fidelis,auto,hdi,"R$ 1.412,03","15,00%","R$ 211,80",renovacao
+24/04/2011,06/05/2011,paulo luis chiamenti,carta verde,porto,"R$ 47,11","20,00%","R$ 9,42",novo
+25/04/2011,25/04/2012,eloi afonso kronbauer,auto,porto,"R$ 1.078,36","15,00%","R$ 161,75",renovacao
+26/04/2011,26/04/2012,irapuam couto torres,auto,hdi,"R$ 1.822,23","15,00%","R$ 273,33",renovacao
+28/04/2011,29/04/2012,almir abruzzi colombo,auto,brad,"R$ 1.258,11","15,00%","R$ 188,72",novo
+28/04/2011,28/04/2012,carlos vicente savi,auto,itau,"R$ 898,62","20,00%","R$ 179,72",renovacao
+28/04/2011,28/04/2012,confiança equip escritório ltda,empresarial,porto,"R$ 1.139,61","33,00%","R$ 376,07",renovacao
+28/04/2011,28/04/2012,vali ines morch,auto,porto,"R$ 763,08","15,00%","R$ 114,46",renovacao
+29/04/2011,29/04/2012,roger joel richinitti,resid,mapfre,"R$ 943,51","25,00%","R$ 235,88",renovacao
+29/04/2011,29/04/2012,rubens p da silva,resid,porto,"R$ 385,22","25,00%","R$ 96,31",renovacao
+30/04/2011,30/04/2012,sergio da silva ferreira,auto,hdi,"R$ 1.325,08","20,00%","R$ 265,02",renovacao
+03/05/2011,03/05/2012,elison martins marchiori,auto,gen,"R$ 1.356,00","10,00%","R$ 135,60",novo
+03/05/2011,03/05/2012,sabrina maria soares,auto,itau,"R$ 1.061,15","20,00%","R$ 212,23",renovacao
+04/05/2011,30/12/2011,almir abruzzi colombo,auto,hdi,"R$ 405,17","20,00%","R$ 81,03",,sim
+04/05/2011,04/05/2012,carlos alberto c silva,auto,brad,"R$ 1.091,66","10,00%","R$ 109,17",renovacao
+04/05/2011,04/05/2012,roger joel richinitti,resid,mapfre,"R$ 902,03","27,00%","R$ 243,55",renovacao
+04/05/2011,04/05/2012,thiego augusto colla,resid,mapfre,"R$ 412,37","30,00%","R$ 123,71",renovacao
+04/05/2011,04/05/2012,vanessa simone souza de lima,auto,hdi,"R$ 1.333,02","15,00%","R$ 199,95",renovacao
+05/05/2011,10/05/2011,luis tomas l ronconi,viagem,mapfre,"R$ 62,00","20,00%","R$ 12,40",novo
+05/05/2011,05/05/2012,nilza correa,auto,mapfre,"R$ 1.008,64","20,00%","R$ 201,73",renovacao
+05/05/2011,05/05/2012,nilza correa,auto,mapfre,"R$ 1.018,93","10,00%","R$ 101,89",renovacao
+05/05/2011,05/05/2012,roberto paim reis,auto,gen,"R$ 1.191,49","15,00%","R$ 178,72",renovacao
+05/05/2011,05/05/2012,rubens p da silva,resid,mapfre,"R$ 411,51","36,00%","R$ 148,14",renovacao
+06/05/2011,06/05/2012,jaques garcia matos,auto,itau,"R$ 3.028,62","20,00%","R$ 605,72",renovacao
+06/05/2011,06/05/2012,michele soares biten,auto,itau,"R$ 1.056,90","20,00%","R$ 211,38",renovacao
+06/05/2011,06/05/2012,sergio barcelos dos santos,auto,azul,"R$ 1.071,40","15,00%","R$ 160,71",novo
+07/05/2011,07/05/2012,denise da costa lara,auto,porto,"R$ 999,85","20,00%","R$ 199,97",renovacao
+07/05/2011,13/09/2011,nilton teixeira viana,auto,mapfre,"R$ 189,59","20,00%","R$ 37,92",renovacao,sim
+10/05/2011,10/05/2012,doraci castro de freitas,auto,brad,"R$ 836,62","25,00%","R$ 209,16",renovacao
+10/05/2011,09/05/2012,elisabeth queirolo susin,vida,met life,"R$ 2.017,68","20,00%","R$ 403,54",renovacao
+11/05/2011,11/05/2012,bruna iensen,auto,itau,"R$ 3.538,60","18,00%","R$ 636,95",renovacao
+11/05/2011,19/05/2011,carlos a s branco,viagem,mapfre,"R$ 360,00","20,00%","R$ 72,00",novo
+11/05/2011,11/05/2012,fortpel com de desc lt,empresarial,porto,"R$ 3.189,14","25,00%","R$ 797,29",renovacao
+11/05/2011,11/05/2012,silvio augusto l iensen,auto,hdi,"R$ 992,42","20,00%","R$ 198,48",renovacao
+11/05/2011,11/05/2012,simone pereira cristal,fianca,porto,"R$ 1.453,17","20,00%","R$ 290,63",renovacao
+12/05/2011,12/05/2012,karin kettenhofen,auto,porto,"R$ 1.140,80","15,00%","R$ 171,12",renovacao
+12/05/2011,12/05/2012,karin kettenhofen,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+14/05/2011,14/05/2012,rozalina levi,auto,brad,"R$ 736,94","20,00%","R$ 147,39",renovacao
+15/05/2011,15/05/2012,virginia ronconi,auto,itau,"R$ 1.108,33","20,00%","R$ 221,67",renovacao
+16/05/2011,16/05/2012,delci pereira salies lima,auto,azul,"R$ 1.491,36","10,00%","R$ 149,14",novo
+17/05/2011,17/05/2012,felipe arioli valduga,auto,itau,"R$ 1.253,36","20,00%","R$ 250,67",renovacao
+18/05/2011,18/05/2012,jacir danhaia,auto,azul,"R$ 40,32","20,00%","R$ 8,06",,sim
+18/05/2011,18/05/2012,rmds e silva vestuario,auto,itau,"R$ 1.413,89","25,00%","R$ 353,47",renovacao
+19/05/2011,19/05/2012,bruna iensen,auto,itau,"R$ 3.557,99","16,00%","R$ 569,28",renovacao
+20/05/2011,20/05/2012,fernanda f iensen,auto,porto,"R$ 1.082,33","15,00%","R$ 162,35",novo
+20/05/2011,20/05/2012,fernanda f iensen,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+20/05/2011,20/05/2012,hugo correa pereira,auto,porto,"R$ 1.052,26","15,00%","R$ 157,84",renovacao
+20/05/2011,20/05/2012,thiego augusto colla,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+20/05/2011,20/05/2012,thiego augusto colla,auto,porto,"R$ 1.688,69","15,00%","R$ 253,30",renovacao
+21/05/2011,21/05/2012,wall system sist mod ltd,auto,itau,"R$ 1.622,48","20,00%","R$ 324,50",renovacao
+23/05/2011,23/05/2012,ana maria souza pires,auto,tokio,"R$ 823,78","25,00%","R$ 205,95",renovacao
+23/05/2011,23/05/2012,hamilton luiz levi,auto,brad,"R$ 1.833,17","10,00%","R$ 183,32",renovacao
+23/05/2011,30/08/2011,silvio rob dos santos,auto,hdi,"R$ 327,74","20,00%","R$ 65,55",renovacao,sim
+25/05/2011,25/05/2012,adilson s de oliv,auto,itau,"R$ 2.121,19","20,00%","R$ 424,24",renovacao
+25/05/2011,25/05/2012,marcelo pinto vianna,auto,azul,"R$ 1.044,70","20,00%","R$ 208,94",renovacao
+25/05/2011,25/05/2012,uilson de souza,auto,hdi,"R$ 1.657,88","15,00%","R$ 248,68",novo
+26/05/2011,26/05/2012,estela meyer rico,auto,porto,"R$ 1.234,00","20,00%","R$ 246,80",renovacao
+26/05/2011,26/05/2012,osvaldo luiz de oliveira e cia ltda,auto,porto,"R$ 1.533,59","15,00%","R$ 230,04",renovacao
+26/05/2011,26/05/2012,paulo roberto r m junior,auto,hdi,"R$ 1.268,64","15,00%","R$ 190,30",novo
+26/05/2011,26/05/2012,rubens mario m rodrig,auto,itau,"R$ 1.237,48","20,00%","R$ 247,50",renovacao
+28/05/2011,28/05/2012,aline pereira dos santos,auto,porto,"R$ 1.334,58","15,00%","R$ 200,19",novo
+28/05/2011,28/05/2012,laura leismann de oliveira,auto,gen,"R$ 1.016,08","25,00%","R$ 254,02",renovacao
+29/05/2011,29/05/2012,claudio borges da silv,auto,porto,"R$ 1.054,52","15,00%","R$ 158,18",renovacao
+29/05/2011,29/05/2012,estela meyer rico,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+30/05/2011,30/05/2012,patricia manozzo,auto,azul,"R$ 878,18","15,00%","R$ 131,73",renovacao
+31/05/2011,31/05/2012,jaques garcia matos,cartao,chubb,"R$ 1.735,30","20,00%","R$ 347,06",novo
+01/06/2011,04/05/2012,vanessa s souza de li,auto,hdi,"R$ 64,90","20,00%","R$ 12,98",renovacao,sim
+01/06/2011,01/06/2012,Mul tape fitas e abrasivos ltda,auto,mapfre,"R$ 1.431,71","11,00%","R$ 157,49",renovacao
+02/06/2011,02/06/2012,daniele paynes da silva,auto,porto,"R$ 447,95","20,00%","R$ 89,59",renovacao
+02/06/2011,02/06/2012,jaques garcia matos,auto,brad,"R$ 1.420,91","16,00%","R$ 227,35",renovacao
+03/06/2011,09/12/2011,paulo de tarso,auto,mapfre,"R$ 180,29","25,00%","R$ 45,07"
+05/06/2011,05/06/2012,Elio S salles,auto,azul,"R$ 695,47","20,00%","R$ 139,09",renovacao
+05/06/2011,05/06/2012,heloisa helena aguiar di primio,auto,tokio,"R$ 740,48","25,00%","R$ 185,12",renovacao
+06/06/2011,06/06/2012,glaura grazziotin,auto,brad,"R$ 1.581,10","10,00%","R$ 158,11",novo
+07/06/2011,07/06/2012,rogerio m k porto,auto,mapfre,"R$ 558,80","20,00%","R$ 111,76",renovacao
+09/06/2011,09/06/2012,hamilton luiz levi,auto,mapfre,"R$ 2.511,70","10,00%","R$ 251,17",renovacao
+10/06/2011,10/06/2012,lori t luft veit,auto,azul,"R$ 652,75","20,00%","R$ 130,55",renovacao
+10/06/2011,10/06/2012,wall system sist mod ltd,auto,porto,"R$ 1.640,99","20,00%","R$ 328,20",renovacao
+11/06/2011,11/06/2012,eloi afonso kronbauer,auto,brad,"R$ 1.018,43","20,00%","R$ 203,69",renovacao
+13/06/2011,13/06/2012,fabiane raimundo,auto,itau,"R$ 710,45","20,00%","R$ 142,09",renovacao
+13/06/2011,13/06/2012,geralda a correia de queiroz,auto,itau,"R$ 1.475,86","20,00%","R$ 295,17",renovacao
+13/06/2011,13/06/2012,taís lima t uliana,auto,azul,"R$ 1.022,93","21,00%","R$ 214,82",novo
+14/06/2011,14/06/2012,eduardo ramires barr,auto,mapfre,"R$ 919,29","20,00%","R$ 183,86",renovacao
+15/06/2011,15/06/2012,lara hausen mizoguch,auto,gen,"R$ 1.020,22","20,00%","R$ 204,04",renovacao
+15/06/2011,15/06/2012,cabanha invernia agr,auto,itau,"R$ 3.029,95","22,00%","R$ 666,59",renovacao
+16/06/2011,16/06/2012,thompson peter lied,auto,azul,"R$ 1.766,83","15,00%","R$ 265,02",renovacao
+16/06/2011,16/06/2012,levi santos inhaia,auto,brad,"R$ 1.850,33","10,00%","R$ 185,03",renovacao
+16/06/2011,15/10/2011,rodrigo trisch,auto,mapfre,"R$ 100,36","15,00%","R$ 15,05",,sim
+16/06/2011,16/06/2012,salies lima sa,fianca,porto,"R$ 712,82","20,00%","R$ 142,56",renovacao
+17/06/2011,17/06/2012,anajara s s fischer,auto,hdi,"R$ 932,08","20,00%","R$ 186,42",renovacao
+17/06/2011,17/06/2012,osnar prates sarmento,auto,brad,"R$ 1.554,17","15,00%","R$ 233,13",novo
+18/06/2011,18/06/2012,darci rossoni,auto,azul,"R$ 974,24","15,00%","R$ 146,14",renovacao
+18/06/2011,18/06/2012,jorge aguirre z manzi,auto,mapfre,"R$ 1.535,22","28,00%","R$ 429,86",renovacao
+20/06/2011,20/06/2012,marcia martins proença de carvalho,auto,azul,"R$ 1.073,64","22,00%","R$ 236,20",novo
+22/06/2011,22/06/2012,cabanha invernia agr,auto,gen,"R$ 823,97","20,00%","R$ 164,79",renovacao
+22/06/2011,22/06/2012,sonia maria ramos mai,auto,itau,"R$ 1.423,26","20,00%","R$ 284,65",renovacao
+23/06/2011,23/06/2012,ivan carlos gnoato,auto,porto,"R$ 1.065,34","15,00%","R$ 159,80",renovacao
+24/06/2011,26/06/2012,marelaine tarnowski,auto,mapfre,"R$ 1.336,56","25,00%","R$ 334,14",renovacao
+25/06/2011,25/06/2012,marco antonio troleiz,auto,porto,"R$ 2.152,05","15,00%","R$ 322,81",renovacao
+26/06/2011,26/06/2012,joao pedro salies lima,resid,porto,"R$ 116,90","45,00%","R$ 52,61",renovacao
+27/06/2011,27/06/2012,joel cosme rosa,auto,hdi,"R$ 1.253,80","15,00%","R$ 188,07",novo
+27/06/2011,27/06/2012,divino soares de aguiar,auto,brad,"R$ 1.506,59","10,00%","R$ 150,66",novo
+29/06/2011,29/06/2012,fortpel com de desc lt,auto,brad,"R$ 2.632,76","15,00%","R$ 394,91",renovacao
+30/06/2011,12/01/2012,alexandre c da silva,auto,mapfre,"R$ 378,53","25,00%","R$ 94,63",renovacao,sim
+30/06/2011,30/06/2012,adriano rigo,auto,mapfre,"R$ 4.588,04","11,00%","R$ 504,68",renovacao
+01/07/2011,01/07/2012,janaina dos santos fernandez,auto,porto,"R$ 984,26","15,00%","R$ 147,64",renovacao
+01/07/2011,01/07/2012,lisandra machado de oliveira,auto,porto,"R$ 1.120,16","15,00%","R$ 168,02",novo
+01/07/2011,01/07/2012,antonio carlos d couto,resid,porto,"R$ 354,12","40,00%","R$ 141,65",renovacao
+02/07/2011,02/07/2012,cesar empreend imob,auto,tokio,"R$ 1.317,36","20,00%","R$ 263,47",renovacao
+02/07/2011,02/07/2012,galeteria m e n ltda,empresarial,porto,"R$ 1.780,60","20,00%","R$ 356,12",renovacao
+02/07/2011,02/07/2012,cleonice verdi,auto,porto,"R$ 2.500,30","20,00%","R$ 500,06",renovacao
+04/07/2011,20/02/2012,laurecy santos jacobi,auto,gen,"R$ 1.149,32","20,00%","R$ 229,86",renovacao,sim
+05/07/2011,05/07/2012,sumitig ind com soldas,auto,mapfre,"R$ 558,80","20,00%","R$ 111,76",renovacao
+05/07/2011,05/07/2012,rubens mario m rodrig,auto,porto,"R$ 1.166,54","20,00%","R$ 233,31",renovacao
+08/07/2011,08/07/2012,Maria Cristina Pozzi Guerra,auto,porto,"R$ 1.089,41","10,00%","R$ 108,94",novo
+10/07/2011,10/07/2012,maria regina s thonsem,auto,hdi,"R$ 769,82","22,00%","R$ 169,36",renovacao
+12/07/2011,12/07/2012,joão batista de souza,auto,brad,"R$ 458,86","15,00%","R$ 68,83",renovacao,sim
+12/07/2011,12/07/2012,mauro tomas c da silva,auto,azul,"R$ 840,74","20,00%","R$ 168,15",renovacao
+12/07/2011,12/07/2012,carlos alberto magalhae,auto,porto,"R$ 724,98","25,00%","R$ 181,25",renovacao
+12/07/2011,12/07/2012,celi regina c cavion,auto,conf,"R$ 1.389,47","20,00%","R$ 277,89",renovacao
+13/07/2011,13/07/2012,liziane do espirito santo soares,auto,porto,"R$ 1.107,94","15,00%","R$ 166,19",novo
+13/07/2011,13/07/2012,Carmen Vera Cardoso scherer,resid,brad,"R$ 119,81","30,00%","R$ 35,94",renovacao
+13/07/2011,13/07/2012,liziane do espirito santo soares,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+15/07/2011,15/07/2012,demetrio xavier lopes neto,auto,itau,"R$ 2.362,87","15,00%","R$ 354,43",renovacao
+18/07/2011,18/07/2012,antonio carlos c pires,auto,hdi,"R$ 1.286,81","20,00%","R$ 257,36",renovacao
+18/07/2011,18/07/2012,diogo de vargas corre,auto,gen,"R$ 999,86","15,00%","R$ 149,98",renovacao
+20/07/2011,20/07/2012,viviane dalcin,auto,porto,"R$ 1.341,13","15,00%","R$ 201,17",renovacao
+21/07/2011,21/07/2012,maria s uliana,auto,hdi,"R$ 901,56","23,00%","R$ 207,36",renovacao
+21/07/2011,21/07/2012,marcelo jaeger,auto,azul,"R$ 985,19","23,00%","R$ 226,59",novo
+21/07/2011,21/07/2012,wall system sist mod ltd,auto,porto,"R$ 1.674,21","20,00%","R$ 334,84",renovacao
+21/07/2011,21/07/2012,juliano luiz rocha,auto,porto,"R$ 1.131,51","10,00%","R$ 113,15",renovacao
+21/07/2011,21/07/2012,juliano luiz rocha,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+21/07/2011,21/07/2012,sandra gnoatto,auto,porto,"R$ 1.419,32","15,00%","R$ 212,90",novo
+21/07/2011,21/07/2012,sandra gnoatto,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",novo
+21/07/2011,21/07/2012,ivan paulo praje,auto,mapfre,"R$ 1.894,03","15,00%","R$ 284,10",renovacao
+21/07/2011,21/07/2012,lizete m gadret,auto,itau,"R$ 924,98","15,00%","R$ 138,75",renovacao
+22/07/2011,22/07/2012,ivan eidt,auto,hdi,"R$ 1.616,68","15,00%","R$ 242,50",renovacao
+23/07/2011,23/07/2012,aguiar eng ltda,auto,porto,"R$ 1.446,61","15,00%","R$ 216,99",renovacao
+25/07/2011,25/07/2012,daniela tocchetto,auto,porto,"R$ 790,90","20,00%","R$ 158,18",,sim
+25/07/2011,25/07/2012,Jorge luis pinheiro dias ,auto,itau,"R$ 2.279,95","18,00%","R$ 410,39",renovacao
+26/07/2011,26/07/2012,maria de lurdes f kroth,auto,itau,"R$ 378,59","25,00%","R$ 94,65",renovacao,sim
+26/07/2011,26/07/2012,maria de lurdes f kroth,auto,itau,"R$ 969,73","25,00%","R$ 242,43",novo
+26/07/2011,26/07/2012,jaderson f de mello,auto,hdi,"R$ 1.201,68","20,00%","R$ 240,34",renovacao
+27/07/2011,27/07/2012,giancarlo guidi colossi,auto,porto,"R$ 2.348,59","20,00%","R$ 469,72",renovacao
+28/07/2011,28/07/2012,assessoria de cobr ama,auto,conf,"R$ 320,84","10,00%","R$ 32,08",renovacao
+29/07/2011,29/07/2012,lucia regina da silva santos,auto,conf,"R$ 1.090,38","15,00%","R$ 163,56",novo
+30/07/2011,30/07/2012,rosmeri ines schuh zerwes,auto,conf,"R$ 1.256,10","18,00%","R$ 226,10",novo
+30/07/2011,30/07/2012,elisabeth queirolo susin,auto,conf,"R$ 1.279,69","20,00%","R$ 255,94",renovacao
+01/08/2011,01/08/2012,joao amorim,auto,itau,"R$ 1.223,40","20,00%","R$ 244,68",renovacao
+03/08/2011,03/08/2012,joao pedro salies lima,vida,porto,"R$ 1.693,46","20,00%","R$ 338,69",renovacao
+03/08/2011,03/08/2012,ary desconzi,auto,porto,"R$ 889,06","25,00%","R$ 222,27",renovacao
+03/08/2011,03/08/2012,joao pedro salies lima,vida,porto,"R$ 1.693,46","20,00%","R$ 338,69",renovacao
+04/08/2011,04/08/2012,ricardo a de vasconc,auto,brad,"R$ 1.523,62","20,00%","R$ 304,72",renovacao
+04/08/2011,04/08/2012,ricardo a de vasconc,cartao,porto,"R$ 110,00","100,00%","R$ 110,00",renovacao
+04/08/2011,04/08/2012,maria alice deimiquei,auto,itau,"R$ 1.470,44","15,00%","R$ 220,57",renovacao
+04/08/2011,04/08/2012,juliana c de avilla,auto,hdi,"R$ 1.068,38","20,00%","R$ 213,68",renovacao
+04/11/2011,04/08/2012,andre ricardo holand,auto,mapfre,"R$ 1.012,02","14,00%","R$ 141,68",renovacao
+05/08/2011,05/08/2012,rosane silveira soares,auto,gen,"R$ 2.565,83","25,00%","R$ 641,46",novo
+05/08/2011,05/08/2012,joao pedro salies lima,resid,porto,"R$ 118,76","22,00%","R$ 26,13",renovacao
+06/08/2011,06/08/2012,joao pedro salies lima,resid,porto,"R$ 103,88","50,00%","R$ 51,94",renovacao
+07/08/2011,07/08/2012,joao pedro salies lima,resid,porto,"R$ 53,59","50,00%","R$ 26,80",renovacao
+10/08/2011,10/08/2012,ricardo a de vasconc,auto,porto,"R$ 1.700,02","10,00%","R$ 170,00",novo
+12/08/2011,12/08/2012,angela c manozzo,auto,azul,"R$ 1.070,95","15,00%","R$ 160,64",renovacao
+13/08/2011,12/03/2012,anderson kawabata,auto,porto,"R$ 280,81","20,00%","R$ 56,16",renovacao,sim
+13/08/2011,13/08/2012,wegacom,empresarial,porto,"R$ 973,79","25,00%","R$ 243,45",renovacao
+15/08/2011,15/08/2012,cristiano osorio brauner,vida,porto,"R$ 1.913,24","20,00%","R$ 382,65",renovacao
+16/08/2011,16/08/2012,marcelino f filho,auto,itau,"R$ 1.144,87","25,00%","R$ 286,22",renovacao
+16/08/2011,16/08/2012,wagner lopes vascon,auto,porto,"R$ 1.102,32","20,00%","R$ 220,46",renovacao
+16/08/2011,16/08/2012,rosane silveira soares,auto,brad,"R$ 3.686,87","10,00%","R$ 368,69",novo
+17/08/2011,17/08/2012,ramao n da silva,auto,gen,"R$ 1.477,41","15,00%","R$ 221,61",novo
+17/08/2011,17/08/2012,milton jose correa,auto,porto,"R$ 916,54","25,00%","R$ 229,14",renovacao
+18/08/2011,18/08/2012,fernando costa marques,auto,itau,"R$ 2.254,51","20,00%","R$ 450,90",renovacao
+21/08/2011,21/08/2012,maurilio leite pinto,auto,hdi,"R$ 860,89","20,00%","R$ 172,18",renovacao
+21/08/2011,21/08/2012,assistec serv esp e com pecas ltd,auto,conf,"R$ 1.089,60","15,00%","R$ 163,44",novo
+21/08/2011,21/08/2012,waldir m segundo,auto,mapfre,"R$ 778,05","20,00%","R$ 155,61",renovacao
+22/08/2011,22/08/2012,felipe maurilio aires,auto,brad,"R$ 1.004,79","10,00%","R$ 100,48",renovacao
+24/08/2011,24/08/2012,juliano a kroth,auto,hdi,"R$ 1.575,96","15,00%","R$ 236,39",renovacao
+24/08/2011,06/04/2011,humberto gonçalv teix,auto,mapfre,"R$ 166,32","15,00%","R$ 24,95",renovacao,sim
+25/08/2011,25/08/2012,carlos batista branco,auto,azul,"R$ 1.226,13","20,00%","R$ 245,23",renovacao
+25/08/2011,25/08/2012,elci rocha colombo,auto,azul,"R$ 1.322,69","15,00%","R$ 198,40",novo
+26/08/2011,26/08/2012,raquel belo schneider endler,auto,porto,"R$ 1.475,82","15,00%","R$ 221,37",renovacao
+26/08/2011,26/08/2012,andre rocha dos san,auto,itau,"R$ 1.005,12","20,00%","R$ 201,02",renovacao
+26/08/2011,26/08/2012,antonio cristiano brizolla,auto,brad,"R$ 1.441,53","15,00%","R$ 216,23",renovacao
+27/08/2011,27/08/2012,c e j com veic ltda,auto,porto,"R$ 1.295,88","20,00%","R$ 259,18",renovacao
+27/08/2011,27/08/2012,mario elbio g nunes,auto,mapfre,"R$ 1.752,78","15,00%","R$ 262,92",renovacao
+27/08/2011,27/08/2012,rosangela s da silva,auto,itau,"R$ 1.462,82","20,00%","R$ 292,56",renovacao
+27/08/2011,27/08/2012,moema karla oliveira santana,auto,hdi,"R$ 1.203,54","10,00%","R$ 120,35",renovacao
+27/08/2011,27/08/2012,ary desconzi,auto,mapfre,"R$ 1.575,11","15,00%","R$ 236,27",renovacao
+28/08/2011,28/08/2012,marilene nardin,auto,porto,"R$ 920,82","20,00%","R$ 184,16",renovacao
+29/08/2011,29/08/2012,maria elenita wesp,auto,itau,"R$ 816,12","25,00%","R$ 204,03",renovacao
+30/08/2011,30/08/2012,silvio rob dos santos,auto,azul,"R$ 1.434,83","20,00%","R$ 286,97",renovacao
+30/08/2011,30/08/2012,valdinei de souza,auto,gen,"R$ 1.237,42","20,00%","R$ 247,48",renovacao
+30/08/2011,30/08/2012,wall system sist mod ltd,auto,mapfre,"R$ 435,67","20,00%","R$ 87,13",renovacao
+31/08/2011,31/08/2012,silvio rob dos santos,auto,itau,"R$ 1.455,47","15,00%","R$ 218,32",renovacao
+31/08/2011,31/08/2012,renato cabral,auto,tokio,"R$ 2.184,98","15,00%","R$ 327,75",renovacao
+31/08/2011,31/08/2012,jorge miguel  da s nunes,auto,porto,"R$ 992,55","15,00%","R$ 148,88",novo
+02/09/2011,02/09/2012,b13 publicidade e ass mark ltda,auto,porto,"R$ 1.830,14","15,00%","R$ 274,52",novo
+05/09/2011,05/09/2012,camila junqueira cervo,auto,hdi,"R$ 1.105,06","10,00%","R$ 110,51",novo
+05/09/2011,05/09/2012,milton silva,auto,brad,"R$ 1.363,67","10,00%","R$ 136,37",novo
+05/09/2011,04/09/2012,celi regina c cavion,auto,conf,"R$ 857,26","20,00%","R$ 171,45",renovacao
+10/09/2011,10/09/2012,carlos eduardo santos silva,auto,itau,"R$ 888,34","20,00%","R$ 177,67",renovacao
+10/09/2011,10/09/2012,patricia luft veit,auto,porto,"R$ 845,67","20,00%","R$ 169,13",renovacao
+11/09/2011,11/09/2012,delci pereira salies lima,auto,itau,"R$ 1.784,29","20,00%","R$ 356,86",renovacao
+11/09/2011,11/09/2012,cleonice maria albani,auto,azul,"R$ 994,38","20,00%","R$ 198,88",renovacao
+11/09/2011,11/09/2012,anaida b branco,auto,azul,"R$ 722,09","25,00%","R$ 180,52",renovacao
+12/09/2011,12/09/2012,valdir amadeu silva,resid,porto,"R$ 466,66","25,00%","R$ 116,67",renovacao
+13/09/2011,13/09/2012,jorge luiz trisch,auto,azul,"R$ 918,76","20,00%","R$ 183,75",renovacao
+13/09/2011,13/09/2012,nilton teixeira viana,auto,azul,"R$ 797,89","25,00%","R$ 199,47",renovacao
+13/09/2011,13/09/2012,filipe machado ferraz,auto,porto,"R$ 2.871,77","10,00%","R$ 287,18",renovacao
+15/09/2011,14/09/2012,maria isabel pozzi guerra,auto,itau,"R$ 1.761,10","10,00%","R$ 176,11",novo
+16/09/2011,16/09/2011,bk lavanderia ltda,auto,itau,"R$ 1.901,03","10,00%","R$ 190,10",renovacao
+19/09/2011,19/09/2012,wall system sist mod ltd,auto,hdi,"R$ 1.345,85","15,00%","R$ 201,88",renovacao
+19/09/2011,19/09/2012,manoel zilmer da silva,auto,itau,"R$ 1.709,38","15,00%","R$ 256,41",renovacao
+19/09/2011,19/09/2012,clarice fengler faccin,auto,itau,"R$ 1.259,42","20,00%","R$ 251,88",novo
+19/09/2011,19/09/2012,rosane ramos de oliv mi,auto,porto,"R$ 1.472,30","19,00%","R$ 279,74",renovacao
+24/09/2011,24/09/2012,alessandra gessinger,auto,brad,"R$ 1.214,76","15,00%","R$ 182,21",renovacao
+24/09/2011,24/09/2012,ivori luiz gonzatti,auto,porto,"R$ 2.341,74","20,00%","R$ 468,35",renovacao
+24/09/2011,24/09/2012,fortpel com de desc lt,auto,porto,"R$ 1.738,67","20,00%","R$ 347,73",renovacao
+24/09/2011,24/11/2012,adriano oliveira p bran,auto,brad,"R$ 2.806,76","10,00%","R$ 280,68",renovacao
+24/09/2011,24/09/2012,aracy da silva felix,auto,brad,"R$ 1.331,20","15,00%","R$ 199,68",novo
+26/09/2011,26/09/2012,hugo pedroso pereira,auto,azul,"R$ 980,89","20,00%","R$ 196,18",renovacao
+26/09/2011,26/09/2012,zag com de art de dec,empresarial,porto,"R$ 968,11","25,00%","R$ 242,03",renovacao
+26/09/2011,26/09/2012,jaques garcia matos,auto,chubb,"R$ 630,87","10,00%","R$ 63,09",renovacao,sim
+27/09/2011,27/09/2012,berenice andreia schie,auto,itau,"R$ 1.078,95","25,00%","R$ 269,74",renovacao
+29/09/2011,29092012,ana paula b porto,auto,mapfre,"R$ 1.192,92","20,00%","R$ 238,58",renovacao
+30/09/2011,30/09/2012,joao pedro salies lima,empresarial,porto,"R$ 595,82","30,00%","R$ 178,75",renovacao
+30/09/2011,30/09/2012,marcelino f filho,resid,porto,"R$ 644,11","20,00%","R$ 128,82",renovacao
+30/09/2011,30/09/2012,gilvan gleiner da silva,resid,porto,"R$ 193,60","25,00%","R$ 48,40",renovacao
+30/09/2011,30/09/2012,marcia souza dos santos,vida,porto,"R$ 920,52","25,00%","R$ 230,13",novo
+30/09/2011,30/09/2012,marcia souza dos santos,vida,porto,"R$ 76,71","100,00%","R$ 76,71",novo
+30/09/2011,30/09/20121,luis carlos branco,auto,hdi,"R$ 1.640,66","10,00%","R$ 164,07",novo
