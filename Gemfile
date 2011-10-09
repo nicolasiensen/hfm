@@ -42,3 +42,7 @@ gem 'factory_girl_rails'
 gem 'inherited_resources'
 gem 'haml'
 gem 'compass'
+
+group :production do
+  gem "pg"
+end
