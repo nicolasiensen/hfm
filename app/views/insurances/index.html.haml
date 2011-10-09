@@ -9,8 +9,8 @@
         %td= form.label :client_id
         %td= form.select :client_id, Client.order(:name).map{|client| [client.name, client.id]}
       %tr
-        %td= form.label :type
-        %td= form.select :type, Insurance::TYPES.values.sort
+        %td= form.label :kind
+        %td= form.select :kind, Insurance::KINDS.values.sort
       %tr
         %td= form.label :company_id
         %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
@@ -39,19 +39,19 @@
       %th= Insurance.human_attribute_name :start_at
       %th= Insurance.human_attribute_name :end_at
       %th= Insurance.human_attribute_name :client_id
-      %th= Insurance.human_attribute_name :type
+      %th= Insurance.human_attribute_name :kind
       %th= Insurance.human_attribute_name :company_id
       %th= Insurance.human_attribute_name :value
       %th= Insurance.human_attribute_name :commission
       %th= Insurance.human_attribute_name :income
       %th= Insurance.human_attribute_name :renovation
       %th= Insurance.human_attribute_name :endorsement
-    - Insurance.order("start_at DESC").each do |insurance|
+    - Insurance.order("start_at DESC").includes([:client, :company]).each do |insurance|
       %tr
         %td= l insurance.start_at
         %td= l insurance.end_at
         %td= insurance.client.try(:name)
-        %td= insurance.type
+        %td= insurance.kind
         %td= insurance.company.try(:name)
         %td= number_to_currency insurance.value
         %td= number_to_percentage insurance.commission, :precision => 2

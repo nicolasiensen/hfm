@@ -301,26 +301,27 @@ caption {
 /* line 13, ../../app/assets/stylesheets/screen.sass */
 table.data {
   width: 100%;
+  font-size: 0.8em;
 }
-/* line 15, ../../app/assets/stylesheets/screen.sass */
+/* line 16, ../../app/assets/stylesheets/screen.sass */
 table.data th {
   background: #cccccc;
 }
-/* line 17, ../../app/assets/stylesheets/screen.sass */
+/* line 18, ../../app/assets/stylesheets/screen.sass */
 table.data td {
   background: #e6e6e6;
 }
-/* line 19, ../../app/assets/stylesheets/screen.sass */
+/* line 20, ../../app/assets/stylesheets/screen.sass */
 table.data th, table.data td {
   border: 2px solid white;
   padding: 5px;
 }
 
-/* line 23, ../../app/assets/stylesheets/screen.sass */
+/* line 24, ../../app/assets/stylesheets/screen.sass */
 fieldset {
   border: 1px solid gray;
 }
-/* line 25, ../../app/assets/stylesheets/screen.sass */
+/* line 26, ../../app/assets/stylesheets/screen.sass */
 fieldset legend {
   font-size: 1.5em;
   margin: 10px;

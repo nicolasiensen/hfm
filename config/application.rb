@@ -45,9 +45,7 @@ module Hfm
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    if !Rails.env.production?
-      config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/compass/stylesheets"
-      config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/blueprint/stylesheets"
-    end
+    config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/compass/stylesheets"
+    config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/blueprint/stylesheets"
   end
 end

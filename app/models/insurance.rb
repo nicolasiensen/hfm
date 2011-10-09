@@ -1,6 +1,6 @@
 # coding: utf-8
 class Insurance < ActiveRecord::Base
-  TYPES = {
+  KINDS = {
     :auto => "Auto", 
     :carta_verde => "Carta Verde", 
     :cartao => "Cartão", 

@@ -242,7 +242,7 @@
       insurance:
         start_at: "Início"
         client_id: "Cliente"
-        type: "Ramo"
+        kind: "Ramo"
         company_id: "Companhia"
         value: "Valor (R$)"
         commission: "Comissão"
