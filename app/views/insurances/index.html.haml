@@ -16,7 +16,9 @@
         %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
       %tr
         %td= form.label :value
-        %td= form.text_field :value
+        %td
+          R$
+          = form.text_field :value
       %tr
         %td= form.label :commission
         %td
@@ -46,7 +48,7 @@
       %th= Insurance.human_attribute_name :income
       %th= Insurance.human_attribute_name :renovation
       %th= Insurance.human_attribute_name :endorsement
-    - Insurance.order("start_at DESC").includes([:client, :company]).each do |insurance|
+    - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
       %tr
         %td= l insurance.start_at
         %td= l insurance.end_at

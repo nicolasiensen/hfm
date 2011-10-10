@@ -19,4 +19,6 @@ class Insurance < ActiveRecord::Base
 
   belongs_to :client
   belongs_to :company
+
+  scope :current, where("end_at >= ?", Date.today)
 end

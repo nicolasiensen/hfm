@@ -244,7 +244,7 @@
         client_id: "Cliente"
         kind: "Ramo"
         company_id: "Companhia"
-        value: "Valor (R$)"
+        value: "Valor"
         commission: "Comissão"
         end_at: "Fim"
         income: "Receita"
