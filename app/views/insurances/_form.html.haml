@@ -1,0 +1,33 @@
+= form_for @insurance do |form|
+  %table
+    %tr
+      %td= form.label :start_at
+      %td= form.date_select :start_at
+    %tr
+      %td= form.label :client_id
+      %td= form.select :client_id, Client.order(:name).map{|client| [client.name, client.id]}
+    %tr
+      %td= form.label :kind
+      %td= form.select :kind, Insurance::KINDS.values.sort
+    %tr
+      %td= form.label :company_id
+      %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
+    %tr
+      %td= form.label :value
+      %td
+        R$
+        = form.text_field :value
+    %tr
+      %td= form.label :commission
+      %td
+        = form.number_field :commission, :size => 3
+        = "%"
+    %tr
+      %td= form.label :renovation
+      %td= form.check_box :renovation
+    %tr
+      %td= form.label :endorsement
+      %td= form.check_box :endorsement
+    %tr
+      %td
+      %td= form.submit

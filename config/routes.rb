@@ -1,5 +1,5 @@
 Hfm::Application.routes.draw do
-  resources :insurances, :only => [:index, :create]
+  resources :insurances, :only => [:index, :create, :edit, :update]
   resources :clients, :only => [:create]
   root :to => 'insurances#index'
 

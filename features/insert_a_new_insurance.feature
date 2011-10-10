@@ -14,7 +14,7 @@ Feature: Insert a new insurance
     And I fill in the following:
       | Valor    | 1000           |
       | Comissão | 20             |
-    When I press "Inserir novo seguro"
+    When I press "Inserir Seguro"
     Then I should see "08/10/2011"
     And I should see "08/10/2012"
     And I should see "Nícolas Iensen"

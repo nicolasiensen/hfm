@@ -57,9 +57,11 @@
       %th= Insurance.human_attribute_name :end_at
       %th= Insurance.human_attribute_name :client_id
       %th= Insurance.human_attribute_name :company_id
+      %th
     - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
       %tr
         %td= l insurance.start_at
         %td= l insurance.end_at
         %td= insurance.client.try(:name)
         %td= insurance.company.try(:name)
+        %td= link_to "Editar", edit_insurance_path(insurance)

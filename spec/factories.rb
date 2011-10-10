@@ -7,3 +7,14 @@ end
 Factory.define :company do |f|
   f.name "Porto Seguros"
 end
+
+Factory.define :insurance do |f|
+  f.client
+  f.company
+  f.value 1000
+  f.commission 20
+  f.renovation false
+  f.endorsement false
+  f.start_at Date.today
+  f.kind Insurance::KINDS[:auto]
+end

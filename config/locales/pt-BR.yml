@@ -253,3 +253,6 @@
       client:
         name: "Nome"
         email:  "Email"
+    
+    models:
+      insurance: "Seguro"
