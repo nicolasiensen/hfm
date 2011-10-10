@@ -32,6 +32,7 @@ end
 
 kinds = {
   "auto" => "Auto", 
+  "auto " => "Auto", 
   "carta verde" => "Carta Verde", 
   "cartao" => "Cartão", 
   "cond" => "Condomínio", 
