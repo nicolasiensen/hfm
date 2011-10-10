@@ -11,4 +11,7 @@
     = csrf_meta_tags
   %body
     .container_16
+      - if notice
+        .grid_16
+          #notice= notice
       = yield

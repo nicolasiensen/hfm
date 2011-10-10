@@ -250,3 +250,6 @@
         income: "Receita"
         renovation: "Renovação?"
         endorsement: "Endosso?"
+      client:
+        name: "Nome"
+        email:  "Email"

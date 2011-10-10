@@ -18,8 +18,4 @@ Feature: Insert a new insurance
     Then I should see "08/10/2011"
     And I should see "08/10/2012"
     And I should see "Nícolas Iensen"
-    And I should see "Auto"
     And I should see "Porto Seguros"
-    And I should see "R$ 1.000,00"
-    And I should see "20,00%"
-    And I should see "200,00"

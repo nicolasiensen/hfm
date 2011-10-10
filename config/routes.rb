@@ -1,5 +1,6 @@
 Hfm::Application.routes.draw do
   resources :insurances, :only => [:index, :create]
+  resources :clients, :only => [:create]
   root :to => 'insurances#index'
 
   # The priority is based upon order of creation:
