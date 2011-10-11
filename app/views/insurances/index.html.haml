@@ -1,55 +1,54 @@
-.grid_6
-  .grid_6.alpha.omega
-    %h2 Novo seguro
-    = form_for @insurance do |form|
-      %table
-        %tr
-          %td= form.label :start_at
-          %td= form.date_select :start_at
-        %tr
-          %td= form.label :client_id
-          %td= form.select :client_id, Client.order(:name).map{|client| [client.name, client.id]}
-        %tr
-          %td= form.label :kind
-          %td= form.select :kind, Insurance::KINDS.values.sort
-        %tr
-          %td= form.label :company_id
-          %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
-        %tr
-          %td= form.label :value
-          %td
-            R$
-            = form.text_field :value
-        %tr
-          %td= form.label :commission
-          %td
-            = form.number_field :commission, :size => 3
-            = "%"
-        %tr
-          %td= form.label :renovation
-          %td= form.check_box :renovation
-        %tr
-          %td= form.label :endorsement
-          %td= form.check_box :endorsement
-        %tr
-          %td
-          %td= form.submit "Inserir novo seguro"
+.grid_8
+  %h2 Novo seguro
+  = form_for @insurance do |form|
+    %table
+      %tr
+        %td= form.label :start_at
+        %td= form.date_select :start_at
+      %tr
+        %td= form.label :client_id
+        %td= form.select :client_id, Client.order(:name).map{|client| [client.name, client.id]}
+      %tr
+        %td= form.label :kind
+        %td= form.select :kind, Insurance::KINDS.values.sort
+      %tr
+        %td= form.label :company_id
+        %td= form.select :company_id, Company.order(:name).map{|company| [company.name, company.id]}
+      %tr
+        %td= form.label :value
+        %td
+          R$
+          = form.text_field :value
+      %tr
+        %td= form.label :commission
+        %td
+          = form.number_field :commission, :size => 3
+          = "%"
+      %tr
+        %td= form.label :renovation
+        %td= form.check_box :renovation
+      %tr
+        %td= form.label :endorsement
+        %td= form.check_box :endorsement
+      %tr
+        %td
+        %td= form.submit "Inserir novo seguro"
 
-  .grid_6.alpha.omega
-    %h2 Novo cliente
-    = form_for @client do |form|
-      %table
-        %tr
-          %td= form.label :name
-          %td= form.text_field :name
-        %tr
-          %td= form.label :email
-          %td= form.email_field :email
-        %tr
-          %td
-          %td= form.submit "Inserir novo cliente"
+.grid_8
+  %h2 Novo cliente
+  = form_for @client do |form|
+    %table
+      %tr
+        %td= form.label :name
+        %td= form.text_field :name
+      %tr
+        %td= form.label :email
+        %td= form.email_field :email
+      %tr
+        %td
+        %td= form.submit "Inserir novo cliente"
 
-.grid_10
+.grid_16
   %h2 Seguros
   %table.data
     %tr
@@ -57,6 +56,12 @@
       %th= Insurance.human_attribute_name :end_at
       %th= Insurance.human_attribute_name :client_id
       %th= Insurance.human_attribute_name :company_id
+      %th= Insurance.human_attribute_name :kind
+      %th= Insurance.human_attribute_name :value
+      %th= Insurance.human_attribute_name :commission
+      %th= Insurance.human_attribute_name :income
+      %th= Insurance.human_attribute_name :renovation
+      %th= Insurance.human_attribute_name :endorsement
       %th
     - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
       %tr
@@ -64,4 +69,10 @@
         %td= l insurance.end_at
         %td= insurance.client.try(:name)
         %td= insurance.company.try(:name)
+        %td= insurance.kind
+        %td= number_to_currency insurance.value
+        %td= number_to_percentage insurance.commission, :precision => 2
+        %td= number_to_currency insurance.income
+        %td= insurance.renovation ? "Sim" : "Não"
+        %td= insurance.endorsement ? "Sim" : "Não"
         %td= link_to "Editar", edit_insurance_path(insurance)
