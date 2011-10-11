@@ -31,6 +31,7 @@
       %th= Insurance.human_attribute_name :renovation
       %th= Insurance.human_attribute_name :endorsement
       %th
+      %th
     - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
       %tr
         %td= l insurance.start_at
@@ -44,3 +45,4 @@
         %td= insurance.renovation ? "Sim" : "Não"
         %td= insurance.endorsement ? "Sim" : "Não"
         %td= link_to "Editar", edit_insurance_path(insurance)
+        %td= link_to "Remover", insurance_path(insurance), :method => :delete

@@ -3,7 +3,7 @@ class InsurancesController < InheritedResources::Base
 
   def create
     create! do |success, failure|
-      success.html { redirect_to insurances_path, :notice => "Feito! Cliente inserido" }
+      success.html { redirect_to insurances_path, :notice => "Feito! Seguro inserido" }
     end
   end
 
@@ -12,4 +12,11 @@ class InsurancesController < InheritedResources::Base
       success.html { redirect_to insurances_path, :notice => "Woohoo! Seguro atualizado" }
     end
   end
+
+  def destroy
+    destroy! do |success, failure|
+      success.html { redirect_to insurances_path, :notice => "Foi! Seguro removido" }
+    end
+  end
+
 end
