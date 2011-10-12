@@ -1,0 +1,15 @@
+#container
+  .container_16
+    .grid_16
+      %table.data
+        %tr
+          %th Rank
+          %th= Client.human_attribute_name(:name)
+          %th= Client.human_attribute_name(:total_income)
+        - @clients.each_with_index do |client, index|
+          %tr
+            %td
+              %strong= "##{index + 1}"
+            %td= client.name
+            %td
+              %strong= number_to_currency client.total_income

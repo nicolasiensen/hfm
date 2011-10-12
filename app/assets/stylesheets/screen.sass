@@ -6,10 +6,49 @@
 
 @import compass/reset
 @import compass/css3
+@import compass/utilities/general/clearfix
 
 @import blueprint/typography
 $blueprint-font-family: Lucida Sans Unicode, Lucida Grande, sans-serif
 +blueprint-typography
+
+$red: #DF6262
+$brown: #DF9B62
+$purple: #B34F87
+$green: #4FB34F
+
+@mixin btn($color)
+  :display block
+  :background $color
+  :color white
+  :text-decoration none
+  :padding 5px 8px
+  :float left
+  :font-weight bold
+  :border 1px solid $color
+  :cursor pointer
+  :margin 0
+  :line-height 1em
+  :font-size 1.1em
+  +box-shadow(inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 2px 1px rgba(0, 0, 0, 0.6))
+  +background-image(linear-gradient(top, lighten($color, 20%), $color))
+  +border-radius(5px)
+  &:hover
+    color: white !important
+    :background lighten($color, 20%)
+    +background-image(linear-gradient(bottom, lighten($color, 20%), $color))
+  &:active
+    :padding 6px 8px 4px 8px
+    +box-shadow(none)
+  &:visited
+    :color white
+
+body
+  :color darken($brown, 45%)
+
+h2
+  :font-family 'Leckerli One', cursive
+  :color darken($brown, 45%)
 
 #notice
   :background green
@@ -17,19 +56,60 @@ $blueprint-font-family: Lucida Sans Unicode, Lucida Grande, sans-serif
   :padding 5px
   :text-align center
 
+#menu
+  :border-top 1px solid darken($brown, 40%)
+  :background darken($brown, 45%)
+  :border-bottom 1px solid darken($brown, 50%)
+  :padding 10px 0
+  :color darken($brown, 20%)
+  :font-size 1.2em
+  +box-shadow(darken($brown, 50%) 0 -10px 10px inset)
+  a
+    :color white
+    :text-decoration none
+    :font-weight bold
+    :text-transform uppercase
+    :margin-right 20px
+    &:hover
+      :border-bottom 2px solid $brown
+
+#insurances_index_forms
+  :padding 20px 0
+  :border-top 1px solid lighten($brown, 35%)
+  :background-color lighten($brown, 30%)
+  :border-bottom 1px solid lighten($brown, 25%)
+  +background-image(linear-gradient(0deg, rgba(white, .2) 50%, rgba(white, 0) 50%, rgba(white, 0)))
+  :background-size 50px 50px
+  form
+    :padding 10px
+    +box-shadow(gray 0 0 10px)
+    table
+      :margin 0
+      td
+        :width 50%
+  label
+    :display block
+    :text-align right
+  input[type=submit]
+    +btn(darken($green, 20%))
+
+#container
+  :padding 20px 0
+  :border-top 1px solid lighten(gray, 50%)
+  :background lighten(gray, 45%)
+  :border-bottom 1px solid lighten(gray, 40%)
+
 table.data
   :width 100%
   :font-size 0.8em
+  +box-shadow(gray 0 0 10px)
   th
-    :background lighten(gray, 30%)
+    :background $brown
+    :color white
   td
-    :background lighten(gray, 40%)
+    :background lighten($brown, 30%)
   th, td
-    :border 2px solid white
+    :border 1px solid darken($brown, 45%)
     :padding 5px
-
-fieldset
-  :border 1px solid gray
-  legend
+  strong
     :font-size 1.5em
-    :margin 10px

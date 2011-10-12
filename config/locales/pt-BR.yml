@@ -253,6 +253,7 @@
       client:
         name: "Nome"
         email:  "Email"
+        total_income: "Receita total de todos os tempos"
     
     models:
       insurance: "Seguro"

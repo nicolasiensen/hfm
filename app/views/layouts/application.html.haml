@@ -5,13 +5,20 @@
     = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
     = stylesheet_link_tag '960.css', :media => 'screen, projection'
     = stylesheet_link_tag 'print.css', :media => 'print'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Leckerli+One'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     = javascript_include_tag "application"
+    = javascript_include_tag "https://www.google.com/jsapi"
     = csrf_meta_tags
   %body
     .container_16
       - if notice
         .grid_16
           #notice= notice
-      = yield
+    #menu
+      .container_16
+        .grid_16
+          = link_to "Home", root_path
+          = link_to "Quem é o meu melhor cliente?", clients_path
+    = yield

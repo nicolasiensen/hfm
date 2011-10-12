@@ -1,48 +1,51 @@
-.grid_8
-  %h2 Novo seguro
-  = render :partial => "form"
-
-.grid_8
-  %h2 Novo cliente
-  = form_for @client do |form|
-    %table
-      %tr
-        %td= form.label :name
-        %td= form.text_field :name
-      %tr
-        %td= form.label :email
-        %td= form.email_field :email
-      %tr
-        %td
-        %td= form.submit "Inserir novo cliente"
-
-.grid_16
-  %h2 Seguros
-  %table.data
-    %tr
-      %th= Insurance.human_attribute_name :start_at
-      %th= Insurance.human_attribute_name :end_at
-      %th= Insurance.human_attribute_name :client_id
-      %th= Insurance.human_attribute_name :company_id
-      %th= Insurance.human_attribute_name :kind
-      %th= Insurance.human_attribute_name :value
-      %th= Insurance.human_attribute_name :commission
-      %th= Insurance.human_attribute_name :income
-      %th= Insurance.human_attribute_name :renovation
-      %th= Insurance.human_attribute_name :endorsement
-      %th
-      %th
-    - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
-      %tr
-        %td= l insurance.start_at
-        %td= l insurance.end_at
-        %td= insurance.client.try(:name)
-        %td= insurance.company.try(:name)
-        %td= insurance.kind
-        %td= number_to_currency insurance.value
-        %td= number_to_percentage insurance.commission, :precision => 2
-        %td= number_to_currency insurance.income
-        %td= insurance.renovation ? "Sim" : "Não"
-        %td= insurance.endorsement ? "Sim" : "Não"
-        %td= link_to "Editar", edit_insurance_path(insurance)
-        %td= link_to "Remover", insurance_path(insurance), :method => :delete
+#insurances_index_forms
+  .container_16
+    .grid_8
+      %h2 Novo seguro
+      = render :partial => "form"
+  
+    .grid_8
+      %h2 Novo cliente
+      = form_for @client do |form|
+        %table
+          %tr
+            %td= form.label :name
+            %td= form.text_field :name
+          %tr
+            %td= form.label :email
+            %td= form.email_field :email
+          %tr
+            %td
+            %td= form.submit "Inserir novo cliente"
+  
+#insurances_table
+  .container_16
+    .grid_16
+      %h2 Seguros
+      %table.data
+        %tr
+          %th= Insurance.human_attribute_name :start_at
+          %th= Insurance.human_attribute_name :end_at
+          %th= Insurance.human_attribute_name :client_id
+          %th= Insurance.human_attribute_name :company_id
+          %th= Insurance.human_attribute_name :kind
+          %th= Insurance.human_attribute_name :value
+          %th= Insurance.human_attribute_name :commission
+          %th= Insurance.human_attribute_name :income
+          %th= Insurance.human_attribute_name :renovation
+          %th= Insurance.human_attribute_name :endorsement
+          %th{:colspan => 2}
+        - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
+          %tr
+            %td= l insurance.start_at
+            %td= l insurance.end_at
+            %td= insurance.client.try(:name)
+            %td= insurance.company.try(:name)
+            %td= insurance.kind
+            %td= number_to_currency insurance.value
+            %td= number_to_percentage insurance.commission, :precision => 2
+            %td= number_to_currency insurance.income
+            %td= insurance.renovation ? "Sim" : "Não"
+            %td= insurance.endorsement ? "Sim" : "Não"
+            %td= link_to "Editar", edit_insurance_path(insurance)
+            %td= link_to "Remover", insurance_path(insurance), :method => :delete
