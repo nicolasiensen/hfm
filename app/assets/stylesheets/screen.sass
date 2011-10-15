@@ -7,6 +7,7 @@
 @import compass/reset
 @import compass/css3
 @import compass/utilities/general/clearfix
+@import icons
 
 @import blueprint/typography
 $blueprint-font-family: Lucida Sans Unicode, Lucida Grande, sans-serif
@@ -51,10 +52,9 @@ h2
   :color darken($brown, 45%)
 
 #notice
-  :background green
-  :color white
-  :padding 5px
-  :text-align center
+  :color saturate($green, 100%)
+  +text-shadow(saturate($green, 100%) 0 0 5px)
+  :text-align right
 
 #menu
   :border-top 1px solid darken($brown, 40%)
@@ -71,7 +71,7 @@ h2
     :text-transform uppercase
     :margin-right 20px
     &:hover
-      :border-bottom 2px solid $brown
+      :border-bottom 2px solid darken($brown, 30%)
 
 #insurances_index_forms
   :padding 20px 0
@@ -106,10 +106,17 @@ table.data
   th
     :background $brown
     :color white
-  td
-    :background lighten($brown, 30%)
   th, td
-    :border 1px solid darken($brown, 45%)
     :padding 5px
   strong
     :font-size 1.5em
+  tr
+    &:nth-child(even)
+      :background lighten($brown, 25%)
+    &:nth-child(odd)
+      :background lighten($brown, 30%)
+  a
+    :display block
+    :color transparent
+    &:hover
+      +opacity(0.7)

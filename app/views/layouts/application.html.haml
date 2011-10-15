@@ -12,13 +12,12 @@
     = javascript_include_tag "https://www.google.com/jsapi"
     = csrf_meta_tags
   %body
-    .container_16
-      - if notice
-        .grid_16
-          #notice= notice
     #menu
       .container_16
-        .grid_16
-          = link_to "Home", root_path
-          = link_to "Quem é o meu melhor cliente?", clients_path
+        .grid_8
+          = link_to "Seguros", root_path
+          = link_to "Clientes", clients_path
+        - if notice
+          .grid_8
+            #notice= notice
     = yield

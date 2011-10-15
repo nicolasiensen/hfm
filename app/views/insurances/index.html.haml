@@ -18,7 +18,7 @@
             %td
             %td= form.submit "Inserir novo cliente"
   
-#insurances_table
+#container
   .container_16
     .grid_16
       %h2 Seguros
@@ -47,5 +47,5 @@
             %td= number_to_currency insurance.income
             %td= insurance.renovation ? "Sim" : "Não"
             %td= insurance.endorsement ? "Sim" : "Não"
-            %td= link_to "Editar", edit_insurance_path(insurance)
-            %td= link_to "Remover", insurance_path(insurance), :method => :delete
+            %td= link_to "Editar", edit_insurance_path(insurance), :class => "icon edit"
+            %td= link_to "Remover", insurance_path(insurance), :method => :delete, :class => "icon remove"
