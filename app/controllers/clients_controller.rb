@@ -5,6 +5,12 @@ class ClientsController < InheritedResources::Base
     end
   end
 
+  def update
+    update! do |success, failure|
+      success.html { redirect_to clients_path, :notice => "Feito! Cliente atualizado" }
+    end
+  end
+
   def index
     @clients = Client.all.sort{|a, b| b.total_income <=> a.total_income}
   end

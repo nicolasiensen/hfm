@@ -1,0 +1,15 @@
+#container
+  .container_16
+    .grid_5
+      %h2 Editar seguro
+      = form_for(@client) do |f|
+        %table
+          %tr
+            %td= f.label :name
+            %td= f.text_field :name
+          %tr
+            %td= f.label :email
+            %td= f.text_field :email
+          %tr
+            %td
+            %td= f.submit

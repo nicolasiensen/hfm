@@ -5,11 +5,15 @@
         %tr
           %th Rank
           %th= Client.human_attribute_name(:name)
+          %th= Client.human_attribute_name(:email)
           %th= Client.human_attribute_name(:total_income)
+          %th
         - @clients.each_with_index do |client, index|
           %tr
             %td
               %strong= "##{index + 1}"
             %td= client.name
+            %td= client.email
             %td
               %strong= number_to_currency client.total_income
+            %td= link_to("Editar", edit_client_path(client), :class => "icon edit")

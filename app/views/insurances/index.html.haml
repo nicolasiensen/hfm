@@ -38,7 +38,8 @@
         - Insurance.current.order("start_at").includes([:client, :company]).each do |insurance|
           %tr
             %td= l insurance.start_at
-            %td= l insurance.end_at
+            %td
+              %strong= l insurance.end_at
             %td= insurance.client.try(:name)
             %td= insurance.company.try(:name)
             %td= insurance.kind
