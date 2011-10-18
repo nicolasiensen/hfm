@@ -54,6 +54,16 @@ h2
 input[type=submit]
   +btn(darken($green, 20%))
 
+a
+  :color $green
+  :text-decoration none
+  :font-weight bold
+  &:hover
+    :color $green
+    :text-decoration underline
+  &:visited
+    :color $green
+
 #notice
   :color saturate($green, 100%)
   +text-shadow(saturate($green, 100%) 0 0 5px)
@@ -121,3 +131,7 @@ table.data
     :color transparent
     &:hover
       +opacity(0.7)
+
+body[data-controller="clients"][data-action="index"]
+  table.data
+    :margin-top 20px
