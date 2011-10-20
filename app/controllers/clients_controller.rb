@@ -1,9 +1,11 @@
 require 'csv'
 
 class ClientsController < InheritedResources::Base
+  before_filter :only => [:index] { @client = Client.new }
+  
   def create
     create! do |success, failure|
-      success.html { redirect_to insurances_path, :notice => "Feito! Cliente inserido" }
+      success.html { redirect_to clients_path, :notice => "Feito! Cliente inserido" }
     end
   end
 

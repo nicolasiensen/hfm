@@ -5,9 +5,10 @@ Feature: Insert a new client
 
   Scenario: The one where I fill the form correctly
     Given I am on the homepage
+    And I follow "Clientes"
     And I fill in the following:
       | Nome  | Chico           |
       | Email | chico@engage.is |
     When I press "Inserir novo cliente"
-    Then I should be on the insurances page
+    Then I should be on the clients page
     And I should see "Feito! Cliente inserido"

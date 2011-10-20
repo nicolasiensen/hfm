@@ -1,5 +1,5 @@
 class InsurancesController < InheritedResources::Base
-  before_filter :only => [:index] { @insurance = Insurance.new; @client = Client.new }
+  before_filter :only => [:index] { @insurance = Insurance.new }
 
   def create
     create! do |success, failure|
