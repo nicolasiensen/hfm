@@ -52,10 +52,11 @@ drawChart = ->
   for i in [1..(data.getNumberOfColumns() - 1)]
     formatter.format(data, i);
 
-  chart = new google.visualization.AreaChart(document.getElementById("chart_div"))
+  chart = new google.visualization.LineChart(document.getElementById("chart_div"))
   chart.draw data,
     width: 440
     height: 240
+    pointSize: 6
     colors: ["#DF6262", "#4FB34F"]
     backgroundColor: "transparent"
 
