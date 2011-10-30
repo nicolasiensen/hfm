@@ -3,6 +3,9 @@
     .grid_8
       %h2 Novo seguro
       = render :partial => "form"
+    .grid_8
+      %h2 Relatório mensal
+      #chart_div{"data-chart" => Insurance.report_by_month.to_json.to_s}
  
 #container
   .container_16
