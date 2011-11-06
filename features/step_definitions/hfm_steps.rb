@@ -14,6 +14,10 @@ Given /^there is an insurance for this client with the value of "([^"]*)" and co
   Factory(:insurance, :client => @client, :value => arg1.to_f, :commission => arg2.to_f)
 end
 
+Given /^there is an insurance in the "([^"]*)"$/ do |arg1|
+  Factory(:insurance, :company => Factory(:company, :name => arg1))
+end
+
 Then /^I should see "([^"]*)" before "([^"]*)"$/ do |arg1, arg2|
   page.body.should match(/#{arg1}[\s\w\d\W]*#{arg2}/)
 end

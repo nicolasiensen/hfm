@@ -1,0 +1,11 @@
+#painel
+  .container_16
+    .grid_5
+      %h2 Relatório de seguros
+      %table.data
+        - Company.all.sort{|c1, c2| c2.insurances.count <=> c1.insurances.count}.each do |company|
+          %tr
+            %td= raw(t "insurance", :count => company.insurances.count)
+            %td
+              na 
+              %strong= company.name

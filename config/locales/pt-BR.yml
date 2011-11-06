@@ -255,7 +255,15 @@
         name: "Nome"
         email:  "Email"
         total_income: "Receita total de todos os tempos"
+      company:
+        insurances: "Seguros"
     
     models:
       insurance: "Seguro"
       client: "Cliente"
+      company: "Companhia"
+  
+  insurance:
+    zero: "nenhum seguro"
+    one: "<strong>1</strong> seguro"
+    other: "<strong>%{count}</strong> seguros"
