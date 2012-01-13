@@ -5,6 +5,6 @@ Feature: Consult the total insurances in each company
 
   Scenario: The one where there is a insurance
     Given I am on the homepage
-    And there is an insurance in the "Porto Seguro"
+    And there is an insurance in the "Porto Seguros" with the value of "1000"
     When I follow "Companhias"
-    Then I should see "1 seguro na Porto Seguro"
+    Then I should see "1 seguro na Porto Seguros"

@@ -1,0 +1,7 @@
+#container
+  .container_16
+    .grid_16
+      %h2= @company.name
+    .grid_4
+      Total já arrecadado:
+      %strong= number_to_currency @company.income      

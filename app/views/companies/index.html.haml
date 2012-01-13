@@ -8,4 +8,4 @@
             %td= raw(t "insurance", :count => company.insurances.count)
             %td
               na 
-              %strong= company.name
+              %strong= link_to company.name, company
