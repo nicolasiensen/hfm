@@ -2,7 +2,6 @@ development:
   adapter: postgresql
   database: hfm_development
   username: nicolasiensen
-  host: /tmp
   pool: 5
   timeout: 5000
 

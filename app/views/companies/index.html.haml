@@ -1,11 +1,46 @@
 #painel
   .container_16
-    .grid_5
-      %h2 Relatório de seguros
-      %table.data
-        - Company.all.sort{|c1, c2| c2.insurances.count <=> c1.insurances.count}.each do |company|
-          %tr
-            %td= raw(t "insurance", :count => company.insurances.count)
-            %td
-              na 
-              %strong= link_to company.name, company
+    - Company.order(:name).all.each do |company|
+      %h2= company.name
+      .box
+        %div{"data-chart" => company.report_by_month(Date.today.year).to_json.to_s, :id => "#{company.id}_chart"}
+        %script
+          var drawChart;
+          drawChart = function() {
+          var chart, data, formatter, hash, i, k, k1, month, v, v1, _i, _len, _ref, _ref2, _ref3;
+          data = new google.visualization.DataTable();
+          data.addColumn("string", "Mês");
+          _ref = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          month = _ref[_i];
+          data.addRow([month]);
+          }
+          hash = $("##{company.id}_chart").data("chart");
+          for (k in hash) {
+          v = hash[k];
+          data.addColumn("number", k);
+          _ref2 = hash[k];
+          for (k1 in _ref2) {
+          v1 = _ref2[k1];
+          data.setCell(parseInt(k1) - 1, data.getNumberOfColumns() - 1, parseInt(hash[k][k1]));
+          }
+          }
+          formatter = new google.visualization.NumberFormat({
+          prefix: 'R$'
+          });
+          for (i = 1, _ref3 = data.getNumberOfColumns() - 1; 1 <= _ref3 ? i <= _ref3 : i >= _ref3; 1 <= _ref3 ? i++ : i--) {
+          formatter.format(data, i);
+          }
+          chart = new google.visualization.ColumnChart(document.getElementById("#{company.id}_chart"));
+          return chart.draw(data, {
+          width: 920,
+          height: 200,
+          pointSize: 6,
+          colors: ["#DF6262", "#4FB34F", "#B34F87"],
+          backgroundColor: "transparent"
+          });
+          };
+          google.load("visualization", "1", {
+          packages: ["corechart"]
+          });
+          google.setOnLoadCallback(drawChart);
