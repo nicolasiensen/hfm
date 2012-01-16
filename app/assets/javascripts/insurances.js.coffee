@@ -63,3 +63,6 @@ drawChart = ->
 google.load "visualization", "1", packages: [ "corechart" ]
 google.setOnLoadCallback drawChart
 
+$(document).ready ->
+  $("#report_type").change ->
+    $("#report_type_form").submit()

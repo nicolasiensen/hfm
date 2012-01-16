@@ -22,8 +22,8 @@ class Insurance < ActiveRecord::Base
 
   scope :current, where("end_at >= ?", Date.today)
 
-  def self.report_by_month
-    rs = ActiveRecord::Base.connection.execute "SELECT sum(income), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
+  def self.report_by_month type
+    rs = ActiveRecord::Base.connection.execute "SELECT sum(#{type}), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
     rs.inject({}){|memo, i| memo.merge( memo[i["year"]].nil? ? {i["year"] => {i["month"] => i["sum"]}} : {i["year"] => memo[i["year"]].merge({i["month"] => i["sum"]} )}  ) }
   end
 end

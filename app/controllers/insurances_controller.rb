@@ -1,5 +1,6 @@
 class InsurancesController < InheritedResources::Base
   before_filter :only => [:index] { @insurance = Insurance.new }
+  before_filter :only => [:index] { params[:report_type] = "income" if params[:report_type].nil? }
 
   def create
     create! do |success, failure|

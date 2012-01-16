@@ -2,10 +2,16 @@
   .container_16
     .grid_8
       %h2 Novo seguro
-      = render :partial => "form"
+      .box= render :partial => "form"
     .grid_8
       %h2 Relatório mensal
-      #chart_div{"data-chart" => Insurance.report_by_month.to_json.to_s}
+      .box
+        = form_tag insurances_path, :method => :get, :id => "report_type_form" do
+          %table
+            %tr
+              %td= label_tag "report_type", "Tipo de relatório"
+              %td= select_tag "report_type", "<option value='value' #{params[:report_type] == "value" ? "selected = 'selected'" : ""}>Total</option><option value='income' #{params[:report_type] == "income" ? "selected = 'selected'" : ""}>Comissão</option>".html_safe
+        #chart_div{"data-chart" => Insurance.report_by_month(params[:report_type]).to_json.to_s}
  
 #container
   .container_16
