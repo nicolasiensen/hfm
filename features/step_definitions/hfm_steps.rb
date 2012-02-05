@@ -18,6 +18,10 @@ Given /^there is an insurance in the "([^"]*)" with the value of "([^"]*)"$/ do 
   Factory(:insurance, :company => (Company.find_by_name(arg1) || Factory(:company, :name => arg1)), :value => arg2.to_f)
 end
 
+Given /^I am logged in$/ do
+  visit "/auth/facebook"
+end
+
 Then /^I should see "([^"]*)" before "([^"]*)"$/ do |arg1, arg2|
   page.body.should match(/#{arg1}[\s\w\d\W]*#{arg2}/)
 end

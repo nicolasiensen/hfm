@@ -3,8 +3,9 @@ Feature: Insert a new client
   As a broker
   I want to insert a new client
 
+  @omniauth_test
   Scenario: The one where I fill the form correctly
-    Given I am on the homepage
+    Given I am logged in
     And I follow "Clientes"
     And I fill in the following:
       | Nome  | Chico           |

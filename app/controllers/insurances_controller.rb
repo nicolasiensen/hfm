@@ -1,4 +1,5 @@
 class InsurancesController < InheritedResources::Base
+  load_and_authorize_resource
   before_filter :only => [:index] { @insurance = Insurance.new }
   before_filter :only => [:index] { params[:report_type] = "income" if params[:report_type].nil? }
 

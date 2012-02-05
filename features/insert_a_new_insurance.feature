@@ -3,8 +3,10 @@ Feature: Insert a new insurance
   As a broker
   I want to insert a new insurance
 
+  @omniauth_test
   Scenario: The one where I fill all required fields
-    Given there is a client called "Nícolas Iensen"
+    Given I am logged in
+    And there is a client called "Nícolas Iensen"
     And there is a company called "Porto Seguros"
     And I am on the homepage
     And I select "2011-10-8" as the "Início" date

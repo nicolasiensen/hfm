@@ -49,3 +49,7 @@ group :production do
 end
 
 gem "sass-rails", "~> 3.1.0"
+gem "omniauth"
+gem "omniauth-facebook"
+gem "cancan"
+gem "launchy"

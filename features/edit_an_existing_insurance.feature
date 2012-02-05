@@ -3,8 +3,10 @@ Feature: Edit an existing insurance
   As a broker
   I want to edit an existing insurance
 
+  @omniauth_test
   Scenario: The one where I fill the form correctly
-    Given there is an insurance
+    Given I am logged in
+    And there is an insurance
     And there is a client called "Bruno"
     And there is a company called "Mapfre"
     And I am on the homepage

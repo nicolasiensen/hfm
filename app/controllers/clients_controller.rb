@@ -1,6 +1,7 @@
 require 'csv'
 
 class ClientsController < InheritedResources::Base
+  load_and_authorize_resource
   before_filter :only => [:index] { @client = Client.new }
   
   def create
