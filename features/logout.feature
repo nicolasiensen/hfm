@@ -1,4 +1,4 @@
-Feature: Edit an existing client
+Feature: Logout
   In order to leave my computer alone and stay cool that nobody will mess with my account
   As a broker
   I want to logout

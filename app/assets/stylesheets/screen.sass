@@ -68,7 +68,6 @@ a
 #notice
   :color saturate($green, 100%)
   +text-shadow(saturate($green, 100%) 0 0 5px)
-  :text-align right
 
 #menu
   :border-top 1px solid darken($brown, 40%)
@@ -88,6 +87,9 @@ a
       :border-bottom 2px solid darken($brown, 30%)
   a[data-method=delete]
     :color $red
+  .grid_8
+    &:last-child
+      :text-align right
 
 #painel
   :padding 20px 0
