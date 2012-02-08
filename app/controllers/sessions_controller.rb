@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  before_filter :only => [:new] { redirect_to root_path if signed_in? }
+
   def create
     auth = request.env['omniauth.auth']
     unless @auth = Authorization.find_from_hash(auth)
@@ -12,5 +14,10 @@ class SessionsController < ApplicationController
   end
 
   def new
+  end
+
+  def destroy
+    session[:user_id] = nil
+    redirect_to new_session_path
   end
 end

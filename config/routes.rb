@@ -5,7 +5,7 @@ Hfm::Application.routes.draw do
   root :to => 'insurances#index'
 
   match '/auth/:provider/callback', :to => 'sessions#create'
-  resources :sessions, :only => [:new, :create]
+  resources :sessions, :only => [:new, :create, :destroy]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

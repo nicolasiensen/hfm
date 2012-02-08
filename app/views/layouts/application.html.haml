@@ -30,6 +30,7 @@
             = link_to "Seguros", root_path
             = link_to "Clientes", clients_path
             = link_to "Companhias", companies_path
+            = link_to "Sair", session_path(session[:user_id]), :method => :delete
           - if notice
             .grid_8
               #notice= notice

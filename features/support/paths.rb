@@ -12,6 +12,8 @@ module NavigationHelpers
       '/'
     when /^the insurances page$/
       insurances_path
+    when /^the login page$/
+      new_session_path
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
