@@ -2,17 +2,18 @@
   .container_16
     .grid_8
       %h2 Novo cliente
-      = form_for @client do |form|
-        %table
-          %tr
-            %td= form.label :name
-            %td= form.text_field :name
-          %tr
-            %td= form.label :email
-            %td= form.email_field :email
-          %tr
-            %td
-            %td= form.submit "Inserir novo cliente"
+      .box
+        = form_for @client do |form|
+          %table
+            %tr
+              %td= form.label :name
+              %td= form.text_field :name
+            %tr
+              %td= form.label :email
+              %td= form.email_field :email
+            %tr
+              %td
+              %td= form.submit "Inserir novo cliente"
  
 #container
   .container_16
