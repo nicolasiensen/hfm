@@ -5,8 +5,7 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -43,11 +42,6 @@ end
 gem 'factory_girl_rails'
 gem 'inherited_resources'
 gem 'haml'
-
-group :production do
-  gem "pg"
-end
-
 gem "sass-rails", "~> 3.1.0"
 gem "omniauth"
 gem "omniauth-facebook"
