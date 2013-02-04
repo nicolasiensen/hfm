@@ -1,21 +1,21 @@
 Given /^there is a client called "([^"]*)"$/ do |arg1|
-  @client = Factory(:client, :name => arg1)
+  @client = create(:client, :name => arg1)
 end
 
 Given /^there is a company called "([^"]*)"$/ do |arg1|
-  Factory(:company, :name => arg1)
+  create(:company, :name => arg1)
 end
 
 Given /^there is an insurance$/ do
-  Factory(:insurance)
+  create(:insurance)
 end
 
 Given /^there is an insurance for this client with the value of "([^"]*)" and commission of "([^"]*)"$/ do |arg1, arg2|
-  Factory(:insurance, :client => @client, :value => arg1.to_f, :commission => arg2.to_f)
+  create(:insurance, :client => @client, :value => arg1.to_f, :commission => arg2.to_f)
 end
 
 Given /^there is an insurance in the "([^"]*)" with the value of "([^"]*)"$/ do |arg1, arg2|
-  Factory(:insurance, :company => (Company.find_by_name(arg1) || Factory(:company, :name => arg1)), :value => arg2.to_f)
+  create(:insurance, :company => (Company.find_by_name(arg1) || create(:company, :name => arg1)), :value => arg2.to_f)
 end
 
 Given /^I am logged in$/ do

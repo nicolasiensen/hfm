@@ -8,10 +8,11 @@ Feature: Edit an existing insurance
     Given I am logged in
     And there is an insurance
     And there is a client called "Bruno"
-    And there is a company called "Mapfre"
     And I am on the homepage
     And I follow "Editar"
-    And I select "2011-10-8" as the "Início" date
+    And I select "8" from "insurance[start_at(3i)]"
+    And I select "Outubro" from "insurance[start_at(2i)]"
+    And I select "2013" from "insurance[start_at(1i)]"
     And I select "Bruno" from "Cliente"
     And I select "Auto" from "Ramo"
     And I select "Mapfre" from "Companhia"
@@ -21,7 +22,7 @@ Feature: Edit an existing insurance
     When I press "Atualizar Seguro"
     Then I should be on the insurances page
     Then I should see "Woohoo! Seguro atualizado"
-    Then I should see "08/10/2011"
-    Then I should see "08/10/2012"
+    Then I should see "08/10/2013"
+    Then I should see "08/10/2014"
     Then I should see "Bruno"
     Then I should see "Mapfre"

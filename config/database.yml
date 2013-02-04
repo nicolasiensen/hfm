@@ -1,15 +1,16 @@
 development:
   adapter: postgresql
   database: hfm_development
-  username: nicolasiensen
+  username: nicolas
+  host: 127.0.0.1
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
   database: hfm_test
-  host: /tmp
-  username: nicolasiensen
+  username: nicolas
+  host: 127.0.0.1
   pool: 5
   timeout: 5000
 

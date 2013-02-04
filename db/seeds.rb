@@ -24,12 +24,6 @@ Company.create :name => "Met Life"
 Company.create :name => "Tokio"
 Company.create :name => "Unibanco"
 
-require 'csv'
-
-CSV.read("#{Rails.root}/public/clientes.csv")[1..-1].each do |row|
-  Client.create(:name => row[0].titleize, :email => row[3])
-end
-
 kinds = {
   "auto" => "Auto", 
   "auto " => "Auto", 
@@ -59,16 +53,3 @@ companies = {
   "tokio" => "Tokio",
   "unib" => "Unibanco"
 }
-
-CSV.read("#{Rails.root}/public/seguros.csv")[1..-1].each_with_index do |row, index|
-  Insurance.create(
-    :start_at => Date.parse(row[0]), 
-    :client => Client.find_by_name(row[2].titleize),
-    :kind => kinds[row[3]],
-    :company => Company.find_by_name(companies[row[4]]),
-    :value => row[5].split[1].gsub(".", "").gsub(",", ".").to_d,
-    :commission => row[6].to_f,
-    :renovation => !row[8].nil?,
-    :endorsement => !row[9].nil?
-  )
-end
