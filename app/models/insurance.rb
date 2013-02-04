@@ -10,6 +10,8 @@ class Insurance < ActiveRecord::Base
     :previdencia => "Previdência", 
     :rc => "Responsabilidade Civil", 
     :residencia => "Residência", 
+    :riscos_de_engenharia => "Riscos de Engenharia",
+    :seguro_garantia => "Seguro Garantia",
     :viagem => "Viagem", 
     :vida => "Vida"
   }
