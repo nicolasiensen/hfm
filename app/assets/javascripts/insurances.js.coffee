@@ -57,7 +57,7 @@ drawChart = ->
     width: 440
     height: 240
     pointSize: 6
-    colors: ["#DF6262", "#4FB34F", "#B34F87"]
+    colors: ["#DF6262", "#DF9B62", "#B34F87", "#4EB24E"]
     backgroundColor: "transparent"
 
 google.load "visualization", "1", packages: [ "corechart" ]
