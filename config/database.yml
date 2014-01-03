@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   database: hfm_development
-  username: nicolas
+  username: nicolasiensen
   host: 127.0.0.1
   pool: 5
   timeout: 5000
@@ -9,7 +9,7 @@ development:
 test:
   adapter: postgresql
   database: hfm_test
-  username: nicolas
+  username: nicolasiensen
   host: 127.0.0.1
   pool: 5
   timeout: 5000

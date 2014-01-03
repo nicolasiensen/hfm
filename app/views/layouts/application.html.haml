@@ -9,7 +9,9 @@
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     = javascript_include_tag "https://www.google.com/jsapi"
-    = javascript_include_tag "application"
+    = javascript_include_tag "jquery"
+    = javascript_include_tag "jquery_ujs"
+    = javascript_include_tag "insurances"
     = csrf_meta_tags
   
   %script
