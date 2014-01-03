@@ -20,4 +20,3 @@ production:
   database: hfm_production
   pool: 5
   timeout: 5000
-
