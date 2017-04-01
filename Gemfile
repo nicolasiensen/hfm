@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby "2.1.9"
 
 gem 'rails', '3.1.0'
 
@@ -36,6 +37,7 @@ end
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
   gem 'shoulda-matchers'
+  gem 'byebug'
 end
 
 gem 'factory_girl_rails'
