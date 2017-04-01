@@ -6,3 +6,4 @@ tmp/
 *.swp
 config/initializers/01_envars.rb
 config/initializers/01_envvars.rb
+.byebug_history
