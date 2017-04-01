@@ -24,7 +24,11 @@ class Ability
     #   can :update, Article, :published => true
     #
     # See the wiki for details: https://github.com/ryanb/cancan/wiki/Defining-Abilities
-    if user && ['nicolas.iensen', 'helena.faccin', 'fernando.iensen'].include?(user.nickname)
+    if user && [
+      'nicolas.iensen@gmail.com',
+      'fernando@hfmseguros.com.br',
+      'helena@hfmseguros.com.br'
+    ].include?(user.nickname)
       can :manage, :all
     else
       can :manage, :session
