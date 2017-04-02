@@ -27,7 +27,8 @@ class Ability
     if user && [
       'nicolas.iensen@gmail.com',
       'fernando@hfmseguros.com.br',
-      'helena@hfmseguros.com.br'
+      'helena@hfmseguros.com.br',
+      'helena.faccin@gmail.com'
     ].include?(user.nickname)
       can :manage, :all
     else
