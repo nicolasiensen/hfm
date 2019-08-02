@@ -3,7 +3,7 @@ Feature: Logout
   As a broker
   I want to logout
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where I'm logged in
     Given I am logged in
     When I follow "Sair"

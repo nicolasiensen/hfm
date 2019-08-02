@@ -13,7 +13,7 @@
     = javascript_include_tag "jquery_ujs"
     = javascript_include_tag "insurances"
     = csrf_meta_tags
-  
+
   %script
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-27626466-2']);
@@ -25,7 +25,7 @@
     })();
 
   %body{"data-controller" => controller.controller_name, "data-action" => controller.action_name}
-    - if signed_in?
+    - if signed_in? && can?(:manage, :all)
       #menu
         .container_16
           .grid_8

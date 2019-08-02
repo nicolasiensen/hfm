@@ -3,7 +3,7 @@ Feature: Insert a new insurance
   As a broker
   I want to insert a new insurance
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where I fill all required fields
     Given I am logged in
     And there is a client called "Nícolas Iensen"

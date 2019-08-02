@@ -3,7 +3,7 @@ Feature: Remove an insurance
   As a broker
   I want to remove an insurance
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where there is an insurance
     Given there is an insurance
     And I am logged in

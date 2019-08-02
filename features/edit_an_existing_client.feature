@@ -3,7 +3,7 @@ Feature: Edit an existing client
   As a broker
   I want to edit an existing client
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where there is a client
     Given I am logged in
     And there is a client called "Chico Lindo"

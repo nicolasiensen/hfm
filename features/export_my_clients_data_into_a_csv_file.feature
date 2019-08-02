@@ -3,7 +3,7 @@ Feature: Export my clients data into a csv file
   As a broker
   I want to export my clients data into a csv file
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where there is some clients
     Given I am logged in
     When I go to the clients page
