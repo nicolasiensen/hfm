@@ -3,7 +3,7 @@ Feature: Edit an existing insurance
   As a broker
   I want to edit an existing insurance
 
-  @omniauth_test
+  @mock_authorized_user
   Scenario: The one where I fill the form correctly
     Given I am logged in
     And there is an insurance

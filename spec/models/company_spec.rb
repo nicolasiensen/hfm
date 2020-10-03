@@ -9,7 +9,7 @@ describe Company do
     end
     context "when there is some insurances" do
       before { subject.stub(:insurances).and_return([mock_model(Insurance, :income => 1000), mock_model(Insurance, :income => 2000)]) }
-      its(:income){should be_== 3000}
+      its(:income){should be_eql 3000}
     end
   end
 
@@ -19,14 +19,14 @@ describe Company do
     end
     context "when there is some insurances" do
       before { subject.stub(:insurances).and_return([mock_model(Insurance, :value => 1000), mock_model(Insurance, :value => 2000)]) }
-      its(:value){should be_== 3000}
+      its(:value){should be_eql 3000}
     end
   end
 
   describe "#report_by_month" do
     context "when there is no insurance" do
       it "should return an empty hash" do
-        subject.report_by_month(2011).should be_== {"Total"=>{}, "Comissão"=>{}}
+        subject.report_by_month(2011).should be_eql({"Total"=>{}, "Comissão"=>{}})
       end
     end
     context "when there is some insurances" do
@@ -36,7 +36,7 @@ describe Company do
       before{ FactoryGirl.create(:insurance, :start_at => Date.parse("23/11/2011"), :value => 100, :commission => 20, :company => subject) }
       before{ FactoryGirl.create(:insurance, :start_at => Date.parse("23/11/2011"), :value => 100, :commission => 20) }
       it "should return a hash" do
-        subject.report_by_month(2011).should be_== {"Total"=>{"10"=>200.0, "11"=>150.0}, "Comissão"=>{"10"=>40.0, "11"=>30.0}}
+        subject.report_by_month(2011).should be_eql({"Total"=>{"10"=>200.0, "11"=>150.0}, "Comissão"=>{"10"=>40.0, "11"=>30.0}})
       end
     end
   end

@@ -6,7 +6,7 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'pg', '~> 0.18'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -36,13 +36,13 @@ end
 
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', "~> 1.5.0"
   gem 'byebug'
 end
 
 gem 'factory_girl_rails'
 gem 'inherited_resources'
-gem 'haml'
+gem 'haml', "~> 4.0.0"
 gem "sass-rails", "~> 3.1.0"
 gem "omniauth"
 gem "omniauth-facebook"
