@@ -48,4 +48,4 @@ end
 #     DatabaseCleaner.strategy = :transaction
 #   end
 
-World FactoryGirl::Syntax::Methods
+World FactoryBot::Syntax::Methods

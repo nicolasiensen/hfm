@@ -40,7 +40,7 @@ group :test, :development do
   gem 'byebug'
 end
 
-gem 'factory_girl_rails'
+gem 'factory_bot_rails'
 gem 'inherited_resources'
 gem 'haml', "~> 4.0.0"
 gem "sass-rails", "~> 3.1.0"

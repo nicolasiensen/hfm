@@ -81,10 +81,10 @@ GEM
     diff-lcs (1.3)
     erubis (2.7.0)
     execjs (2.7.0)
-    factory_girl (4.9.0)
+    factory_bot (4.11.1)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
+    factory_bot_rails (4.11.1)
+      factory_bot (~> 4.11.1)
       railties (>= 3.0.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
@@ -230,7 +230,7 @@ DEPENDENCIES
   compass (~> 0.12.alpha.0)
   cucumber-rails
   database_cleaner
-  factory_girl_rails
+  factory_bot_rails
   haml (~> 4.0.0)
   inherited_resources
   jquery-rails

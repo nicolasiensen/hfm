@@ -1,6 +1,6 @@
 # coding: utf-8
 
-FactoryGirl.define do
+FactoryBot.define do
   factory :client do
     sequence(:name) {|i| "Nícolas Iensen #{i}" }
   end
