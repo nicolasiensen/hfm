@@ -29,8 +29,8 @@ gem 'jquery-rails'
 
 group :test do
   # Pretty printed test output
-  gem 'turn', :require => false
-  gem 'cucumber-rails'
+  gem 'turn', require: false
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
 end
 
