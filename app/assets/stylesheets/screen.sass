@@ -4,6 +4,7 @@
   Import this file using the following HTML or equivalent:
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
+@import reset
 @import icons
 
 // http://colorschemedesigner.com/#0061ThXr-w0w0
@@ -26,13 +27,13 @@ $fb_blue: #3B5998
   :margin 0
   :line-height 1em
   :font-size 1.1em
-  :box-shadow 'inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 2px 1px rgba(0, 0, 0, 0.6))'
-  :background-image linear-gradient(top, lighten($color, 20%), $color)
+  :box-shadow inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 2px 1px rgba(0, 0, 0, 0.6)
+  :background-image linear-gradient(to bottom, lighten($color, 20%), $color)
   :border-radius 5px
   &:hover
     color: white !important
     :background lighten($color, 20%)
-    :background-image linear-gradient(bottom, lighten($color, 20%), $color)
+    :background-image linear-gradient(to top, lighten($color, 20%), $color)
   &:active
     :padding 6px 8px 4px 8px
     :box-shadow none
@@ -99,7 +100,7 @@ a
   .box
     :padding 10px
     :box-shadow gray 0 0 10px
-    :background-image linear-gradient(rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5)), linear-gradient(bottom, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5))
+    :background-image linear-gradient(to bottom, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5)), linear-gradient(to top, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5))
     table
       :margin 0
       td

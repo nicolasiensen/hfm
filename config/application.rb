@@ -52,9 +52,6 @@ module Hfm
     config.generators.stylesheet_engine = :sass
     config.sass.preferred_syntax = :sass
 
-    config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/compass/stylesheets"
-    config.sass.load_paths << "#{Gem.loaded_specs['compass'].full_gem_path}/frameworks/blueprint/stylesheets"
-
     config.assets.precompile += ['jquery.js', 'jquery_ujs.js', 'insurances.js']
   end
 end
