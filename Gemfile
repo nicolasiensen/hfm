@@ -34,7 +34,7 @@ group :test do
 end
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.6"
+  gem "rspec-rails", "~> 2.99.0"
   gem 'shoulda-matchers', "~> 1.5.0"
   gem 'byebug'
 end
@@ -47,5 +47,4 @@ gem "omniauth"
 gem "omniauth-facebook"
 gem "cancan"
 gem "launchy"
-gem 'rake', '< 11.0' # remove this entry after upgrading rspec-rails
 gem 'test-unit' # required by should-matchers
