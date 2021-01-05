@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
-ruby "2.1.9"
+ruby "2.3.0"
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -11,8 +11,8 @@ gem 'pg', '~> 0.18'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem "compass", "~> 0.12.alpha.0"
-  gem 'sass-rails', "  ~> 3.1.0"
+  gem "compass", "~> 1.0.3"
+  gem 'sass-rails', "  ~> 3.2.0"
   gem 'uglifier'
 end
 
@@ -43,9 +43,10 @@ end
 gem 'factory_bot_rails'
 gem 'inherited_resources'
 gem 'haml', "~> 4.0.0"
-gem "sass-rails", "~> 3.1.0"
+gem "sass-rails", "~> 3.2.0"
 gem "omniauth"
 gem "omniauth-facebook"
 gem "cancan"
 gem "launchy"
 gem 'rake', '< 11.0' # remove this entry after upgrading rspec-rails
+gem 'test-unit' # required by should-matchers
