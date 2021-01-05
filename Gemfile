@@ -47,4 +47,4 @@ gem "omniauth"
 gem "omniauth-facebook"
 gem "cancan"
 gem "launchy"
-gem 'rake', '< 11.0' # remove this entry after upgrading rspec-rails
+gem 'rake', '< 13.0' # remove this entry after upgrading rspec-rails
