@@ -5,7 +5,6 @@
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
 @import compass/reset
-@import compass/css3
 @import compass/utilities/general/clearfix
 @import icons
 
@@ -29,16 +28,16 @@ $fb_blue: #3B5998
   :margin 0
   :line-height 1em
   :font-size 1.1em
-  +box-shadow(inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 2px 1px rgba(0, 0, 0, 0.6))
-  +background-image(linear-gradient(top, lighten($color, 20%), $color))
-  +border-radius(5px)
+  :box-shadow inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 2px 1px rgba(0, 0, 0, 0.6)
+  :background-image linear-gradient(to bottom, lighten($color, 20%), $color)
+  :border-radius 5px
   &:hover
     color: white !important
     :background lighten($color, 20%)
-    +background-image(linear-gradient(bottom, lighten($color, 20%), $color))
+    :background-image linear-gradient(to top, lighten($color, 20%), $color)
   &:active
     :padding 6px 8px 4px 8px
-    +box-shadow(none)
+    :box-shadow none
   &:visited
     :color white
 
@@ -68,7 +67,7 @@ a
 
 #notice
   :color saturate($green, 100%)
-  +text-shadow(saturate($green, 100%) 0 0 5px)
+  :text-shadow saturate($green, 100%) 0 0 5px
 
 #menu
   :border-top 1px solid darken($brown, 40%)
@@ -77,7 +76,7 @@ a
   :padding 10px 0
   :color darken($brown, 20%)
   :font-size 1.2em
-  +box-shadow(darken($brown, 50%) 0 -10px 10px inset)
+  :box-shadow darken($brown, 50%) 0 -10px 10px inset
   a
     :color white
     :text-decoration none
@@ -97,12 +96,12 @@ a
   :border-top 1px solid lighten($brown, 35%)
   :background-color lighten($brown, 30%)
   :border-bottom 1px solid lighten($brown, 25%)
-  +background-image(linear-gradient(0deg, rgba(white, .2) 50%, rgba(white, 0) 50%, rgba(white, 0)))
+  :background-image linear-gradient(0deg, rgba(white, .2) 50%, rgba(white, 0) 50%, rgba(white, 0))
   :background-size 50px 50px
   .box
     :padding 10px
-    +box-shadow(gray 0 0 10px)
-    +background-image(linear-gradient(rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5)), linear-gradient(bottom, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5)))
+    :box-shadow gray 0 0 10px
+    :background-image linear-gradient(to bottom, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5)), linear-gradient(to top, rgba(#fff, 0), rgba(#fff, 0) , rgba($brown, 0.5))
     table
       :margin 0
       td
@@ -122,7 +121,7 @@ a
 table.data
   :width 100%
   :font-size 0.8em
-  +box-shadow(gray 0 0 10px)
+  :box-shadow gray 0 0 10px
   th
     :background $brown
     :color white
@@ -139,7 +138,7 @@ table.data
     :display block
     :color transparent
     &:hover
-      +opacity(0.7)
+      :opacity 0.7
 
 form
   table
