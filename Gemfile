@@ -31,6 +31,7 @@ group :test do
   gem 'turn', require: false
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'test-unit', '~> 3.0'
 end
 
 group :test, :development do
