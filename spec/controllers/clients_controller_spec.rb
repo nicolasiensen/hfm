@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ClientsController do
+describe ClientsController, type: :controller do
   describe "GET index" do
     before { controller.stub(:current_user).and_return(User.new(nickname: "nicolas.iensen@gmail.com")) }
     before { get :index }

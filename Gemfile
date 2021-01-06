@@ -34,7 +34,7 @@ group :test do
 end
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.99.0"
+  gem "rspec-rails", "~> 3.9.1"
   gem 'shoulda-matchers', "~> 1.5.0"
   gem 'byebug'
 end

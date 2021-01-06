@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SessionsController do
+describe SessionsController, type: :controller do
   describe "GET new" do
     context "when it's already logged in" do
       before { controller.stub(:signed_in?).and_return(true) }
