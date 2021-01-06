@@ -4,7 +4,7 @@ describe InsurancesController, type: :controller do
   describe "GET index" do
     before { controller.stub(:current_user).and_return(User.new(nickname: "nicolas.iensen@gmail.com")) }
     before { get :index }
-    it { should assign_to(:insurance) }
+    it { expect(assigns(:insurance)).to be_a_new(Insurance) }
   end
 
   describe "PUT update" do
@@ -12,7 +12,7 @@ describe InsurancesController, type: :controller do
     before { controller.stub(:current_user).and_return(User.new(nickname: "nicolas.iensen@gmail.com")) }
     before { Insurance.stub(:find).with("1").and_return(insurance) }
     before { put :update, :id => 1 }
-    it { should redirect_to(insurances_path) }
-    it { should set_the_flash.to("Woohoo! Seguro atualizado") }
+    it { expect(response).to redirect_to(insurances_path) }
+    it { expect(flash[:notice]).to be_eql("Woohoo! Seguro atualizado") }
   end
 end

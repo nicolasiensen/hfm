@@ -35,7 +35,6 @@ end
 
 group :test, :development do
   gem "rspec-rails", "~> 3.9.1"
-  gem 'shoulda-matchers', "~> 1.5.0"
   gem 'byebug'
 end
 
@@ -47,4 +46,3 @@ gem "omniauth"
 gem "omniauth-facebook"
 gem "cancan"
 gem "launchy"
-gem 'test-unit' # required by should-matchers
