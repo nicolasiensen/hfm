@@ -1,24 +1,32 @@
-class InsurancesController < InheritedResources::Base
+class InsurancesController < ApplicationController
   load_and_authorize_resource
-  before_filter :only => [:index] { @insurance = Insurance.new }
-  before_filter :only => [:index] { params[:report_type] = "income" if params[:report_type].nil? }
+
+  def index
+    @insurance = Insurance.new
+    params[:report_type] = "income" if params[:report_type].nil?
+  end
 
   def create
-    create! do |success, failure|
-      success.html { redirect_to insurances_path, :notice => "Feito! Seguro inserido" }
+    insurance = Insurance.new(params[:insurance])
+
+    if insurance.save
+      redirect_to insurances_path, notice: "Feito! Seguro inserido"
     end
   end
 
   def update
-    update! do |success, failure|
-      success.html { redirect_to insurances_path, :notice => "Woohoo! Seguro atualizado" }
+    insurance = Insurance.find(params[:id])
+
+    if insurance.update_attributes(params[:insurance])
+      redirect_to insurances_path, :notice => "Woohoo! Seguro atualizado"
     end
   end
 
   def destroy
-    destroy! do |success, failure|
-      success.html { redirect_to insurances_path, :notice => "Foi! Seguro removido" }
+    insurance = Insurance.find(params[:id])
+
+    if insurance.destroy
+      redirect_to insurances_path, :notice => "Foi! Seguro removido"
     end
   end
-
 end
