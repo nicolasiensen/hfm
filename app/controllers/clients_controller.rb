@@ -1,22 +1,26 @@
 require 'csv'
 
-class ClientsController < InheritedResources::Base
+class ClientsController < ApplicationController
   load_and_authorize_resource
-  before_filter :only => [:index] { @client = Client.new }
-  
+
   def create
-    create! do |success, failure|
-      success.html { redirect_to clients_path, :notice => "Feito! Cliente inserido" }
+    client = Client.new(params[:client])
+
+    if client.save
+      redirect_to clients_path, notice: "Feito! Cliente inserido"
     end
   end
 
   def update
-    update! do |success, failure|
-      success.html { redirect_to clients_path, :notice => "Feito! Cliente atualizado" }
+    client = Client.find(params[:id])
+
+    if client.update_attributes(params[:client])
+      redirect_to clients_path, :notice => "Feito! Cliente atualizado"
     end
   end
 
   def index
+    @client = Client.new
     @clients = Client.all.sort{|a, b| b.total_income <=> a.total_income}
     respond_to :html, :csv
   end
