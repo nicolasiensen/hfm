@@ -40,7 +40,6 @@ group :test, :development do
 end
 
 gem 'factory_bot_rails'
-gem 'inherited_resources'
 gem 'haml', "~> 4.0.0"
 gem "sass-rails", "~> 3.2.0"
 gem "omniauth"
