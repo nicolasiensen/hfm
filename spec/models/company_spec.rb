@@ -9,7 +9,7 @@ describe Company do
     end
 
     context "when there is some insurances" do
-      before { subject.stub(:insurances).and_return([Insurance.new(income: 1000), Insurance.new(income: 2000)]) }
+      before { allow(subject).to receive(:insurances).and_return([Insurance.new(income: 1000), Insurance.new(income: 2000)]) }
       it { expect(subject.income).to be_eql(3000) }
     end
   end
@@ -20,7 +20,7 @@ describe Company do
     end
 
     context "when there is some insurances" do
-      before { subject.stub(:insurances).and_return([Insurance.new(value: 1000), Insurance.new(value: 2000)]) }
+      before { allow(subject).to receive(:insurances).and_return([Insurance.new(value: 1000), Insurance.new(value: 2000)]) }
       it { expect(subject.value).to be_eql(3000) }
     end
   end
