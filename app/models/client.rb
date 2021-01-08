@@ -3,6 +3,6 @@ class Client < ActiveRecord::Base
   validates_uniqueness_of :name
 
   def total_income
-    @total_income ||= Insurance.sum(:income, :conditions => ["client_id = ?", id])
+    @total_income ||= Insurance.where(client_id: id).sum(:income)
   end
 end

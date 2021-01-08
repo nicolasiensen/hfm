@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby "2.3.8"
 
-gem 'rails', '4.0.4'
+gem 'rails', '4.2'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -35,7 +35,7 @@ group :test do
 end
 
 group :test, :development do
-  gem "rspec-rails", "~> 3.9.1"
+  gem "rspec-rails", "~> 4.0.2"
   gem 'byebug'
 end
 
