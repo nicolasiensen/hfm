@@ -4,8 +4,8 @@ Hfm::Application.routes.draw do
   resources :clients, :only => [:edit, :create, :index, :update]
   root :to => 'insurances#index'
 
-  match '/auth/:provider/callback', :to => 'sessions#create'
-  match 'access_denied' => 'sessions#access_denied', :as => :access_denied
+  get '/auth/:provider/callback', :to => 'sessions#create'
+  get 'access_denied' => 'sessions#access_denied', :as => :access_denied
   resources :sessions, :only => [:new, :create, :destroy]
 
   # The priority is based upon order of creation:
