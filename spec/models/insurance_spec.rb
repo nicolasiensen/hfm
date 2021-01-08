@@ -6,7 +6,7 @@ describe Insurance do
 
     context "when there is no insurance" do
       it "should return an empty hash" do
-        subject.report_by_month("income").should be_eql({})
+        expect(subject.report_by_month("income")).to be_eql({})
       end
     end
 
@@ -16,7 +16,7 @@ describe Insurance do
       before{ FactoryBot.create(:insurance, :start_at => Date.parse("23/11/2011"), :value => 100, :commission => 20) }
       before{ FactoryBot.create(:insurance, :start_at => Date.parse("23/11/2010"), :value => 100, :commission => 20) }
       it "should return some results" do
-        subject.report_by_month("income").should be_eql({"2011"=>{"10"=>"40.0", "11"=>"20.0"}, "2010"=>{"11"=>"20.0"}})
+        expect(subject.report_by_month("income")).to be_eql({"2011"=>{"10"=>"40.0", "11"=>"20.0"}, "2010"=>{"11"=>"20.0"}})
       end
     end
   end
