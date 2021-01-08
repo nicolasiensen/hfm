@@ -1,18 +1,18 @@
 # coding: utf-8
 class Insurance < ActiveRecord::Base
   KINDS = {
-    :auto => "Auto", 
-    :carta_verde => "Carta Verde", 
-    :cartao => "Cartão", 
-    :condominio => "Condomínio", 
-    :empresarial => "Empresarial", 
-    :fianca => "Fiança", 
-    :previdencia => "Previdência", 
-    :rc => "Responsabilidade Civil", 
-    :residencia => "Residência", 
+    :auto => "Auto",
+    :carta_verde => "Carta Verde",
+    :cartao => "Cartão",
+    :condominio => "Condomínio",
+    :empresarial => "Empresarial",
+    :fianca => "Fiança",
+    :previdencia => "Previdência",
+    :rc => "Responsabilidade Civil",
+    :residencia => "Residência",
     :riscos_de_engenharia => "Riscos de Engenharia",
     :seguro_garantia => "Seguro Garantia",
-    :viagem => "Viagem", 
+    :viagem => "Viagem",
     :vida => "Vida"
   }
 
@@ -22,7 +22,7 @@ class Insurance < ActiveRecord::Base
   belongs_to :client
   belongs_to :company
 
-  scope :current, where("end_at >= ?", Date.today)
+  scope :current, -> { where("end_at >= ?", Date.today) }
 
   def self.report_by_month type
     rs = ActiveRecord::Base.connection.execute "SELECT sum(#{type}), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
