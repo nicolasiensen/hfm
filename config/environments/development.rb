@@ -26,4 +26,6 @@ Hfm::Application.configure do
   config.assets.debug = true
 
   config.eager_load = false
+
+  config.assets.check_precompiled_asset = false
 end

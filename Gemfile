@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby "2.3.8"
 
-gem 'rails', '4.2.11.3'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -11,7 +11,7 @@ gem 'pg', '~> 0.18'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', "~> 4.0.0"
+  gem 'sass-rails', "~> 5.0.0"
   gem 'uglifier'
 end
 
@@ -41,7 +41,7 @@ end
 
 gem 'factory_bot_rails'
 gem 'haml', "~> 4.0.0"
-gem "sass-rails", "~> 4.0.0"
+gem "sass-rails", "~> 5.0.0"
 gem "omniauth"
 gem "omniauth-facebook"
 gem "cancancan"

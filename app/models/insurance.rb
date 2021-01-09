@@ -26,6 +26,6 @@ class Insurance < ActiveRecord::Base
 
   def self.report_by_month type
     rs = ActiveRecord::Base.connection.execute "SELECT sum(#{type}), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
-    rs.inject({}){|memo, i| memo.merge( memo[i["year"]].nil? ? {i["year"] => {i["month"] => i["sum"]}} : {i["year"] => memo[i["year"]].merge({i["month"] => i["sum"]} )}  ) }
+    rs.inject({}){|memo, i| memo.merge( memo[i["year"].to_i.to_s].nil? ? {i["year"].to_i.to_s => {i["month"].to_i.to_s => i["sum"]}} : {i["year"].to_i.to_s => memo[i["year"].to_i.to_s].merge({i["month"].to_i.to_s => i["sum"]} )}  ) }
   end
 end

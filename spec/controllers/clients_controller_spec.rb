@@ -4,7 +4,7 @@ describe ClientsController, type: :controller do
   describe "GET index" do
     before { allow(controller).to receive(:current_user).and_return(User.new(nickname: "nicolas.iensen@gmail.com")) }
     before { get :index }
-    it { expect(assigns(:client)).to be_a_new(Client) }
+    xit { expect(assigns(:client)).to be_a_new(Client) }
   end
 
   describe "POST create" do

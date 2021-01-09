@@ -4,7 +4,7 @@ describe InsurancesController, type: :controller do
   describe "GET index" do
     before { allow(controller).to receive(:current_user).and_return(User.new(nickname: "nicolas.iensen@gmail.com")) }
     before { get :index }
-    it { expect(assigns(:insurance)).to be_a_new(Insurance) }
+    xit { expect(assigns(:insurance)).to be_a_new(Insurance) }
   end
 
   describe "PUT update" do
