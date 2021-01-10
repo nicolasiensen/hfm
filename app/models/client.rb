@@ -3,6 +3,6 @@ class Client < ApplicationRecord
   validates_uniqueness_of :name
 
   def total_income
-    @total_income ||= Insurance.where(client_id: id).sum(:income)
+    @total_income ||= Insurance.where(client_id: id).where("start_at >= ?", 12.months.ago).sum(:income)
   end
 end

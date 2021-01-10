@@ -254,15 +254,15 @@
       client:
         name: "Nome"
         email:  "Email"
-        total_income: "Receita total de todos os tempos"
+        total_income: "Receita dos últimos 12 meses"
       company:
         insurances: "Seguros"
-    
+
     models:
       insurance: "Seguro"
       client: "Cliente"
       company: "Companhia"
-  
+
   insurance:
     zero: "nenhum seguro"
     one: "<strong>1</strong> seguro"
