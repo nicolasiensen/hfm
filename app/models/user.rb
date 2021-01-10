@@ -1,4 +1,4 @@
-class User < ActiveRecord::Base
+class User < ApplicationRecord
   has_many :authorizations
 
   def self.create_from_hash!(hash)

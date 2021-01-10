@@ -1,12 +1,12 @@
 # coding: utf-8
-class Company < ActiveRecord::Base
+class Company < ApplicationRecord
   has_many :insurances
   validates_uniqueness_of :name
 
   def value
     insurances.map{|i| i.value}.sum
   end
-  
+
   def income
     insurances.map{|i| i.income}.sum
   end

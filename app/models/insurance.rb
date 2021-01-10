@@ -1,5 +1,5 @@
 # coding: utf-8
-class Insurance < ActiveRecord::Base
+class Insurance < ApplicationRecord
   KINDS = {
     :auto => "Auto",
     :carta_verde => "Carta Verde",
@@ -25,7 +25,7 @@ class Insurance < ActiveRecord::Base
   scope :current, -> { where("end_at >= ?", Date.today) }
 
   def self.report_by_month type
-    rs = ActiveRecord::Base.connection.execute "SELECT sum(#{type}), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
+    rs = ApplicationRecord.connection.execute "SELECT sum(#{type}), extract(year from start_at) as year, extract(month from start_at) as month  from insurances group by year, month order by year, month"
     rs.inject({}){|memo, i| memo.merge( memo[i["year"].to_i.to_s].nil? ? {i["year"].to_i.to_s => {i["month"].to_i.to_s => i["sum"]}} : {i["year"].to_i.to_s => memo[i["year"].to_i.to_s].merge({i["month"].to_i.to_s => i["sum"]} )}  ) }
   end
 end
