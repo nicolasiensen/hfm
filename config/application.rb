@@ -52,5 +52,7 @@ module Hfm
     config.sass.preferred_syntax = :sass
 
     config.assets.precompile += ['jquery.js', 'jquery_ujs.js', 'insurances.js']
+
+    config.serve_static_assets = true
   end
 end
