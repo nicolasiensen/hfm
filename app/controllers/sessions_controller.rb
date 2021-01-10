@@ -1,6 +1,4 @@
 class SessionsController < ApplicationController
-  before_action :only => [:new] { redirect_to root_path if signed_in? }
-
   def create
     auth = request.env['omniauth.auth']
     unless @auth = Authorization.find_from_hash(auth)
@@ -14,6 +12,7 @@ class SessionsController < ApplicationController
   end
 
   def new
+    redirect_to root_path if signed_in?
   end
 
   def access_denied

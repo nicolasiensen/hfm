@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby "2.4.10"
+ruby "2.5.8"
 
 gem 'rails', '5.0.0'
 
