@@ -15,7 +15,7 @@ Hfm::Application.configure do
   config.assets.compress = true
 
   # Disables security vulnerability
-  config.assets.compile = false
+  config.assets.compile = true
 
   # Generate digests for assets URLs
   config.assets.digest = true
