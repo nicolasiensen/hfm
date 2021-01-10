@@ -23,19 +23,20 @@ Company.create :name => "HDI"
 Company.create :name => "Met Life"
 Company.create :name => "Tokio"
 Company.create :name => "Unibanco"
+Company.create :name => "Suhai"
 
 kinds = {
-  "auto" => "Auto", 
-  "auto " => "Auto", 
-  "carta verde" => "Carta Verde", 
-  "cartao" => "Cartão", 
-  "cond" => "Condomínio", 
-  "empresarial" => "Empresarial", 
-  "fianca" => "Fiança", 
-  "previdencia" => "Previdência", 
-  "r.civil" => "Responsabilidade Civil", 
-  "resid" => "Residência", 
-  "viagem" => "Viagem", 
+  "auto" => "Auto",
+  "auto " => "Auto",
+  "carta verde" => "Carta Verde",
+  "cartao" => "Cartão",
+  "cond" => "Condomínio",
+  "empresarial" => "Empresarial",
+  "fianca" => "Fiança",
+  "previdencia" => "Previdência",
+  "r.civil" => "Responsabilidade Civil",
+  "resid" => "Residência",
+  "viagem" => "Viagem",
   "vida" => "Vida"
 }
 
