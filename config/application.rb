@@ -56,3 +56,12 @@ module Hfm
     config.serve_static_assets = true
   end
 end
+
+Sentry.init do |config|
+  config.dsn = 'https://23ac3741ff52452dbd7fa9243edd6ec6@o502709.ingest.sentry.io/5585341'
+  config.breadcrumbs_logger = [:active_support_logger]
+
+  config.traces_sampler = lambda do |context|
+    true
+  end
+end
