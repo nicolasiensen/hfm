@@ -28,7 +28,7 @@ class ClientsController < ApplicationController
     authorize! :read, Client
 
     @client = Client.new
-    @clients = Client.all.sort{|a, b| b.total_income <=> a.total_income}
+    @clients = Client.select("clients.*, coalesce(sum(insurances.income), 0) as total_income").left_outer_joins(:insurances).group("clients.id").order("total_income DESC")
     respond_to :html, :csv
   end
 
