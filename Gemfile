@@ -40,7 +40,7 @@ group :test, :development do
 end
 
 gem 'factory_bot_rails'
-gem 'haml', "~> 4.0.0"
+gem 'haml'
 gem "sass-rails", "~> 5.0.0"
 gem "omniauth"
 gem "omniauth-facebook"
