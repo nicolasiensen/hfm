@@ -28,7 +28,12 @@ class ClientsController < ApplicationController
     authorize! :read, Client
 
     @client = Client.new
-    @clients = Client.select("clients.*, coalesce(sum(insurances.income), 0) as total_income").left_outer_joins(:insurances).group("clients.id").order("total_income DESC")
+
+    @clients = Client.select("clients.*, coalesce(sum(insurances.income), 0) as total_income")
+                     .joins("left join insurances on clients.id = insurances.client_id and insurances.start_at >= '#{12.months.ago.iso8601}'")
+                     .group("clients.id")
+                     .order("total_income DESC")
+
     respond_to :html, :csv
   end
 
