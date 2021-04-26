@@ -4,6 +4,11 @@ Hfm::Application.routes.draw do
   resources :clients, :only => [:edit, :create, :index, :update]
   root :to => 'insurances#index'
 
+  # Auth0
+  get '/auth/auth0/callback' => 'auth0#callback'
+  get '/auth/failure' => 'auth0#failure'
+  get '/auth/logout' => 'auth0#logout'
+
   get '/auth/:provider/callback', :to => 'sessions#create'
   get 'access_denied' => 'sessions#access_denied', :as => :access_denied
   resources :sessions, :only => [:new, :create, :destroy]
