@@ -19,7 +19,7 @@ Given /^there is an insurance in the "([^"]*)" with the value of "([^"]*)"$/ do 
 end
 
 Given /^I am logged in$/ do
-  visit "/auth/facebook"
+  visit "/auth/google_oauth2"
 end
 
 Then /^I should see "([^"]*)" before "([^"]*)"$/ do |arg1, arg2|

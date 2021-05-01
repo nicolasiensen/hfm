@@ -43,7 +43,7 @@ gem 'factory_bot_rails'
 gem 'haml'
 gem "sass-rails", "~> 5.0.0"
 gem "omniauth"
-gem "omniauth-facebook"
+gem 'omniauth-google-oauth2'
 gem "cancancan"
 gem "launchy"
 gem "sentry-ruby"
